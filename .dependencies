@@ -1,0 +1,18 @@
+git:
+    bootstrap:
+        url: https://github.com/getgrav/grav-theme-bootstrap
+        path: user/themes/bootstrap
+        branch: master
+    bootstrapper:
+        url: https://github.com/getgrav/grav-plugin-bootstrapper
+        path: user/plugins/bootstrapper
+        branch: master
+links:
+    bootstrap:
+        src: grav-theme-bootstrap
+        path: user/themes/bootstrap
+        scm: github
+    bootstrapper:
+        src: grav-plugin-bootstrapper
+        path: user/plugin/bootstrapper
+        scm: github

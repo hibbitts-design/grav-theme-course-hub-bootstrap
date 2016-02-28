@@ -1,0 +1,91 @@
+{% embed 'partials/base.html.twig' %}
+
+  {% set collection = page.collection() %}
+  {% set base_url = page.url %}
+  {% set feed_url = base_url %}
+
+  {% if base_url == '/' %}
+    {% set base_url = '' %}
+  {% endif %}
+
+  {% if base_url == base_url_relative %}
+    {% set feed_url = base_url~'/'~page.slug %}
+  {% endif  %}
+
+  {% block content %}
+    {# removed blog title area - hibbittsdesign.org #}
+    {#
+				<div class="header">
+            <div class="container">
+                {{ page.content }}
+            </div>
+        </div>
+				#}
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          {# Added reminders and preparations blocks and content check - hibbittsdesign.org #}
+          {% for module in page.collection('modular_content') %}
+            {% if (module.content|striptags)|trim %}
+              <p>{{ module.content }}</p>
+            {% endif %}
+          {% endfor %}
+
+          {# Removed earlier method searching root pages - hibbittsdesign.org #}
+          {#}
+									{% if pages.find('/important-reminders').content %}
+										{% include 'important-reminders.html.twig' with {'page': page.find('/important-reminders')} %}
+									{% endif %}
+
+									{% if pages.find('/preparations').content %}
+											{% include 'preparations.html.twig' with {'page': page.find('/preparations')} %}
+									{% endif %}
+									#}
+
+          {% if config.plugins.breadcrumbs.enabled %}
+            {% include 'partials/breadcrumbs.html.twig' %}
+          {% endif %}
+
+          {# Added featured post ability - hibbittsdesign.org #}
+          {% for post in taxonomy.findTaxonomy({'tag':"Featured"}) %}
+            {% include 'partials/blog_item.html.twig' with {'page':post, 'truncate':true} %}
+          {% endfor %}
+
+          {% for child in collection %}
+            {% if "Featured" not in child.taxonomy['tag'] %}
+              {% include 'partials/blog_item.html.twig' with {'page':child, 'truncate':true} %}
+            {% endif %}
+          {% endfor %}
+
+        </div>
+
+        <div class="col-sm-4 blog-sidebar">
+          {# {% include 'partials/sidebar.html.twig' with {'blog':page} %} #}
+          {% set content = pages.find('/sidebar').content %}
+          {% if content %}
+            <div class="sidebar">
+              {{ content }}
+              {% if config.plugins.feed.enabled and config.site.rssbutton.display %}
+                {% include 'partials/rss_link.html.twig' %}
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endblock %}
+
+  {% block pagination %}
+    {% if config.plugins.pagination.enabled and collection.params.pagination %}
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 text-center">
+            {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endblock %}
+
+{% endembed %}

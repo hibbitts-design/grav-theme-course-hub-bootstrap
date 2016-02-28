@@ -1,0 +1,114 @@
+<div class="list-item">
+
+    {% set header_image = page.header.header_image|defined(true) %}
+    {% set header_image_width  = page.header.header_image_width|defined(900) %}
+    {% set header_image_height = page.header.header_image_height|defined(300) %}
+    {% set header_image_file = page.header.header_image_file %}
+
+    <div class="list-blog-header">
+
+        {% if page.header.link %}
+            <h3>
+                {% if page.header.continue_link is not sameas(false) %}
+                <a href="{{ page.url }}"><i class="fa fa-angle-double-right"></i></a>
+                {% endif %}
+                <a href="{{ page.header.link }}">{{ page.title }}</a>
+            </h3>
+        {% else %}
+            {# added page title icon - hibbittsdesign.org #}
+            {% if page.header.icon %}
+              {% set titleicon = page.header.icon %}
+            {% else %}
+              {% set titleicon = config.site.icon.post %}
+            {% endif %}
+            {# added support for content only display - hibbittsdesign.org #}
+            {% if not grav.uri.param('onlydisplaypagecontent')%}
+              <h3><a href="{{ page.url }}"><i class="fa fa-{{ titleicon }}"></i> {{ page.title }}</a></h3>
+            {% else %}
+                <h3><a href="{{ page.url }}/onlydisplaypagecontent:true"><i class="fa fa-{{ titleicon }}"></i> {{ page.title }}</a></h3>
+            {% endif %}
+        {% endif %}
+
+        {# remove date display - hibbittsdesign.org #}
+        {#
+        <span class="list-blog-date">
+            <i class="fa fa-calendar"></i> <span>{{ page.date|date("F j, Y, g:i a") }}</span>
+        </span>
+        #}
+        {# remove tags display - hibbittsdesign.org #}
+        {#
+        {% if page.taxonomy.tag %}
+        <span class="tags pull-right">
+            {% for tag in page.taxonomy.tag %}
+            <a class="label label-primary" href="{{ base_url }}/tag{{ config.system.param_sep }}{{ tag }}">{{ tag }}</a>
+            {% endfor %}
+        </span>
+        {% endif %}
+        #}
+        {% if big_header %}
+            {{ page.media.images|first.cropResize(900,600).html('','blog-header-image') }}
+        {% else %}
+            {% if header_image %}
+                {% if header_image_file %}
+                    {% set header_image_media = page.media.images[header_image_file] %}
+                {% else %}
+                    {% set header_image_media = page.media.images|first %}
+                {% endif %}
+                {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+            {% endif %}
+        {% endif %}
+    </div>
+
+    <div class="list-blog-padding">
+
+    {% if page.header.continue_link is sameas(false) %}
+        <p>{{ page.content }}</p>
+        <hr>
+        {% if not truncate %}
+          {# added github link - hibbittsdesign.org #}
+          {% if config.site.github.location == 'page' %}
+              {% include 'partials/github_page_link.html.twig' %}
+          {% endif %}
+          {% set show_prev_next = true %}
+        {% endif %}
+    {% elseif truncate and page.summary != page.content %}
+        {# added summary flag and title icon - hibbittsdesign.org #}
+        <p>{{ page.summary }}</p>
+        <p><a href="{{ page.url }}">View all of {{ page.title }} <i class="fa fa-chevron-right"></i></a></p>
+        <hr>
+    {% elseif truncate %}
+        {% if page.summary != page.content %}
+            <p>{{ page.content|truncate(550) }}</p>
+        {% else %}
+            <p>{{ page.content }}</p>
+        {% endif %}
+        <p><a href="{{ page.url }}">Continue Reading...</a></p>
+    {% else %}
+        {# added summary flag and github link - hibbittsdesign.org #}
+        {% set content = page.content|slice(page.summary|length) %} {# do not display summary on actual page - hibbittsdesign.org #}
+        <p>{{ content }}</p>
+        <hr>
+			  {% if config.site.github.location == 'page' %}
+            {% include 'partials/github_page_link.html.twig' %}
+        {% endif %}
+        <br>
+        {% set show_prev_next = true %}
+    {% endif %}
+
+    {# added check for content display flag - hibbittsdesign.org #}
+    {% if show_prev_next and not grav.uri.param('onlydisplaypagecontent')%}
+
+          <p class="text-left">
+            {% if not page.isLast %}
+                <a class="btn btn-default" href="{{ page.prevSibling.url }}"><i class="fa fa-chevron-left"></i> Previous </a>
+            {% endif %}
+
+            {% if not page.isFirst %}
+                <a class="btn btn-default" href="{{ page.nextSibling.url }}">Next <i class="fa fa-chevron-right"></i></a>
+            {% endif %}
+
+        </p>
+    {% endif %}
+
+    </div>
+</div>

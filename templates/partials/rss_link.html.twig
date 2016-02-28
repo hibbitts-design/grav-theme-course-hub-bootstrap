@@ -1,0 +1,7 @@
+{% if config.plugins.feed.enabled %}
+<h5>Subscribe</h5>
+<div>
+	<a class="btn btn-default" href="{{ feed_url }}.atom"><i class="fa fa-rss"></i> Atom 1.0</a>
+	<a class="btn btn-default" href="{{ feed_url }}.rss"><i class="fa fa-rss"></i> RSS</a>
+</div>
+{% endif %}

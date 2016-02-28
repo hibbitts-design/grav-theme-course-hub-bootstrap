@@ -1,0 +1,47 @@
+name: Course Hub Bootstrap
+version: 0.9.6
+description: "A customized version of the Bootstrap theme (built with Bootstrap 3) for use with the Grav Course Hub skeleton package."
+icon: university
+author:
+ name: Paul Hibbitts
+ email: paul@hibbittsdesign.org
+ url: http://hibbittsdesign.org
+homepage: https://github.com/hibbitts-design/grav-theme-course-hub-bootstrap
+demo: http://demo.hibbittsdesign.org/grav-course-hub-bootstrap
+keywords: bootstrap, theme, framework, course, lms
+bugs: https://github.com/hibbitts-design/grav-theme-course-hub-bootstrap/issues
+license: MIT
+
+dependencies:
+  - bootstrap
+  - bootstrapper
+  - admin
+  - archives
+  - breadcrumbs
+  - email
+  - error
+  - external_links
+  - featherlight
+  - feed
+  - form
+  - login
+  - page-inject
+  - pagination
+  - problems
+  - relatedpages
+  - simplesearch
+  - taxonomylist
+
+form:
+    validation: strict
+    fields:
+      dropdown.enabled:
+          type: toggle
+          label: Dropdown in navbar
+          highlight: 1
+          default: 1
+          options:
+            1: Enabled
+            0: Disabled
+          validate:
+            type: bool
