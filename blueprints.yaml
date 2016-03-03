@@ -24,11 +24,13 @@ dependencies:
   - featherlight
   - feed
   - form
+  - gravstrap
   - login
   - page-inject
   - pagination
   - problems
   - relatedpages
+  - shortcode-core
   - simplesearch
   - taxonomylist
 

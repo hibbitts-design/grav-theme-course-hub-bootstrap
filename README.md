@@ -1,4 +1,4 @@
-# Course Hub Grav Inherited Theme (based on Bootstrap)
+# Course Hub Grav Bootstrap Inherited Theme
 
 ![Course Hub](screenshot.jpg)
 
