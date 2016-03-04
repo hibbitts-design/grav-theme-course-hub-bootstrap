@@ -18,7 +18,7 @@ links:
         scm: github
     bootstrapper:
         src: grav-plugin-bootstrapper
-        path: user/plugin/bootstrapper
+        path: user/plugins/bootstrapper
         scm: github
     gravstrap:
         src: grav-plugin-gravstrap
