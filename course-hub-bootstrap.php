@@ -9,7 +9,7 @@ class CourseHubBootstrap extends Theme
     // Check for Bootstrapper plugin status
     if (!$this->grav['config']->get('plugins.bootstrapper.enabled')) {
       echo '<script language="javascript">';
-      echo 'alert("Please enable the Bootstrapper plugin when using this theme.")';
+      echo 'alert("Please enable the Bootstrapper plugin before using this theme.")';
       echo '</script>';
     }
   }
