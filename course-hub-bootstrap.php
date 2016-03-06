@@ -11,7 +11,7 @@ class CourseHubBootstrap extends Theme
         !$this->grav['config']->get('plugins.bootstrapper.always_load') ||
         $this->grav['config']->get('plugins.bootstrapper.load_theme_css')) {
       echo '<script language="javascript">';
-      echo 'alert("Please set the following Bootstrapper options before using this theme:\n\nPlugin status: Enabled\nAlways load: Enabled\nLoad Theme CSS: Disabled")';
+      echo 'alert("Please set the following Bootstrapper plugin options before using this theme:\n\nPlugin status: Enabled\nAlways load: Enabled\nLoad Theme CSS: Disabled")';
       echo '</script>';
     }
   }
