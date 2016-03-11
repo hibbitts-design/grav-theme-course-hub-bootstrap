@@ -22,4 +22,4 @@
 ## 03/12/2016
 
 1. [](#new)
-    * Added logic to check for external links plugin CSS loading status
+    * Added logic to check for external links plugin Built-in CSS loading status
