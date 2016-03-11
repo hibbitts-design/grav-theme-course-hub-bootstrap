@@ -16,3 +16,10 @@
 
 1. [](#new)
     * Added logic to check for bootstrapper plugin status
+
+
+# v0.9.9
+## 03/12/2016
+
+1. [](#new)
+    * Added logic to check for external links plugin CSS loading status
