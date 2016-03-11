@@ -129,32 +129,4 @@ Once this is done, you should be able to see the new theme on the frontend. Keep
 
 Within the `_demo\` folder included with this theme is an example `pages` folder to copy over to your `users` folder. Be sure to keep a backup of your existing `pages` folder if you are working with an existing site.
 
-#Frequently Asked Questions
-
-_I've installed and activated the theme in my Course Hub Site but the theme seems not to be displaying properly?_
-
-Currently the needed 'Bootstrapper' plugin settings are not being automatically set when the Course Hub Bootstrap theme is activated. Please copy and paste the following settings into your `user\config\plugins\bootstrapper.yaml` file:
-
-```
-enabled: true
-always_load: true
-use_cdn: false
-mode: production
-load_core_css: true
-load_theme_css: false
-load_core_js: true
-
-```
-
-If you wish to use another theme, these settings will need to be restored to the following (or simply turn off the 'Bootstrapper' plugin in the Admin Panel):
-
-```
-enabled: false
-always_load: true
-use_cdn: false
-mode: production
-load_core_css: true
-load_theme_css: false
-load_core_js: true
-
-```
+These example pages assume that '/blog' is set in the `\config\system.yaml\` file as the 'home:alias:' value and that the 'Breadcrumbs' plugin is not enabled.
