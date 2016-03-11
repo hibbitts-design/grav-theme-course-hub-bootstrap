@@ -19,7 +19,6 @@ dependencies:
   - archives
   - breadcrumbs
   - email
-  - error
   - external_links
   - featherlight
   - feed
@@ -28,7 +27,6 @@ dependencies:
   - login
   - page-inject
   - pagination
-  - problems
   - relatedpages
   - shortcode-core
   - simplesearch
