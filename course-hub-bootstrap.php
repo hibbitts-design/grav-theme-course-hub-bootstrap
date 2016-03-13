@@ -11,6 +11,7 @@ class CourseHubBootstrap extends Theme
       echo '<script language="javascript">';
       echo 'alert("Please set the Use Built-in CSS option for the External Links plugin to No (i.e. False) before using this theme.")';
       echo '</script>';
+      return;
     }
     // Check for Bootstrapper plugin status
     if (!$this->grav['config']->get('plugins.bootstrapper.enabled') &&
