@@ -11,7 +11,7 @@
 * Important reminders & class preparations areas
 * Additional site pages can be easily added
 * Sidebar is a simple markdown file, which can also contain HTML
-* URL flag to only display page content (for display within LMS). For example, http://somewhere.com/cpt-363/blog/week-01/onlydisplaypagecontent:true
+* URL flag to only display page content (for display within LMS). For example, http://demo.hibbittsdesign.org/grav-course-hub-bootstrap/blog/week-01/onlydisplaypagecontent:true
 * External links are automatically opened in a new Tab/Window
 * Built-in support for entire site to be maintained on GitHub
 * Since everything is built with Grav it can be entirely customized.
