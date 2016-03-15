@@ -3,72 +3,86 @@
 {% if background_image %}
   {# If header image display above static navbar - hibbittsdesign.org#}
   <div class="myheader" style="background-image: url({{ background_image.url }});"></div>
-  <nav class="navbar navbar-default navbar-static-top" role="navigation"> {# added fixed - hibbittsdesign.org #}
-{% else %}
-  {# If no header image then make navbar fixed - hibbittsdesign.org#}
-  <body style="margin-top: 60px;">
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> {# added fixed - hibbittsdesign.org #}
-{% endif %}
-    <div class="container">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    {# added fixed - hibbittsdesign.org #}
+  {% else %}
+    {# If no header image then make navbar fixed - hibbittsdesign.org#}
+    <body style="margin-top: 60px;">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        {# added fixed - hibbittsdesign.org #}
+      {% endif %}
+      <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <strong><a class="navbar-brand" href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title}}</a></strong>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <strong>
+            <a class="navbar-brand" href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title}}</a>
+          </strong>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                {% for page in pages.children.visible %}
-                    {# Remove active page visual indicator - hibbittsdesign.org#}
-                    {# {% set current_page = (page.active or page.activeChild) ? 'active' : '' %} #}
-                    {% if config.themes.bootstrap.dropdown.enabled and page.children.visible.count > 0 %}
-                        <li class="dropdown {{ current_page }}">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ page.menu }} <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                {# Remove active page visual indicator #}
-                                {# {% set current_parent = page.active ? 'active' : '' %} #}
-                                <li class="{{ current_parent }}"><a href="{{ page.url }}">{{ page.menu }}</a></li>
-                                <li class="divider"></li>
-                                {% for child in page.children.visible %}
-                                    {% set current_child = (child.active or child.activeChild) ? 'active' : '' %}
-                                    <li class="{{ current_child }}"><a href="{{ child.url }}">{{ child.menu }}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </li>
-                    {% else %}
-                        <li class="{{ current_page }}"><a href="{{ page.url }}">{{ page.menu }}</a></li>
-                    {% endif %}
-                {% endfor %}
-                {# Additional menu entries check and display - hibbittsdesign.org #}
-                {% if config.site.displaymenuentries.enabled %}
-                  {% for mitem in site.menu %}
-                      <li>
-                          {# Added newwindow class - hibbittsdesign.org #}
-                          <a class="newwindow" href="{{ mitem.url }}">
-                            {% if mitem.icon %}
-                              <i class="fa fa-{{ mitem.icon }}"></i>
-                              <span>{{ mitem.text }}</span>
-                            {% else %}
-                              {{ mitem.text }}
-                            {% endif %}
-                          </a>
+          <ul class="nav navbar-nav navbar-right">
+            {% for page in pages.children.visible %}
+              {# Remove active page visual indicator - hibbittsdesign.org#}
+              {# {% set current_page = (page.active or page.activeChild) ? 'active' : '' %} #}
+              {% if config.themes.bootstrap.dropdown.enabled and page.children.visible.count > 0 %}
+                <li class="dropdown {{ current_page }}">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ page.menu }}
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    {# Remove active page visual indicator #}
+                    {# {% set current_parent = page.active ? 'active' : '' %} #}
+                    <li class="{{ current_parent }}">
+                      <a href="{{ page.url }}">{{ page.menu }}</a>
+                    </li>
+                    <li class="divider"></li>
+                    {% for child in page.children.visible %}
+                      {% set current_child = (child.active or child.activeChild) ? 'active' : '' %}
+                      <li class="{{ current_child }}">
+                        <a href="{{ child.url }}">{{ child.menu }}</a>
                       </li>
-                  {% endfor %}
-                {% endif %}
-                {# Added GitHub link - hibbittsdesign.org #}
-                {% if config.site.github.location == 'menu' %}
-        					<li>
-        						{% include 'partials/github_menu_link.html.twig' %}
-        					</li>
-        				{% endif %}
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% else %}
+                <li class="{{ current_page }}">
+                  <a href="{{ page.url }}">{{ page.menu }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+            {# Additional menu entries check and display - hibbittsdesign.org #}
+            {% if config.site.displaymenuentries.enabled %}
+              {% for mitem in site.menu %}
+                <li>
+                  {# Added newwindow class - hibbittsdesign.org #}
+                  <a class="newwindow" href="{{ mitem.url }}">
+                    {% if mitem.icon %}
+                      <i class="fa fa-{{ mitem.icon }}"></i>
+                      <span>{{ mitem.text }}</span>
+                    {% else %}
+                      {{ mitem.text }}
+                    {% endif %}
+                  </a>
+                </li>
+              {% endfor %}
+            {% endif %}
+            {# Added GitHub link - hibbittsdesign.org #}
+            {% if config.site.github.location == 'menu' %}
+              <li>
+                {% include 'partials/github_menu_link.html.twig' %}
+              </li>
+            {% endif %}
 
-                {% if config.plugins.login.enabled and grav.user.username %}
-                    <li><i class="fa fa-lock"></i> {% include 'partials/login-status.html.twig' %}</li>
-                {% endif %}
-            </ul>
+            {% if config.plugins.login.enabled and grav.user.username %}
+              <li>
+                <i class="fa fa-lock"></i>
+                {% include 'partials/login-status.html.twig' %}</li>
+            {% endif %}
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
