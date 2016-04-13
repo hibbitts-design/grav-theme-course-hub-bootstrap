@@ -1,3 +1,11 @@
+# v1.0.1
+## 04/13/2016
+
+1. [](#new)
+    * Added support for Sidebar plugin widgets display
+1. [](#bugfix)
+    * Homepage recognizes URL flag to only display page content
+
 # v1.0.0
 ## 03/17/2016
 

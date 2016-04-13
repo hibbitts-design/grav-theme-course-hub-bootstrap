@@ -23,17 +23,22 @@
 				#}
     <div class="container">
       <div class="row">
-        <div class="col-sm-8 blog-main">
-
-          {# Added reminders and preparations blocks and content check - hibbittsdesign.org #}
-          {% for module in page.collection('modular_content') %}
-            {% if (module.content|striptags)|trim %}
-              <p>{{ module.content }}</p>
+        {# check content display flag - hibbittsdesign.org #}
+        {% if not grav.uri.param('onlydisplaypagecontent') %}
+          <div class="col-sm-8 blog-main">
+          {% else %}
+            <div class="col-sm-12 blog-main">
             {% endif %}
-          {% endfor %}
 
-          {# Removed earlier method searching root pages - hibbittsdesign.org #}
-          {#}
+            {# Added reminders and preparations blocks and content check - hibbittsdesign.org #}
+            {% for module in page.collection('modular_content') %}
+              {% if (module.content|striptags)|trim %}
+                <p>{{ module.content }}</p>
+              {% endif %}
+            {% endfor %}
+
+            {# Removed earlier method searching root pages - hibbittsdesign.org #}
+            {#}
 									{% if pages.find('/important-reminders').content %}
 										{% include 'important-reminders.html.twig' with {'page': page.find('/important-reminders')} %}
 									{% endif %}
@@ -43,49 +48,43 @@
 									{% endif %}
 									#}
 
-          {% if config.plugins.breadcrumbs.enabled %}
-            {% include 'partials/breadcrumbs.html.twig' %}
-          {% endif %}
-
-          {# Added featured post ability - hibbittsdesign.org #}
-          {% for post in taxonomy.findTaxonomy({'tag':"Featured"}) %}
-            {% include 'partials/blog_item.html.twig' with {'page':post, 'truncate':true} %}
-          {% endfor %}
-
-          {% for child in collection %}
-            {% if "Featured" not in child.taxonomy['tag'] %}
-              {% include 'partials/blog_item.html.twig' with {'page':child, 'truncate':true} %}
+            {% if config.plugins.breadcrumbs.enabled %}
+              {% include 'partials/breadcrumbs.html.twig' %}
             {% endif %}
-          {% endfor %}
 
-        </div>
+            {# Added featured post ability - hibbittsdesign.org #}
+            {% for post in taxonomy.findTaxonomy({'tag':"Featured"}) %}
+              {% include 'partials/blog_item.html.twig' with {'page':post, 'truncate':true} %}
+            {% endfor %}
 
-        <div class="col-sm-4 blog-sidebar">
-          {# {% include 'partials/sidebar.html.twig' with {'blog':page} %} #}
-          {% set content = pages.find('/sidebar').content %}
-          {% if content %}
-            <div class="sidebar">
-              {{ content }}
-              {% if config.plugins.feed.enabled and config.site.rssbutton.display %}
-                {% include 'partials/rss_link.html.twig' %}
+            {% for child in collection %}
+              {% if "Featured" not in child.taxonomy['tag'] %}
+                {% include 'partials/blog_item.html.twig' with {'page':child, 'truncate':true} %}
               {% endif %}
-            </div>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  {% endblock %}
+            {% endfor %}
 
-  {% block pagination %}
-    {% if config.plugins.pagination.enabled and collection.params.pagination %}
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 text-center">
-            {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+          </div>
+
+          {# check content display flag - hibbittsdesign.org #}
+          {% if not grav.uri.param('onlydisplaypagecontent') %}
+            <div class="col-sm-4 blog-sidebar">
+              {% include 'partials/sidebar.html.twig' with {'blog':page} %}
+            </div>
+            {% endif %}
           </div>
         </div>
-      </div>
-    {% endif %}
-  {% endblock %}
+      {% endblock %}
 
-{% endembed %}
+      {% block pagination %}
+        {% if config.plugins.pagination.enabled and collection.params.pagination %}
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 text-center">
+                {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endblock %}
+
+    {% endembed %}
