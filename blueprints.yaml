@@ -1,5 +1,5 @@
 name: Course Hub Bootstrap
-version: 1.0.1
+version: 1.0.2
 description: "A customized version of the Bootstrap theme (built with Bootstrap 3) for use with the Grav Course Hub skeleton package."
 icon: university
 author:
@@ -18,6 +18,7 @@ dependencies:
   - admin
   - archives
   - email
+  - error
   - external_links
   - featherlight
   - feed
@@ -26,6 +27,7 @@ dependencies:
   - login
   - page-inject
   - pagination
+  - problems
   - relatedpages
   - shortcode-core
   - simplesearch

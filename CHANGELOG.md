@@ -1,6 +1,12 @@
 # v1.0.1
 ## 04/13/2016
 
+1. [](#bugfix)
+    * Restored Error and Problems plugins as a dependency
+
+# v1.0.1
+## 04/13/2016
+
 1. [](#new)
     * Added support for Sidebar plugin widgets display
 1. [](#improved)
