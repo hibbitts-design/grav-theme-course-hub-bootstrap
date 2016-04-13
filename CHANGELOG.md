@@ -3,6 +3,8 @@
 
 1. [](#new)
     * Added support for Sidebar plugin widgets display
+1. [](#improved)
+    * Updated default search results page display
 1. [](#bugfix)
     * Homepage recognizes URL flag to only display page content
 
