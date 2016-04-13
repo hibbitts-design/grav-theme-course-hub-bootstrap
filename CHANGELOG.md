@@ -1,8 +1,8 @@
-# v1.0.1
+# v1.0.2
 ## 04/13/2016
 
 1. [](#bugfix)
-    * Restored Error and Problems plugins as a dependency
+    * Restored Error and Problems plugins as dependencies
 
 # v1.0.1
 ## 04/13/2016
