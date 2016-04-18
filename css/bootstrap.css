@@ -4,6 +4,7 @@
 
 .navbar .nav > li > a {
     color:  #EEEEEE;
+    text-transform: uppercase;
 }
 
 .navbar .nav > li > a:hover {
@@ -12,6 +13,11 @@
 
 .navbar-brand {
     color: #EEEEEE !important;
+}
+
+.navbar-nav > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h1,
