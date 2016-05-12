@@ -1,3 +1,9 @@
+# v1.1.1
+## 05/12/2016
+
+1. [](#improved)
+    * Added sidebar and full-width page templates.
+
 # v1.1.0
 ## 04/18/2016
 
