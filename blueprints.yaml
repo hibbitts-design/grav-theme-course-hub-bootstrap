@@ -32,6 +32,7 @@ dependencies:
   - shortcode-core
   - simplesearch
   - taxonomylist
+  - youtube
 
 form:
     validation: strict
