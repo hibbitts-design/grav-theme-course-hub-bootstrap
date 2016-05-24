@@ -1,4 +1,6 @@
 {# new twig template file - hibbittsdesign.org #}
 <a class="newwindow" href="{{ config.site.github.tree ~  ('/'~page.filePathClean)|replace({'/user/':''}) }}" title="Edit this Page on GitHub">
-  <i class="fa fa-github"></i>
+  {% if config.site.github.icon %}
+    <i class="fa fa-{{ config.site.github.icon }}"></i>
+  {% endif %}
   Edit this Page</a>

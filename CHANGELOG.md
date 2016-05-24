@@ -1,8 +1,14 @@
+# v1.1.2
+## 05/25/2016
+
+1. [](#improved)
+    * Added options for git service icon choice
+
 # v1.1.1
 ## 05/24/2016
 
 1. [](#improved)
-    * Added sidebar and full-width page templates.
+    * Added sidebar and full-width page templates
 
 # v1.1.0
 ## 04/18/2016
