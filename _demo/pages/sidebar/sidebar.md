@@ -1,5 +1,6 @@
 ---
 title: 'Sidebar'
+routable: false
 ---
 
 ##### Course Facilitators
