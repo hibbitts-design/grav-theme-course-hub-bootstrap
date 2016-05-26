@@ -1,3 +1,9 @@
+# v1.1.3
+## 05/26/2016
+
+1. [](#improved)
+    * Updated page collections to valid YAML syntax
+
 # v1.1.2
 ## 05/25/2016
 
