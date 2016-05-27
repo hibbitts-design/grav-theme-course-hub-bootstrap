@@ -11,7 +11,7 @@ In-person office hours Mondays 4:00pm - 5:15pm Room 2148, and after class by app
 Another Name (Email: {{'anothername@somewhere.edu'|safe_email}})  
 Our teaching assistant will not be holding regular office hours.  
 
-**Course Desciption**  
+**Course Description**  
 This course introduces students to the art and science of designing usable, useful and enjoyable human-computer interfaces, with an emphasis on user-centered design techniques. It stresses the importance and necessity of effective interaction design techniques and presents current design methodologies and principles across multiple platforms. Students will gain valuable knowledge and experience by working in groups on a term-long design project.  
 
 **Grading (tentative)**  
