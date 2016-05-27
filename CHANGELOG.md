@@ -1,3 +1,9 @@
+# v1.1.4
+## 05/27/2016
+
+1. [](#new)
+    * Included example of modular content using the Page Inject plugin
+
 # v1.1.3
 ## 05/26/2016
 
