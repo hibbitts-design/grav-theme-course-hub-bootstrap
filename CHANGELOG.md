@@ -1,3 +1,9 @@
+# v1.1.5
+## 05/28/2016
+
+1. [](#new)
+    * Added Twitter timeline settings in site config file
+
 # v1.1.4
 ## 05/27/2016
 
