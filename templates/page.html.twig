@@ -12,9 +12,9 @@
 {% endif %}
             <h3>{{page.title}}</h3>
             {{ page.content }}
-            <hr>
             {# GitHub link - hibbittsdesign.org #}
             {% if config.site.github.location == 'page' %}
+              <hr>
               <br>
               {% include 'partials/github_page_link.html.twig' %}
               <br>
