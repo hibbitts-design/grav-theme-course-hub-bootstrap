@@ -73,11 +73,11 @@
 
     {% if page.header.continue_link is sameas(false) %}
       <p>{{ page.content }}</p>
-      <hr>
-      {% if not truncate %}
+        {% if not truncate %}
         {# added github link - hibbittsdesign.org #}
         {% if config.site.github.location == 'page' %}
-          {% include 'partials/github_page_link.html.twig' %}
+        <hr>
+        {% include 'partials/github_page_link.html.twig' %}
         {% endif %}
         {% set show_prev_next = true %}
       {% endif %}
@@ -105,8 +105,8 @@
       {% set content = page.content|slice(page.summary|length) %}
       {# do not display summary on actual page - hibbittsdesign.org #}
       <p>{{ content }}</p>
-      <hr>
       {% if config.site.github.location == 'page' %}
+        <hr>
         {% include 'partials/github_page_link.html.twig' %}
       {% endif %}
       <br>
