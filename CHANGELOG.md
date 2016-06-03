@@ -1,3 +1,9 @@
+# v1.1.6
+## 06/03/2016
+
+1. [](#improved)
+    * Graphical line breaks adjusted
+
 # v1.1.5
 ## 05/31/2016
 
