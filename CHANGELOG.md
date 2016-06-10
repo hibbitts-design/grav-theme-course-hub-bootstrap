@@ -1,3 +1,9 @@
+# v1.1.7
+## 06/10/2016
+
+1. [](#improved)
+    * GitHub URL calculation updated to support Grav 'pages' only repository
+
 # v1.1.6
 ## 06/03/2016
 
