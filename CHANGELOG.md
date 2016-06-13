@@ -3,6 +3,8 @@
 
 1. [](#new)
     * Added experimental support for multiple course hubs (blogs)
+1. [](#improved)
+    * Changed home folder name from 'blog' to 'home'
 1. [](#bugfix)
     * Various visual presentation issues fixed
 
