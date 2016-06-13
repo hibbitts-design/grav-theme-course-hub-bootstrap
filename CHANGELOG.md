@@ -3,6 +3,8 @@
 
 1. [](#new)
     * Added experimental support for multiple course hubs (blogs)
+1. [](#bugfix)
+    * Various visual presentation issues fixed
 
 # v1.2.0
 ## 06/13/2016
