@@ -1150,7 +1150,7 @@ img {
 }
 hr {
   margin-top: 21px;
-  margin-bottom: -21px; /*Changed*/
+  margin-bottom: -11px; /*Changed*/
   border: 0;
   border-top: 1px solid #dddddd;
 }

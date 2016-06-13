@@ -1,6 +1,12 @@
 # v1.2.0
 ## 06/13/2016
 
+1. [](#bugfix)
+    * Fixed responsive embed for example iframes
+
+# v1.2.0
+## 06/13/2016
+
 1. [](#improved)
     * Use of Bootswatch theme 'Yeti' for closer visual alignment to Course Hub Bones theme
 
