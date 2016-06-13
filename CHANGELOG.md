@@ -1,3 +1,9 @@
+# v1.2.0
+## 06/13/2016
+
+1. [](#improved)
+    * Use of Bootswatch theme 'Yeti' for closer visual alignment to Course Hub Bones theme
+
 # v1.1.7
 ## 06/10/2016
 
