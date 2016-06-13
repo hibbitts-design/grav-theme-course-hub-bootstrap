@@ -59,7 +59,10 @@
 
             {% for child in collection %}
               {% if "Featured" not in child.taxonomy['tag'] %}
-                {% include 'partials/blog_item.html.twig' with {'page':child, 'truncate':true} %}
+                {# multi-course hub compatibility - hibbittsdesign.org #}
+                {% if (not child.slug|contains('sidebar')) and (not child.slug|contains('headerimage')) %}
+                  {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+                {% endif %}
               {% endif %}
             {% endfor %}
 

@@ -1,3 +1,9 @@
+# v1.3.0
+## 06/14/2016
+
+1. [](#new)
+    * Added experimental support for multiple course hubs (blogs)
+
 # v1.2.0
 ## 06/13/2016
 

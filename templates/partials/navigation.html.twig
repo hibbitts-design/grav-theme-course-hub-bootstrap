@@ -1,5 +1,12 @@
 {# Check and display for header image above navbar - hibbittsdesign.org#}
-{% set background_image = pages.find('/headerimage').media.images|first %}
+{# multi-course hub compatibility - hibbittsdesign.org #}
+{% set arrayofpath = uri.path|split('/') %}
+{% set firstfolderofpath = arrayofpath[1] %}
+{% if firstfolderofpath == null %}
+  {% set arrayofpath = config.system.home.alias|split('/') %}
+  {% set firstfolderofpath = arrayofpath[1] %}
+{% endif %}
+{% set background_image = pages.find('/' ~ firstfolderofpath ~ '/headerimage').media.images|first %}
 {% if background_image %}
   {# If header image display above static navbar - hibbittsdesign.org#}
   <div class="myheader" style="background-image: url({{ background_image.url }});"></div>

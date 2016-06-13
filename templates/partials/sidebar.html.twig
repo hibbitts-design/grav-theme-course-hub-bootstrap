@@ -7,12 +7,21 @@
     {% include 'partials/simplesearch_searchbox.html.twig' %}
   </div>
 {% endif %}
-{% set content = pages.find('/sidebar').content %}
-{% if content %}
-  <div class="sidebar-content">
-    {{ content }}
-  </div>
+
+{# multi-course hub compatibility - hibbittsdesign.org #}
+{% set arrayofpath = uri.path|split('/') %}
+{% set firstfolderofpath = arrayofpath[1] %}
+{% if firstfolderofpath == null %}
+  {% set arrayofpath = config.system.home.alias|split('/') %}
+  {% set firstfolderofpath = arrayofpath[1] %}
 {% endif %}
+{% set content = pages.find('/' ~ firstfolderofpath ~ '/sidebar').content %}
+{% if content is empty %}
+  {% set content = pages.find('/sidebar').content %}
+{% endif %}
+<div class="sidebar-content">
+  {{ content }}
+</div>
 {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
   <h5>Related Posts</h5>
   {% include 'partials/relatedpages.html.twig' %}
@@ -37,15 +46,17 @@
   </div>
 {% endif %}
 {% if config.plugins.feed.enabled %}
-  <div class="sidebar-content">
-    <h5>Subscribe</h5>
-    <div class="btn-group">
-      <a class="btn btn-warning" href="{{ feed_url }}.atom">
-        <i class="fa fa-rss-square"></i>
-        Atom 1.0</a>
-      <a class="btn btn-warning" href="{{ feed_url }}.rss">
-        <i class="fa fa-rss-square"></i>
-        RSS</a>
+  {% if page.template == 'blog' %}
+    <div class="sidebar-content">
+      <h5>Subscribe</h5>
+      <div class="btn-group">
+        <a class="btn btn-warning" href="{{ feed_url }}.atom">
+          <i class="fa fa-rss-square"></i>
+          Atom 1.0</a>
+        <a class="btn btn-warning" href="{{ feed_url }}.rss">
+          <i class="fa fa-rss-square"></i>
+          RSS</a>
+      </div>
     </div>
-  </div>
+  {% endif %}
 {% endif %}
