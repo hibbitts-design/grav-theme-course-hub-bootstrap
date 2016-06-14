@@ -29,24 +29,12 @@
           {% else %}
             <div class="col-sm-12 blog-main">
             {% endif %}
-
             {# Added reminders and preparations blocks and content check - hibbittsdesign.org #}
             {% for module in page.collection('modular_content') %}
               {% if (module.content|striptags)|trim %}
                 <p>{{ module.content }}</p>
               {% endif %}
             {% endfor %}
-
-            {# Removed earlier method searching root pages - hibbittsdesign.org #}
-            {#}
-									{% if pages.find('/important-reminders').content %}
-										{% include 'important-reminders.html.twig' with {'page': page.find('/important-reminders')} %}
-									{% endif %}
-
-									{% if pages.find('/preparations').content %}
-											{% include 'preparations.html.twig' with {'page': page.find('/preparations')} %}
-									{% endif %}
-									#}
 
             {% if config.plugins.breadcrumbs.enabled %}
               {% include 'partials/breadcrumbs.html.twig' %}
