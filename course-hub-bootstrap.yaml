@@ -6,3 +6,6 @@ streams:
        '':
          - user/themes/course-hub-bootstrap
          - user/themes/bootstrap
+
+dropdown:
+  enabled: false
