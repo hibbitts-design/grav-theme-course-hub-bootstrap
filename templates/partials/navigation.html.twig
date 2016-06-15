@@ -49,10 +49,11 @@
                     <ul class="dropdown-menu" role="menu">
                       {# Remove active page visual indicator #}
                       {# {% set current_parent = page.active ? 'active' : '' %} #}
-                      <li class="{{ current_parent }}">
+                      {# Remove display of child parent in menu #}
+                      {#  <li class="{{ current_parent }}">
                         <a href="{{ page.url }}">{{ page.menu }}</a>
                       </li>
-                      <li class="divider"></li>
+                      <li class="divider"></li>  #}
                       {% for child in page.children.visible %}
                         {% set current_child = (child.active or child.activeChild) ? 'active' : '' %}
                         <li class="{{ current_child }}">
