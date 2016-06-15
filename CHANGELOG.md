@@ -1,3 +1,11 @@
+# v1.3.1
+## 06/15/2016
+
+1. [](#improved)
+    * Removed display of child parent within multi-level dropdown menus
+1. [](#bugfix)
+    * Fixed menu item contrast issue for smaller screens
+
 # v1.3.0
 ## 06/14/2016
 
