@@ -41,7 +41,7 @@
 {% if config.site.twittertimeline.enabled %}
   <div class="sidebar-content">
     <h5>Twitter</h5>
-    <a class="twitter-timeline" href="{{ config.site.twittertimeline.url }}" data-widget-id= "{{ config.site.twittertimeline.widgetid }}" data-chrome="noscrollbar">Tweets from https://twitter.com/hibbittsdesign/lists/cpt-363</a>
+    <a class="twitter-timeline" href="{{ config.site.twittertimeline.url }}" data-widget-id= "{{ config.site.twittertimeline.widgetid }}" data-chrome="noscrollbar">Tweets from {{ config.site.twittertimeline.url }}</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </div>
 {% endif %}
