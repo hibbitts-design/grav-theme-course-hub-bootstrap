@@ -1,3 +1,9 @@
+# v1.3.3
+## 06/16/2016
+
+1. [](#bugfix)
+    * Gravstrap plugin dependency removed.
+
 # v1.3.2
 ## 06/16/2016
 
