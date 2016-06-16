@@ -1,3 +1,9 @@
+# v1.3.2
+## 06/16/2016
+
+1. [](#bugfix)
+    * Twitter sidebar widget URL issue fixed.
+
 # v1.3.1
 ## 06/15/2016
 
