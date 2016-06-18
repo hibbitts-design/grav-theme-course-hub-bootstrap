@@ -76,7 +76,7 @@
       {% if not truncate %}
         <hr>
         {# added github link - hibbittsdesign.org #}
-        {% if config.site.github.location == 'page' %}
+        {% if config.site.github.location == 'page' and (not page.header.hidegithublink) %}
           {% include 'partials/github_page_link.html.twig' %}
         {% endif %}
         {% set show_prev_next = true %}
@@ -106,7 +106,7 @@
       {# do not display summary on actual page - hibbittsdesign.org #}
       <p>{{ content }}</p>
         <hr>
-        {% if config.site.github.location == 'page' %}
+        {% if config.site.github.location == 'page' and (not page.header.hidegithublink) %}
         {% include 'partials/github_page_link.html.twig' %}
       {% endif %}
       {% set show_prev_next = true %}

@@ -13,7 +13,7 @@
             <h3>{{page.title}}</h3>
             {{ page.content }}
             {# GitHub link - hibbittsdesign.org #}
-            {% if config.site.github.location == 'page' %}
+            {% if config.site.github.location == 'page' and (not page.header.hidegithublink) %}
               <hr>
               <br>
               {% include 'partials/github_page_link.html.twig' %}
