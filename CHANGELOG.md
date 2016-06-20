@@ -1,3 +1,10 @@
+# v1.3.4
+## 06/20/2016
+
+1. [](#improved)
+    * Added header options to hide and change default GitHub edit link
+    * Updated multi-course demo pages
+
 # v1.3.3
 ## 06/16/2016
 
