@@ -3,7 +3,7 @@
 
 1. [](#new)
     * Added flag to hide page titles
-    * Added setting to suppress the display of home menu link (Course Hub Bootstrap theme only)
+    * Added setting to suppress the display of home menu link
 
 # v1.3.4
 ## 06/20/2016
