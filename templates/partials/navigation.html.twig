@@ -63,9 +63,13 @@
                     </ul>
                   </li>
                 {% else %}
-                  <li class="{{ current_page }}">
+                {% if config.site.hidehomemenulink and page.slug == 'home' %}
+                  {# Supress home menu link - hibbittsdesign.org #}
+                {% else %}
+                    <li class="{{ current_page }}">
                     <a href="{{ page.url }}">{{ page.menu }}</a>
                   </li>
+                  {% endif %}
                 {% endif %}
               {% endfor %}
               {# Additional menu entries check and display - hibbittsdesign.org #}

@@ -10,7 +10,9 @@
 {% else %}
 <div class="col-sm-12 blog-main">
 {% endif %}
-            <h3>{{page.title}}</h3>
+          {% if not page.header.hidepagetitle %}
+          <h3>{{page.title}}</h3>
+          {% endif %}
             {{ page.content }}
             {# GitHub link - hibbittsdesign.org #}
             {% if config.site.github.location == 'page' and (not page.header.hidegithublink) %}
