@@ -1250,8 +1250,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 10.5px;
-  margin-bottom: 10.5px;
+  margin-top: 15.5px;  /*Changed*/
+  margin-bottom: 5.5px;  /*Changed*/
 }
 h4 small,
 .h4 small,
