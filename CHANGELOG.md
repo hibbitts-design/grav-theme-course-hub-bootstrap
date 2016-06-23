@@ -1,3 +1,10 @@
+# v1.3.6
+## 06/23/2016
+
+1. [](#improved)
+    * Demo page content typo corrected
+    * Adjusted h top and bottom margins
+
 # v1.3.5
 ## 06/22/2016
 
