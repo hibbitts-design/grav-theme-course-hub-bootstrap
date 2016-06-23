@@ -1,8 +1,9 @@
 # v1.3.6
 ## 06/23/2016
 
-1. [](#improved)
+1. [](#bugfix)
     * Demo page content typo corrected
+1. [](#improved)    
     * Adjusted h top and bottom margins
 
 # v1.3.5
@@ -23,13 +24,13 @@
 ## 06/16/2016
 
 1. [](#bugfix)
-    * Gravstrap plugin dependency removed.
+    * Gravstrap plugin dependency removed
 
 # v1.3.2
 ## 06/16/2016
 
 1. [](#bugfix)
-    * Twitter sidebar widget URL issue fixed.
+    * Twitter sidebar widget URL issue fixed
 
 # v1.3.1
 ## 06/15/2016
