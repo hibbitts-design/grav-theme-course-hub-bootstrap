@@ -61,10 +61,12 @@
               <i class="fa fa-angle-up"></i>
             </a>
           </div>
-          <p class="text-muted">Bootstrap Theme for
-            <a href="http://getgrav.org">Grav</a><br>Course Hub template modifications by:<br>
-            <a href="http://hibbittsdesign.org">hibbittsdesign.org</a>
-          </p>
+          {% set content = pages.find('/footer').content %}
+          {% if content %}
+            <div class="text-muted">
+              {{ content }}
+            </div>
+          {% endif %}
         </div>
       </div>
     {% else %}
