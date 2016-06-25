@@ -1,3 +1,9 @@
+# v1.3.7
+## 06/27/2016
+
+1. [](#improved)    
+    * Sidebar widget vertical spacing improved
+
 # v1.3.6
 ## 06/23/2016
 
