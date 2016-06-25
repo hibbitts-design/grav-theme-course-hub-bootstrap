@@ -19,6 +19,10 @@
   height: 210px;
 }
 
+.sidebar-content {
+  margin-bottom: 14px!important;
+}
+
 .sidebar-content h5 {
   color: #666666;
   margin-top: 24px;
