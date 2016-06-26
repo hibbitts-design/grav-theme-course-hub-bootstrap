@@ -1,8 +1,11 @@
 # v1.3.7
 ## 06/26/2016
 
+1. [](#new)
+    * Added support for markdown-based site footer
 1. [](#improved)    
     * Sidebar widget vertical spacing improved
+    * Updated Twitter widget code
 
 # v1.3.6
 ## 06/23/2016
