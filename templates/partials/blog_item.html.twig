@@ -11,7 +11,7 @@
       <h3>
         {% if page.header.continue_link is not sameas(false) %}
           <a href="{{ page.url }}">
-            <i class="fa fa-angle-double-right"></i>
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
           </a>
         {% endif %}
         <a href="{{ page.header.link }}">{{ page.title }}</a>
@@ -27,13 +27,13 @@
       {% if not grav.uri.param('onlydisplaypagecontent')%}
         <h3>
           <a href="{{ page.url }}">
-            <i class="fa fa-{{ titleicon }}"></i>
+            <i class="fa fa-{{ titleicon }}" aria-hidden="true"></i>
             {{ page.title }}</a>
         </h3>
       {% else %}
         <h3>
           <a href="{{ page.url }}/onlydisplaypagecontent:true">
-            <i class="fa fa-{{ titleicon }}"></i>
+            <i class="fa fa-{{ titleicon }}" aria-hidden="true"></i>
             {{ page.title }}</a>
         </h3>
       {% endif %}
@@ -87,7 +87,7 @@
       <p>
         <a href="{{ page.url }}">View all of
           {{ page.title }}
-          <i class="fa fa-chevron-right"></i>
+          <i class="fa fa-chevron-right"> aria-hidden="true"</i>
         </a>
       </p>
       <hr>
@@ -118,14 +118,14 @@
       <p class="text-left">
         {% if not page.isLast %}
           <a class="btn btn-default" href="{{ page.prevSibling.url }}">
-            <i class="fa fa-chevron-left"></i>
+            <i class="fa fa-chevron-left"> aria-hidden="true"</i>
             Previous
           </a>
         {% endif %}
 
         {% if not page.isFirst %}
           <a class="btn btn-default" href="{{ page.nextSibling.url }}">Next
-            <i class="fa fa-chevron-right"></i>
+            <i class="fa fa-chevron-right"> aria-hidden="true"</i>
           </a>
         {% endif %}
 
