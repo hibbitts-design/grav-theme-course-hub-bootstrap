@@ -1,3 +1,9 @@
+# v1.3.8
+## 07/07/2016
+
+1. [](#improved)
+    * Improved accessibility of font awesome icons
+
 # v1.3.7
 ## 06/26/2016
 
