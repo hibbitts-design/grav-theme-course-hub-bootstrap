@@ -87,7 +87,7 @@
       <p>
         <a href="{{ page.url }}">View all of
           {{ page.title }}
-          <i class="fa fa-chevron-right"> aria-hidden="true"</i>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
         </a>
       </p>
       <hr>
@@ -118,14 +118,14 @@
       <p class="text-left">
         {% if not page.isLast %}
           <a class="btn btn-default" href="{{ page.prevSibling.url }}">
-            <i class="fa fa-chevron-left"> aria-hidden="true"</i>
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
             Previous
           </a>
         {% endif %}
 
         {% if not page.isFirst %}
           <a class="btn btn-default" href="{{ page.nextSibling.url }}">Next
-            <i class="fa fa-chevron-right"> aria-hidden="true"</i>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </a>
         {% endif %}
 
