@@ -1,3 +1,9 @@
+# v1.4.0
+## 07/12/2016
+
+1. [](#improved)
+    * Restored Blog header page content display option within Bootstrap theme
+
 # v1.3.9
 ## 07/10/2016
 
