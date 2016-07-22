@@ -1,11 +1,10 @@
 ---
 title: 'Course Welcome'
-date: '04-01-2016 00:00'
+date: 01/04/2016
 icon: users
 header_image: false
 continue_link: false
 ---
-
 Welcome to the multi-device friendly course hub for CPT-363 Spring 2016. To help orientate yourself to the course, explore the [course syllabus](../../syllabus).
 
 Any required preparations before each class will be posted here by Thursday of the previous week. Assigned weekly reading quizzes must be submitted before 10:00am the day of each class, and please bring a copy of your answers to class to help facilitate possible discussion.
