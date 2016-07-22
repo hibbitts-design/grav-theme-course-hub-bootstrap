@@ -1,5 +1,5 @@
 ---
-title: CPT-365 Syllabus
+title: CPT 365 Syllabus
 published: true
 ---
 

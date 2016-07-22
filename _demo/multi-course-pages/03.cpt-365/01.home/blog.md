@@ -1,5 +1,5 @@
 ---
-title: CPT-365 Home
+title: CPT 365 Home
 blog_url: cpt-365
 body_classes: header-image fullwidth
 
