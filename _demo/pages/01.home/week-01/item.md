@@ -4,8 +4,6 @@ date: 01/05/2016
 published: true
 ---
 
-<!--- Your weekly summary content goes below here -->
-
 ##### Summaries and Questions  
 [Jan 5th Class One-minute Summaries](https://canvas.sfu.ca/courses/25492/discussion_topics/440794)
 
@@ -13,21 +11,17 @@ published: true
 [Course Overview Slides](http://slides.com/paulhibbitts/cpt-363-slides-placeholder/)  
 [Introduction to UX Design Slides](http://slides.com/paulhibbitts/cpt-363-slides-placeholder/)
 
-<!--- Your weekly summary content goes above here -->
-
 ===
-
-<!--- Your weekly materials content goes below here -->
 
 ##### Summaries and Questions  
 [Jan 5th Class One-minute Summaries](https://canvas.sfu.ca/courses/25492/discussion_topics/440794)
 
 ##### Presented Slides  
 Course Overview ([HTML Slides](http://slides.com/paulhibbitts/cpt-363-slides-placeholder/) | [PDF Slides](http://1drv.ms/1PKX6bG))  
-<div class="embed-responsive embed-responsive-4by3"><iframe class="embed-responsive-item" src="//slides.com/paulhibbitts/cpt-363-slides-placeholder/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="flex-video"><iframe src="//slides.com/paulhibbitts/cpt-363-slides-placeholder/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 Introduction to UX ([HTML Slides](http://slides.com/paulhibbitts/cpt-363-slides-placeholder/) | [PDF Slides](http://1drv.ms/1PKX6bG))  
-<div class="embed-responsive embed-responsive-4by3"><iframe class="embed-responsive-item" src="//slides.com/paulhibbitts/cpt-363-slides-placeholder/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="flex-video"><iframe src="//slides.com/paulhibbitts/cpt-363-slides-placeholder/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ##### Supplemental Slides  
 [Interaction Design History](http://www.slideshare.net/mrettig/interaction-design-history)  

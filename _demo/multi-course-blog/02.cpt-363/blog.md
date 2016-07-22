@@ -1,6 +1,6 @@
 ---
 title: CPT-363
-blog_url: blog
+blog_url: cpt-363
 body_classes: header-image fullwidth
 
 sitemap:
