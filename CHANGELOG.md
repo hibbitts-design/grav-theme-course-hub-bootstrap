@@ -2,7 +2,7 @@
 ## 07/22/2016
 
 1. [](#improved)
-    * Updated multi-course hub pages example in '_demo' folder
+    * Updated multi-course hub pages example in theme '_demo' folder
 
 # v1.4.0
 ## 07/12/2016
