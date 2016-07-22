@@ -8,6 +8,7 @@ visible: false
 ##### Course Pages
 [CPT 363 Home](/cpt-363/home)  
 [CPT 363 Resources](/cpt-363/resources)  
+[CPT 363 Syllabus](/cpt-363/syllabus)  
 
 ##### Course Facilitators
 Another Name  
