@@ -1,3 +1,9 @@
+# v1.4.2
+## 07/22/2016
+
+1. [](#bugfix)
+    * Fixed responsive classes for embedded example slides
+
 # v1.4.1
 ## 07/22/2016
 
