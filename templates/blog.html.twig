@@ -47,10 +47,12 @@
             {% endfor %}
 
             {% for child in collection %}
-              {% if "Featured" not in child.taxonomy['tag'] %}
-                {# multi-course hub compatibility - hibbittsdesign.org #}
-                {% if (not child.slug|contains('sidebar')) and (not child.slug|contains('headerimage')) %}
-                  {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+              {% if child.header.hidefrompostlist != true %}
+                {% if "Featured" not in child.taxonomy['tag'] %}
+                  {# multi-course hub compatibility - hibbittsdesign.org #}
+                  {% if (not child.slug|contains('sidebar')) and (not child.slug|contains('headerimage')) %}
+                    {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+                  {% endif %}
                 {% endif %}
               {% endif %}
             {% endfor %}
