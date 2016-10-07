@@ -1,3 +1,9 @@
+# v1.4.6
+## 10/06/2016
+
+1. [](#bugfix)
+    * Fixed links on example Schedule pages
+
 # v1.4.5
 ## 10/06/2016
 
