@@ -1,7 +1,7 @@
 # v1.4.5
 ## 10/06/2016
 
-1. [](#bugfix)
+1. [](#new)
     * Added Markdown Font Awesome plugin
     * Added example Schedule page
 
