@@ -1,0 +1,28 @@
+title: Course Hub
+'@extends':
+    type: blog
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+
+      fields:
+        blog:
+
+          fields:
+
+            coursehub2:
+                type: section
+                title: GitHub/GitLab
+                underline: true
+
+            header.githublink:
+                type: text
+                size: large
+                label: Custom GitHub/GitLab URL for Page
+                help: Custom GitHub/GitLab URL for this page, to override the automatically calculated URL
+                default: null
+                validate:
+                    type: URL

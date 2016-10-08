@@ -1,0 +1,56 @@
+title: Course Hub Options
+'@extends':
+    type: item
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+
+      fields:
+        blog:
+
+          fields:
+            coursehub1:
+                type: section
+                title: Title Icon
+                underline: true
+
+            header.icon:
+                type: text
+                size: small
+                label: Custom Font Awesome Title Icon
+                help: Optional Font Awesome icon to override the default blog item title icon
+                default: null
+                validate:
+                    type: text
+
+            coursehub2:
+                type: section
+                title: Blog List Item Options
+                underline: true
+
+            header.hidefrompostlist:
+                type: toggle
+                label: Display this Item in Blog List
+                help: Determines if this page (i.e. post) will appear in the blog index
+                default: 0
+                highlight: 0
+                options:
+                    0:  Yes
+                    1:  No
+                validate:
+                    type: bool
+
+            header.continue_link:
+                type: toggle
+                label: Include 'View all of...' Blog Item Link
+                help: Determines if a 'View all of...' link is displayed for items listed in the blog index
+                default: 1
+                highlight: 1
+                options:
+                    1:  Yes
+                    0:  No
+                validate:
+                    type: bool
