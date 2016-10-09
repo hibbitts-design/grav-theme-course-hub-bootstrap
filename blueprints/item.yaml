@@ -20,7 +20,7 @@ form:
             header.icon:
                 type: text
                 size: small
-                label: Custom Font Awesome Title Icon
+                label: Font Awesome Icon for Blog Item
                 help: Optional Font Awesome icon to override the default blog item title icon
                 default: null
                 validate:

@@ -52,7 +52,7 @@ form:
             header.githublink:
                 type: text
                 size: large
-                label: Custom GitHub/GitLab URL for Page
+                label: Custom GitHub/GitLab Page URL
                 help: Custom GitHub/GitLab URL for this page, to override the automatically calculated URL
                 default: null
                 validate:
