@@ -1,3 +1,9 @@
+# v1.4.9
+## 10/17/2016
+
+1. [](#improved)
+    * Updated custom page Blueprints for Course Hub options, including additional GitHub/GitLab page header options
+
 # v1.4.8
 ## 10/09/2016
 

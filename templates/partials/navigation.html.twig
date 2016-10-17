@@ -89,7 +89,7 @@
                 {% endfor %}
               {% endif %}
               {# Added GitHub link - hibbittsdesign.org #}
-              {% if config.site.github.location == 'menu' %}
+              {% if config.site.github.location == 'menu' and (not page.header.hidegithublink) %}
                 <li>
                   {% include 'partials/github_menu_link.html.twig' %}
                 </li>
