@@ -1,3 +1,7 @@
+.pagination > li  {
+    font-size: 16px; /* Default font size increased */
+}
+
 #error {
   text-align: center;
 }
