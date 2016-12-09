@@ -1,3 +1,11 @@
+# v1.5.0
+## 12/08/2016
+
+1. [](#new)
+    * Added example weekly summary banner images
+1. [](#improved)
+    * Increased size of pagination controls
+
 # v1.4.9
 ## 10/17/2016
 
