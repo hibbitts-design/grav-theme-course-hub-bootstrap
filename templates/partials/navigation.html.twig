@@ -88,10 +88,10 @@
                   </li>
                 {% endfor %}
               {% endif %}
-              {# Added GitHub link - hibbittsdesign.org #}
-              {% if config.site.github.location == 'menu' and (not page.header.hidegithublink) %}
+              {# Added Git repository edit link -  hibbittsdesign.org #}
+              {% if config.site.gitrepo.editlinklocation == 'menu' and (not page.header.hidegitrepoeditlink) %}
                 <li>
-                  {% include 'partials/github_menu_link.html.twig' %}
+                  {% include 'partials/gitrepo_menu_link.html.twig' %}
                 </li>
               {% endif %}
 

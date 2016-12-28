@@ -9,11 +9,11 @@
           <h3>{{page.title}}</h3>
           {% endif %}
           {{ page.content }}
-          {# GitHub link - hibbittsdesign.org #}
-          {% if config.site.github.location == 'page' and (not page.header.hidegithublink) %}
+          {# Git repository edit link -  hibbittsdesign.org #}
+          {% if config.site.gitrepo.editlinklocation == 'page' and (not page.header.hidegitrepoeditlink) %}
             <hr>
             <br>
-            {% include 'partials/github_page_link.html.twig' %}
+            {% include 'partials/gitrepo_page_link.html.twig' %}
             <br>
           {% endif %}
         </div>

@@ -57,13 +57,13 @@ form:
 
             coursehub3:
                 type: section
-                title: GitHub/GitLab
+                title: Git Repository
                 underline: true
 
-            header.hidegithublink:
+            header.hidegitrepoeditlink:
                 type: toggle
-                label: Display GitHub/GitLab Edit Page Link
-                help: Determines if the GitHub/GitLab edit Page link is displayed for this page
+                label: Display Git Repository Edit Page Link
+                help: Determines if the Git Repository edit Page link is displayed for this page
                 default: 0
                 highlight: 0
                 options:

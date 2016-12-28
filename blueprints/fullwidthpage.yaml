@@ -34,13 +34,13 @@ form:
 
             coursehub2:
                 type: section
-                title: GitHub/GitLab
+                title: Git Repository
                 underline: true
 
-            header.hidegithublink:
+            header.hidegitrepoeditlink:
                 type: toggle
-                label: Display GitHub/GitLab Edit Page Link
-                help: Determines if the GitHub/GitLab edit Page link is displayed for this page
+                label: Display Git Repository Edit Page Link
+                help: Determines if the Git Repository edit Page link is displayed for this page
                 default: 0
                 highlight: 0
                 options:
@@ -49,11 +49,11 @@ form:
                 validate:
                     type: bool
 
-            header.githublink:
+            header.gitrepoeditlinkurl:
                 type: text
                 size: large
-                label: Custom GitHub/GitLab Page URL
-                help: Custom GitHub/GitLab URL for this page, to override the automatically calculated URL
+                label: Custom Git Repository Page URL
+                help: Custom Git Repository URL for this page, to override the automatically calculated URL
                 default: null
                 validate:
                     type: URL
