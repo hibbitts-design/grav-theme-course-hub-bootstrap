@@ -2,6 +2,7 @@
 title: Home
 blog_url: home
 body_classes: header-image fullwidth
+gitrepoeditlinkurl: https://github.com/hibbitts-design/grav-skeleton-course-hub-site/tree/master/user/pages/01.home
 
 sitemap:
     changefreq: monthly
@@ -17,8 +18,8 @@ content:
     order:
         by: date
         dir: desc
-    limit: 14
-    pagination: true
+    limit: 0
+    pagination: false
 
 feed:
     description: Course Hub Description
