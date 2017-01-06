@@ -1,12 +1,18 @@
 {# new twig template file - hibbittsdesign.org #}
-{% if page.header.gitrepoeditlinkurl %}
-  {% set gitrepoeditlinkurl = page.header.gitrepoeditlinkurl %}
+{% if config.site.gitrepo.edittreeurl is empty %}
+    {% set admin_panel_appearance_url = grav.base_url ~ '/admin/config/site' %}
+    <a href="{{ admin_panel_appearance_url }}" title="Configure 'Git Repository Tree URL'">
+      Configure 'Git Repository Tree URL'</a>
 {% else %}
-  {% set gitrepoeditlinkurl = config.site.gitrepo.edittreeurl ~  ('/'~page.filePathClean)|replace({'/user/':'/'}) %}
-{% endif %}
-{# new twig template file - hibbittsdesign.org #}
-<a class="newwindow" href="{{ gitrepoeditlinkurl }}" title="{{ config.site.gitrepo.editlinktext }}">
-  {% if config.site.gitrepo.editlinkicon %}
-    <i class="fa fa-{{ config.site.gitrepo.editlinkicon }}" aria-hidden="true"></i>
+  {% if page.header.gitrepoeditlinkurl %}
+    {% set gitrepoeditlinkurl = page.header.gitrepoeditlinkurl %}
+  {% else %}
+    {% set gitrepoeditlinkurl = config.site.gitrepo.edittreeurl ~  ('/'~page.filePathClean)|replace({'/user/':'/'}) %}
   {% endif %}
-  {{ config.site.gitrepo.editlinktext }}</a>
+  {# new twig template file - hibbittsdesign.org #}
+  <a class="newwindow" href="{{ gitrepoeditlinkurl }}" title="{{ config.site.gitrepo.editlinktext }}">
+    {% if config.site.gitrepo.editlinkicon %}
+      <i class="fa fa-{{ config.site.gitrepo.editlinkicon }}" aria-hidden="true"></i>
+    {% endif %}
+    {{ config.site.gitrepo.editlinktext }}</a>
+{% endif %}

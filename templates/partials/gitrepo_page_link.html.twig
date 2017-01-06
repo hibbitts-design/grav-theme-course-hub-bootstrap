@@ -1,15 +1,21 @@
 {# new twig template file - hibbittsdesign.org #}
-{% if page.header.gitrepoeditlinkurl %}
-  {% set gitrepoeditlinkurl = page.header.gitrepoeditlinkurl %}
+{% if config.site.gitrepo.edittreeurl is empty %}
+    {% set admin_panel_appearance_url = grav.base_url ~ '/admin/config/site' %}
+    <p><a href="{{ admin_panel_appearance_url }}" title="Configure 'Git Repository Tree URL'">
+      Configure 'Git Repository Tree URL''</a></p>
 {% else %}
-  {% set gitrepoeditlinkurl = config.site.gitrepo.edittreeurl ~  ('/'~page.filePathClean)|replace({'/user/':'/'}) %}
+  {% if page.header.gitrepoeditlinkurl %}
+    {% set gitrepoeditlinkurl = page.header.gitrepoeditlinkurl %}
+  {% else %}
+    {% set gitrepoeditlinkurl = config.site.gitrepo.edittreeurl ~  ('/'~page.filePathClean)|replace({'/user/':'/'}) %}
+  {% endif %}
+  <span style="color: #888888;">
+    <p>Have a suggestion or correction?
+      <a class="newwindow" href="{{ gitrepoeditlinkurl }}" title="{{ config.site.gitrepo.editlinktext }}">
+        {% if config.site.gitrepo.editlinkicon %}
+          <i class="fa fa-{{ config.site.gitrepo.editlinkicon }}" aria-hidden="true"></i>
+        {% endif %}
+        {{ config.site.gitrepo.editlinktext }}</a>
+    </p>
+  </span>
 {% endif %}
-<span style="color: #888888;">
-  <p>Have a suggestion or correction?
-    <a class="newwindow" href="{{ gitrepoeditlinkurl }}" title="{{ config.site.gitrepo.editlinktext }}">
-      {% if config.site.gitrepo.editlinkicon %}
-        <i class="fa fa-{{ config.site.gitrepo.editlinkicon }}" aria-hidden="true"></i>
-      {% endif %}
-      {{ config.site.gitrepo.editlinktext }}</a>
-  </p>
-</span>
