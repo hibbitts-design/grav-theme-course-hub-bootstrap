@@ -2,7 +2,8 @@
 ## 01/06/2017
 
 1. [](#improved)
-    * Revised 'Edit in Git' URL calculation to align with other Grav projects.
+    * Revised 'Edit in Git' URL calculation to align with other Grav projects
+    * Added link to guide first-time Edit this Page in Git config
 
 # v1.5.1
 ## 12/27/2016
