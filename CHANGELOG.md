@@ -1,3 +1,9 @@
+# v1.5.3
+## 01/07/2017
+
+1. [](#bugfix)
+    * Changed required theme settings alerts from Javascript dialog to HTML
+
 # v1.5.2
 ## 01/06/2017
 
