@@ -1,15 +1,11 @@
-# v1.5.3
-## 01/07/2017
-
-1. [](#bugfix)
-    * Changed required theme settings alerts from Javascript dialog to HTML
-
 # v1.5.2
-## 01/06/2017
+## 01/07/2017
 
 1. [](#improved)
     * Revised 'Edit in Git' URL calculation to align with other Grav projects
     * Added link to guide first-time Edit this Page in Git config
+1. [](#bugfix)
+    * Changed required theme settings alerts from Javascript dialog to HTML
 
 # v1.5.1
 ## 12/27/2016
