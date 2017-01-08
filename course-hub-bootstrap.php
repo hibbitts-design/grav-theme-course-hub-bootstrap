@@ -15,7 +15,7 @@ class CourseHubBootstrap extends Theme
     if (!$this->grav['config']->get('plugins.bootstrapper.enabled') &&
         $this->grav['config']->get('plugins.bootstrapper.always_load') &&
         !$this->grav['config']->get('plugins.bootstrapper.load_theme_css')) {
-	  echo '<div class="alert alert-warning" role="alert" style="margin-bottom: 0;">Please enable the Bootstrapper plugin before using this theme.</div>';
+	  echo '<div class="alert alert-warning" role="alert" style="margin-bottom: 0;">Please enable the Bootstrapper plugin before using this theme, in <code>user/config/plugins/bootstrapper.yaml</code>: <code>enabled: true</code>.</div>';
     } elseif (!$this->grav['config']->get('plugins.bootstrapper.enabled') ||
           !$this->grav['config']->get('plugins.bootstrapper.always_load') ||
           $this->grav['config']->get('plugins.bootstrapper.load_theme_css')) {
