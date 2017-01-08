@@ -1,3 +1,9 @@
+# v1.5.3
+## 01/08/2017
+
+1. [](#improved)
+    * Added styling to HTML alerts (thanks to OleVik)
+
 # v1.5.2
 ## 01/07/2017
 
