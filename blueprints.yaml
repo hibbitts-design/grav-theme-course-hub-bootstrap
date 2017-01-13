@@ -23,7 +23,6 @@ dependencies:
   - featherlight
   - feed
   - form
-  - git-sync
   - login
   - markdown-fontawesome
   - page-inject
