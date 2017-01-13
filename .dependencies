@@ -7,20 +7,3 @@ git:
         url: https://github.com/getgrav/grav-plugin-bootstrapper
         path: user/plugins/bootstrapper
         branch: master
-    gravstrap:
-        url: https://github.com/giansi/gravstrap
-        path: user/plugins/gravstrap
-        branch: master
-links:
-    bootstrap:
-        src: grav-theme-bootstrap
-        path: user/themes/bootstrap
-        scm: github
-    bootstrapper:
-        src: grav-plugin-bootstrapper
-        path: user/plugins/bootstrapper
-        scm: github
-    gravstrap:
-        src: grav-plugin-gravstrap
-        path: user/plugins/gravstrap
-        scm: github
