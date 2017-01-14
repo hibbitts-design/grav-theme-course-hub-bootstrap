@@ -1,3 +1,10 @@
+# v1.5.5
+## 01/14/2017
+
+1. [](#improved)
+    * Further refined Git Sync plugin config checks
+    * Updated included Font Awesome icons
+
 # v1.5.4
 ## 01/13/2017
 
