@@ -1,3 +1,9 @@
+# v1.5.6
+## 01/14/2017
+
+1. [](#improved)
+    * Updated wording of Edit in Git links
+
 # v1.5.5
 ## 01/14/2017
 
