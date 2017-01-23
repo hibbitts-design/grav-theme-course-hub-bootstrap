@@ -7077,7 +7077,7 @@ input[type="checkbox"] {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 216px;
+  height: 238px; /*Changed*/
   background-color: #e5e5e5;
 }
 
