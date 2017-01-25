@@ -3,6 +3,7 @@
 
 1. [](#improved)
     * Added Git Sync plugin as dependency
+    * Added CC License Picker display
 
 # v1.5.6
 ## 01/14/2017
