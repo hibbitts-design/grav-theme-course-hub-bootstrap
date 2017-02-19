@@ -12,9 +12,10 @@
         {% endif %}{{ site.title|e('html') }}</title>
       <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png', true) }}"/>
       {% block stylesheets %}
-        {% do assets.add('theme://css/bootstrap.css',97) %}
+        {% do assets.add('theme://css/bootstrap.css',96) %}
         {% do assets.add('theme://css/font-awesome.min.css',99) %}
-        {% do assets.add('theme://css-compiled/theme.css',98) %}
+        {% do assets.add('theme://css-compiled/theme.css',97) %}
+        {% do assets.addCss('theme://css/chbcustom.css',99) %}
         {% do assets.addCss('theme://css/custom.css',100) %}
         {# added custom.css file pointer - hibbittsdesign.org #}
       {% endblock %}

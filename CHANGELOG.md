@@ -1,3 +1,9 @@
+# v1.5.9
+## 02/19/2017
+
+1. [](#improved)
+    * Revised handling of custom.css theme file to better support inherited theme usage
+
 # v1.5.8
 ## 01/26/2017
 
