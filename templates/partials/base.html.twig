@@ -67,6 +67,14 @@
               {% if content %}
                 {{ content }}
               {% endif %}
+              {% if config.site.gitrepo.editthemelinklocation == 'footer' %}
+                {% set gitrepothemeeditlinkurl = config.site.gitrepo.edittreeurl ~ '/themes/mytheme/' %}
+                  <a class="newwindow" href="{{ gitrepothemeeditlinkurl }}" title="{{ config.site.gitrepo.editthemelinktext }}">
+                  {% if config.site.gitrepo.editlinkicon %}
+                    <i class="fa fa-{{ config.site.gitrepo.editlinkicon }}" aria-hidden="true"></i>
+                  {% endif %}
+                  {{ config.site.gitrepo.editthemelinktext }}</a>
+              {% endif %}
               {% if config.site.cc_license.enabled %}
                 {% if config.site.cc_license.type == 'ccby' %}
                   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
