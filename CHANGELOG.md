@@ -1,3 +1,9 @@
+# v1.6.0
+## 02/23/2017
+
+1. [](#new)
+    * Added Edit this Theme in Git link
+
 # v1.5.9
 ## 02/19/2017
 
