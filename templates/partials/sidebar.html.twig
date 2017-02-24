@@ -41,7 +41,7 @@
 {% if config.site.twittertimeline.enabled %}
   <div class="sidebar-content">
     <h5>Twitter</h5>
-    <a class="twitter-timeline" data-height= {{ config.site.twittertimeline.height }} data-chrome="noscrollbar" href="{{ config.site.twittertimeline.url }}">{{config.site.twittertimeline.text}}</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-timeline" data-width="500" data-height= {{ config.site.twittertimeline.height }} data-chrome="noscrollbar" href="{{ config.site.twittertimeline.url }}">{{config.site.twittertimeline.text}}</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 {% endif %}
 {% if config.plugins.feed.enabled %}
