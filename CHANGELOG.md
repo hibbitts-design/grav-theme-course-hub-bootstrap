@@ -4,6 +4,9 @@
 1. [](#bugfix)
     * Removed unused page blueprint
 
+1. [](#improved)
+    * Updated Twitter widget settings
+
 # v1.6.0
 ## 02/23/2017
 
