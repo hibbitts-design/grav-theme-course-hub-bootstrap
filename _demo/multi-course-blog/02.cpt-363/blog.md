@@ -2,6 +2,7 @@
 title: CPT-363
 blog_url: cpt-363
 body_classes: header-image fullwidth
+child_type: item
 
 sitemap:
     changefreq: monthly
