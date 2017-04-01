@@ -1,0 +1,19 @@
+title: Default
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+
+      fields:
+        advanced:
+          fields:
+            overrides:
+              fields:
+                header.child_type:
+                  default: sidebarpage 
+                header.visible:
+                  default: 0

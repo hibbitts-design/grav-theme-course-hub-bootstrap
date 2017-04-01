@@ -1,3 +1,9 @@
+# v1.6.1
+## 04/01/2017
+
+1. [](#bugfix)
+    * Removed unused page blueprint
+
 # v1.6.0
 ## 02/23/2017
 
