@@ -2,7 +2,8 @@
 ## 04/01/2017
 
 1. [](#bugfix)
-    * Removed unused page blueprint
+    * Removed redundant page template
+    * Removed redundant page blueprint
 
 1. [](#improved)
     * Updated Twitter widget settings
