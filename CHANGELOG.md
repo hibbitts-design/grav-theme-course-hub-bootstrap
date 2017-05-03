@@ -2,7 +2,7 @@
 ## 05/03/2017
 
 1. [](#improved)
-    * Added automatic check for non-existent pages (i.e. Login, Search, etc.).
+    * Added automatic check for dynamically generated pages (i.e. Login, Search, etc.).
 
 # v1.6.1
 ## 04/01/2017
