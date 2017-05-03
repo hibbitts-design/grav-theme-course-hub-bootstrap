@@ -1,3 +1,9 @@
+# v1.6.2
+## 05/03/2017
+
+1. [](#improved)
+    * Added automatic check for non-existent pages (i.e. Login, Search, etc.).
+
 # v1.6.1
 ## 04/01/2017
 
