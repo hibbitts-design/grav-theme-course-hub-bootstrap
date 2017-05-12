@@ -26,6 +26,7 @@ dependencies:
   - git-sync
   - login
   - markdown-fontawesome
+  - markdown-notices
   - page-inject
   - pagination
   - problems
