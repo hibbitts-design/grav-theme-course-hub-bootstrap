@@ -1,8 +1,14 @@
+# v1.6.3
+## 05/13/2017
+
+1. [](#bugfix)
+    * Corrected default setting for page visibility
+
 # v1.6.2
 ## 05/03/2017
 
 1. [](#improved)
-    * Added automatic check for dynamically generated pages (i.e. Login, Search, etc.).
+    * Added automatic check for dynamically generated pages (i.e. Login, Search, etc.)
 
 # v1.6.1
 ## 04/01/2017
