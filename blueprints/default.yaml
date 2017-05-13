@@ -14,6 +14,4 @@ form:
             overrides:
               fields:
                 header.child_type:
-                  default: sidebarpage 
-                header.visible:
-                  default: 0
+                  default: sidebarpage
