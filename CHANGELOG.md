@@ -1,6 +1,8 @@
 # v1.6.3
 ## 05/13/2017
 
+1. [](#new)
+    * Added Markdown Notices plugin dependency
 1. [](#bugfix)
     * Corrected default setting for page visibility
 
