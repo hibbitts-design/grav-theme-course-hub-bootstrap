@@ -1,3 +1,9 @@
+# v1.6.4
+## 05/14/2017
+
+1. [](#bugfix)
+    * Fixed display issue within Admin Panel of theme-related plugin status messages
+
 # v1.6.3
 ## 05/13/2017
 
