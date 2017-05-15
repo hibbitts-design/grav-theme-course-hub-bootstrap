@@ -1,3 +1,9 @@
+# v1.6.5
+## 05/15/2017
+
+1. [](#bugfix)
+    * Removed unneeded theme blueprint
+
 # v1.6.4
 ## 05/14/2017
 
