@@ -1,3 +1,9 @@
+# v1.6.6
+## XX/XX/2017
+
+1. [](#improved)
+    * Added "Except where elsewhere noted." text to CC licenses
+
 # v1.6.5
 ## 05/15/2017
 
