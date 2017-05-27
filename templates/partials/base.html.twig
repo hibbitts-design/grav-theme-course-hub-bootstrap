@@ -77,18 +77,18 @@
               {% endif %}
               {% if config.site.cc_license.enabled %}
                 {% if config.site.cc_license.type == 'ccby' %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br/><span style="font-size:small">Except where elsewhere noted.</span>
+                  <br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
                 {% elseif( config.site.cc_license.type == 'ccbysa') %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br/><span style="font-size:small">Except where elsewhere noted.</span>
+                  <br><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
                 {% elseif( config.site.cc_license.type == 'ccbynd') %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br/><span style="font-size:small">Except where elsewhere noted.</span>
+                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
                 {% elseif( config.site.cc_license.type == 'ccbync') %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br/><span style="font-size:small">Except where elsewhere noted.</span>
+                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
                 {% elseif( config.site.cc_license.type == 'ccbyncsa') %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br/><span style="font-size:small">Except where elsewhere noted.</span>
+                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
                 {% elseif( config.site.cc_license.type == 'ccbyncnd') %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br/><span style="font-size:small">Except where elsewhere noted.</span>
-              {% endif %}
+                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
+                {% endif %}
             </div>
           {% endif %}
         </div>
