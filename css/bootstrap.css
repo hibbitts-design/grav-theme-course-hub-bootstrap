@@ -7077,13 +7077,13 @@ input[type="checkbox"] {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 282px; /*Changed*/
+  height: 292px; /*Changed*/
   background-color: #e5e5e5;
 }
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 272px; /*Changed*/
+  margin-bottom: 292px; /*Changed*/
 }
 
 .navbar {
