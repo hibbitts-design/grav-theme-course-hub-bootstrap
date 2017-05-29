@@ -1,3 +1,11 @@
+# v1.6.7
+## XX/XX/2017
+
+1. [](#new)
+    * Added optional additional text to CC licenses
+1. [](#improved)
+    * Adjusted spacing for 'Edit this Theme' link
+
 # v1.6.6
 ## 05/29/2017
 
