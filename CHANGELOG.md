@@ -3,9 +3,11 @@
 
 1. [](#new)
     * Added option to hide site navigation elements (useful when embedding pages into another system, e.g. LMS)
+    * Added option to customize View/Edit in Git introductory text
     * Added optional additional text to CC licenses
 1. [](#improved)
     * Adjusted spacing for 'Edit this Theme' link
+    * Broadened support for 'onlydisplaypagecontent' URL flag
 
 # v1.6.6
 ## 05/29/2017
