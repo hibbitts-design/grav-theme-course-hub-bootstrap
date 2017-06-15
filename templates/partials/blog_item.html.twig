@@ -78,6 +78,7 @@
         {# added Git repository edit link -  hibbittsdesign.org #}
         {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
           {% include 'partials/gitrepo_page_link.html.twig' %}
+          <br><br>
         {% endif %}
         {% set show_prev_next = true %}
       {% else %}
@@ -110,6 +111,7 @@
         <hr>
         {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
         {% include 'partials/gitrepo_page_link.html.twig' %}
+        <br><br>
       {% endif %}
       {% set show_prev_next = true %}
     {% endif %}

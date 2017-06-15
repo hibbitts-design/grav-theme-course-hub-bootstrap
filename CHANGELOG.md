@@ -2,6 +2,7 @@
 ## XX/XX/2017
 
 1. [](#new)
+    * Added option to hide site navigation elements (useful when embedding pages into another system, e.g. LMS)
     * Added optional additional text to CC licenses
 1. [](#improved)
     * Adjusted spacing for 'Edit this Theme' link
