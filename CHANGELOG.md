@@ -1,3 +1,9 @@
+# v1.6.8
+## 06/17/2017
+
+1. [](#bugfix)
+    * Fixed sidebar display when 'Chromeless Pages' setting is active
+
 # v1.6.7
 ## 06/17/2017
 

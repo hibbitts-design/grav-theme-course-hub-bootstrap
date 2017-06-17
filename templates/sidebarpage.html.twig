@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         {# check content display flag - hibbittsdesign.org #}
-        {% if not (grav.uri.param('onlydisplaypagecontent')) and (not config.site.chromeless.enabled) %}
+        {% if not (grav.uri.param('onlydisplaypagecontent')) %}
           <div class="col-sm-8 blog-main">
 {% else %}
 <div class="col-sm-12 blog-main">
