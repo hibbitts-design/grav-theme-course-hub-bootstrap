@@ -23,7 +23,7 @@
             {% endif %}
           </div>
           {# check content display flag - hibbittsdesign.org #}
-          {% if not (grav.uri.param('onlydisplaypagecontent')) and (not config.site.chromeless.enabled) %}
+          {% if not (grav.uri.param('onlydisplaypagecontent')) %}
             <div class="col-sm-4 blog-sidebar">
               {% include 'partials/sidebar.html.twig' with {'blog':page} %}
             </div>
