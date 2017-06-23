@@ -12,6 +12,8 @@
 {% endif %}
           {% if not page.header.hidepagetitle %}
           <h3>{{page.title}}</h3>
+          {% else %}
+          <h3 aria-label={{page.title}}></h3>
           {% endif %}
             {{ page.content }}
             {# Git repository edit link -  hibbittsdesign.org #}
