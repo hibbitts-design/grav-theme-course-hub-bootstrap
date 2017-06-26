@@ -1,3 +1,9 @@
+# v1.7.0
+## 06/26/2017
+
+1. [](#improved)
+    * Updated accessibility of links
+
 # v1.6.9
 ## 06/23/2017
 
