@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         {# check content display flag - hibbittsdesign.org #}
-        {% if not (grav.uri.param('onlydisplaypagecontent')) %}
+        {% if not (grav.uri.param('onlydisplaypagecontent') or grav.uri.param('chromeless')) %}
           <div class="col-sm-8 blog-main">
 {% else %}
 <div class="col-sm-12 blog-main">
@@ -25,7 +25,7 @@
             {% endif %}
           </div>
           {# check content display flag - hibbittsdesign.org #}
-          {% if not (grav.uri.param('onlydisplaypagecontent')) %}
+          {% if not (grav.uri.param('onlydisplaypagecontent') or grav.uri.param('chromeless')) %}
             <div class="col-sm-4 blog-sidebar">
               {% include 'partials/sidebar.html.twig' with {'blog':page} %}
             </div>

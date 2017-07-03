@@ -24,7 +24,7 @@
         {% set titleicon = config.site.icon.post %}
       {% endif %}
       {# added support for content only display - hibbittsdesign.org #}
-      {% if not grav.uri.param('onlydisplaypagecontent')%}
+      {% if not (grav.uri.param('onlydisplaypagecontent') or grav.uri.param('chromeless')) %}
         <h3>
           <a href="{{ page.url }}">
             <i class="fa fa-{{ titleicon }}" aria-hidden="true"></i>
@@ -32,7 +32,7 @@
         </h3>
       {% else %}
         <h3>
-          <a href="{{ page.url }}/onlydisplaypagecontent:true">
+          <a href="{{ page.url }}/chromeless:true">
             <i class="fa fa-{{ titleicon }}" aria-hidden="true"></i>
             {{ page.title }}</a>
         </h3>
@@ -88,13 +88,13 @@
       {# added summary flag and title icon - hibbittsdesign.org #}
       <p>{{ page.summary }}</p>
       <p>
-        {% if not grav.uri.param('onlydisplaypagecontent')%}
+        {% if not (grav.uri.param('onlydisplaypagecontent') or grav.uri.param('chromeless')) %}
         <a href="{{ page.url }}">View all of
           {{ page.title }}
           <i class="fa fa-chevron-right" aria-hidden="true"></i>
         </a>
         {% else %}
-        <a href="{{ page.url }}/onlydisplaypagecontent:true">View all of
+        <a href="{{ page.url }}/chromeless:true">View all of
           {{ page.title }}
           <i class="fa fa-chevron-right" aria-hidden="true"></i>
         </a>
@@ -124,7 +124,7 @@
     {% endif %}
 
     {# added check for content display flag - hibbittsdesign.org #}
-    {% if show_prev_next and not grav.uri.param('onlydisplaypagecontent')%}
+    {% if show_prev_next and not (grav.uri.param('onlydisplaypagecontent') or grav.uri.param('chromeless')) %}
 
       <p class="text-left">
         {% if not page.isLast %}

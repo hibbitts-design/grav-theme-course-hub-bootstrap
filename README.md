@@ -14,7 +14,7 @@
 * Uses [Markdown](https://daringfireball.net/projects/markdown/) for streamlined cross-platform content
 * Image header area above Hub navigation bar
 * Sidebar is a simple markdown file, which can also contain HTML
-* URL flag to only display page content (for display within LMS). For example, [http://demo.hibbittsdesign.org/grav-course-hub-bootstrap/home/week-03/onlydisplaypagecontent:true](http://demo.hibbittsdesign.org/grav-course-hub-bootstrap/home/week-03/onlydisplaypagecontent:true)
+* URL flag to only display page content (for display within LMS). For example, [http://demo.hibbittsdesign.org/grav-course-hub-bootstrap/home/week-03/chromeless:true](http://demo.hibbittsdesign.org/grav-course-hub-bootstrap/home/week-03/chromeless:true)
 * External links are automatically opened in a new Tab/Window
 * Built-in support for entire Hub to be collaboratively maintained on GitHub or GitLab (for local hosting)
 * Since everything is built with Grav it can be _entirely_ customized
