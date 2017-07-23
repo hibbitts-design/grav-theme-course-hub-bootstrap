@@ -4,6 +4,8 @@
 
 **Course Hub** is a [Grav](http://getgrav.org) inherited theme based on  [Bootstrap](https://github.com/getgrav/grav-theme-bootstrap), intended to accompany a face-to-face, blended or fully online university course. It also supports a [flipped-LMS approach](http://hibbittsdesign.org/blog/posts/flipped-lms-using-an-open-and-collaborative-platform) using Grav as an open and collaborative Web platform.
 
+Want to quickly try out this theme? The [Course Hub Skeleton](https://getgrav.org/downloads/skeletons) is a ready-to-run site with the Course Hub Bootstrap theme, which also includes the Admin Panel and example content already installed.
+
 # Features
 
 * A complete ready-to-run Grav package (open source)
