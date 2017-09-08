@@ -32,7 +32,7 @@
             {% endif %}
             {# Added reminders and preparations blocks and content check - hibbittsdesign.org #}
 
-            {% for module in page.collection('modular_content').order('folder','desc') %}
+            {% for module in page.collection('modular_content') %}
               {% if (module.content|striptags)|trim %}
                 <p>{{ module.content }}</p>
               {% endif %}
