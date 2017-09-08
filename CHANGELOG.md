@@ -1,5 +1,5 @@
 # v1.7.3
-## XX/XX/2017
+## 09/08/2017
 
 1. [](#improved)
     * Added site name to default RSS/Atom Feed names
