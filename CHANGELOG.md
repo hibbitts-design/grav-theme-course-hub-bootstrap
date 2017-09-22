@@ -1,3 +1,11 @@
+# v1.7.4
+## 09/22/2017
+
+1. [](#improved)
+    * Improved global handling of 'chromeless' display mode for embedded pages (thanks Ricardo)
+1. [](#bugfix)
+    * Removed support for initial 'chromeless' feature URL flag alias 'onlydisplaypagecontent'
+
 # v1.7.3
 ## 09/08/2017
 
