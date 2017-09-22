@@ -43,7 +43,7 @@
       {% include 'partials/langswitcher.html.twig' %}
     {% endif %}
     {# check content display flag - hibbittsdesign.org #}
-    {% if not (grav.uri.param('onlydisplaypagecontent') or grav.uri.param('chromeless')) and (not config.site.chromeless.enabled) %}
+    {% if not (grav.uri.param('chromeless')) and (not config.site.chromeless.enabled) %}
       {% block header_navigation %}
         {% include 'partials/navigation.html.twig' %}
       {% endblock %}
@@ -53,7 +53,7 @@
     {% block pagination %}{% endblock %}
 
     {# check content display flag - hibbittsdesign.org #}
-    {% if not (grav.uri.param('onlydisplaypagecontent') or grav.uri.param('chromeless')) and (not config.site.chromeless.enabled) %}
+    {% if not (grav.uri.param('chromeless')) and (not config.site.chromeless.enabled) %}
       <div class="footer">
         <div class="container">
           {# added top of page navigation element - hibbittsdesign.org #}
