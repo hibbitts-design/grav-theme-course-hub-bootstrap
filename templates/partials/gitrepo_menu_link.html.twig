@@ -5,8 +5,7 @@
   {% else %}
     {% set gitrepoeditlinkurl = config.site.gitrepo.edittreeurl ~  ('/'~page.filePathClean)|replace({'/user/':'/'}) %}
   {% endif %}
-  {# new twig template file - hibbittsdesign.org #}
-  <a class="newwindow" href="{{ gitrepoeditlinkurl }}" title="{{ config.site.gitrepo.editlinktext }}">
+  <a class="newwindow external-link" href="{{ gitrepoeditlinkurl }}" title="{{ config.site.gitrepo.editlinktext }}">
   {% if config.site.gitrepo.editlinkicon %}
     <i class="fa fa-{{ config.site.gitrepo.editlinkicon }}" aria-hidden="true"></i>
   {% endif %}
