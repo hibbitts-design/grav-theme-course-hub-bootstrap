@@ -37,6 +37,22 @@
   color: #666666;
 }
 
+.checklist ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.checklist li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.checklist li:before {
+  content: '\2713';
+  padding-right: 5px;
+}
+
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
     .myheader {
         height: 170px;

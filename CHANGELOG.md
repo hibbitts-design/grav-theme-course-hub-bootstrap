@@ -1,3 +1,9 @@
+# v1.7.5
+## 09/28/2017
+
+1. [](#improved)
+    * Added support for checkmarked lists in Important Reminders area
+
 # v1.7.4
 ## 09/22/2017
 
