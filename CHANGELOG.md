@@ -1,7 +1,13 @@
+# v1.7.6
+## 10/02/2017
+
+1. [](#new)
+    * Added support for image captions on blog post image headers
+
 # v1.7.5
 ## 09/28/2017
 
-1. [](#improved)
+1. [](#new)
     * Added support for checkmarked lists in Important Reminders area
 
 # v1.7.4
