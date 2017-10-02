@@ -14,6 +14,27 @@ form:
           fields:
             coursehub1:
                 type: section
+                title: Header Image Caption
+                underline: true
+
+            header.header_image_credit:
+                type: text
+                size: medium
+                label: Caption
+                help: Custom Git Repository URL for this page, to override the automatically calculated URL
+                default: null
+
+            header.header_image_creditlink:
+                type: text
+                size: long
+                label: Caption URL
+                help: Custom Git Repository URL for this page, to override the automatically calculated URL
+                default: null
+                validate:
+                    type: URL
+
+            coursehub2:
+                type: section
                 title: Title Icon
                 underline: true
 
@@ -26,7 +47,7 @@ form:
                 validate:
                     type: text
 
-            coursehub2:
+            coursehub3:
                 type: section
                 title: Blog List Item Options
                 underline: true
@@ -55,7 +76,7 @@ form:
                 validate:
                     type: bool
 
-            coursehub3:
+            coursehub4:
                 type: section
                 title: Git Repository
                 underline: true
