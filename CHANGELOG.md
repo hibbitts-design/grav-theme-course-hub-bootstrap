@@ -1,3 +1,9 @@
+# v1.7.7
+## 10/024/2017
+
+1. [](#bugfix)
+    * Removed incorrect help text for image caption options
+
 # v1.7.6
 ## 10/02/2017
 
