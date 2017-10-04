@@ -21,14 +21,12 @@ form:
                 type: text
                 size: medium
                 label: Caption
-                help: Custom Git Repository URL for this page, to override the automatically calculated URL
                 default: null
 
             header.header_image_creditlink:
                 type: text
                 size: long
                 label: Caption URL
-                help: Custom Git Repository URL for this page, to override the automatically calculated URL
                 default: null
                 validate:
                     type: URL
