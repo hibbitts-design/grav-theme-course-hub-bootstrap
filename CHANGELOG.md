@@ -1,8 +1,14 @@
 # v1.7.7
-## 10/024/2017
+## 10/04/2017
 
+1. [](#new)
+    * Added support for image alt text on blog post image headers
+1. [](#improved)
+    * Revised Blog Item Image Captions layout in Blueprint
 1. [](#bugfix)
     * Removed incorrect help text for image caption options
+1. [](#bugfix)
+    * Fixed incorrect position of image credit in very wide Browser windows
 
 # v1.7.6
 ## 10/02/2017

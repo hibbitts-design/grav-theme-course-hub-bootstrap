@@ -63,14 +63,14 @@
             {% if page.header.header_image_creditlink %}
               Image: <a class="newwindow external-link" href="{{ page.header.header_image_creditlink }}">
               {{ page.header.header_image_credit }}</a></span>
-              {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+              <img src="{{ header_image_media.cropZoom(header_image_width, header_image_height).url }}" alt="{{ page.header.header_image_alt_text }}"/>
             {% else %}
               Image: {{ page.header.header_image_credit }}</span>
-              {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+              <img src="{{ header_image_media.cropZoom(header_image_width, header_image_height).url }}" alt="{{ page.header.header_image_alt_text }}"/>
             {% endif %}
           </div>
         {% else %}
-          {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
+          <img src="{{ header_image_media.cropZoom(header_image_width, header_image_height).url }}" alt="{{ page.header.header_image_alt_text }}"/>
         {% endif %}
 
       {% endif %}
