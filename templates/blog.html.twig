@@ -42,14 +42,16 @@
               {% include 'partials/breadcrumbs.html.twig' %}
             {% endif %}
 
-            {# Added featured post ability - hibbittsdesign.org #}
-            {% for post in taxonomy.findTaxonomy({'tag':"Featured"}) %}
-              {% include 'partials/blog_item.html.twig' with {'page':post, 'truncate':true} %}
+            {# Added featured post ability for multiple blogs - hibbittsdesign.org #}
+            {% for post in taxonomy.findTaxonomy({'tag': "featured"}) %}
+              {% if (post.header.hide_from_post_list != true) and (post.parent.slug == page.slug) %}
+                {% include 'partials/blog_item.html.twig' with {'page':post, 'truncate':true} %}
+              {% endif %}
             {% endfor %}
 
             {% for child in collection %}
               {% if child.header.hidefrompostlist != true %}
-                {% if "Featured" not in child.taxonomy['tag'] %}
+                {% if "featured" not in child.taxonomy['tag'] %}
                   {# multi-course hub compatibility - hibbittsdesign.org #}
                   {% if (not child.slug|contains('sidebar')) and (not child.slug|contains('headerimage')) %}
                     {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}

@@ -1,3 +1,9 @@
+# v1.7.8
+## XX/XX/XXXX
+
+1. [](#new)
+    * Added support for image alt text on blog post image headers
+
 # v1.7.7
 ## 10/09/2017
 
