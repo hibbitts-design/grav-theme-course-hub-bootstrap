@@ -3,7 +3,7 @@
 
 1. [](#bugfix)
     * 'featured' posts are now only displayed on their parent blog page (to support multiple blogs on one site)
-    * Fixed title assignment issue when no blog post icon is assigned
+    * Fixed title alignment issue when no blog post icon is assigned
 
 # v1.7.7
 ## 10/09/2017
