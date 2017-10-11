@@ -3,6 +3,7 @@
 
 1. [](#bugfix)
     * 'featured' posts are now only displayed on their parent blog page (to support multiple blogs on one site)
+    * Fixed title assignment issue when no blog post icon is assigned
 
 # v1.7.7
 ## 10/09/2017
@@ -13,7 +14,6 @@
     * Revised Blog Item Image Captions layout in Blueprint
 1. [](#bugfix)
     * Removed incorrect help text for image caption options
-1. [](#bugfix)
     * Fixed incorrect position of image credit in very wide Browser windows
 
 # v1.7.6
