@@ -20,15 +20,17 @@
     {% else %}
       {# added page title icon - hibbittsdesign.org #}
       {% if page.header.icon %}
-        {% set titleicon = page.header.icon %}
-      {% else %}
-        {% set titleicon = config.site.icon.post %}
+            {% set titleicon = page.header.icon %}
+          {% else %}
+            {% if config.site.icon.post %}
+              {% set titleicon = config.site.icon.post %}
+            {% endif %}
       {% endif %}
-        <h3>
-          <a href="{{ page.url }}">
-            <i class="fa fa-{{ titleicon }}" aria-hidden="true"></i>
-            {{ page.title }}</a>
-        </h3>
+      {% if titleicon %}
+        <h3 class="p-name"><a href="{{ page.url }}" class="u-url"><i class="fa fa-{{ titleicon }}" aria-hidden="true"></i> {{ page.title }}</a></h3>
+      {% else %}
+        <h3 class="p-name"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h3>
+      {% endif %}
     {% endif %}
 
     {# remove date display - hibbittsdesign.org #}
