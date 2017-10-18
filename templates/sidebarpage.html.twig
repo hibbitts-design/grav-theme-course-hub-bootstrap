@@ -20,7 +20,10 @@
             {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
               <hr>
               <br>
-              {% include 'partials/gitrepo_page_link.html.twig' %}
+              <span style="color: #888888;">
+              <p>{{ config.site.gitrepo.editnotetext }}
+              {% include 'partials/gitrepo_link.html.twig' %}
+              </p>
               <br>
             {% endif %}
           </div>

@@ -1,0 +1,52 @@
+{# new twig template file - hibbittsdesign.org #}
+{% if config.site.gitrepo.edittreeurl is not empty %}
+  {% if 'github' in config.site.gitrepo.edittreeurl %}
+    {% set gitrepolinkicon = "github" %}
+  {% elseif 'gitlab' in config.site.gitrepo.edittreeurl %}
+    {% set gitrepolinkicon = "gitlab" %}
+  {% elseif 'bitbucket' in config.site.gitrepo.edittreeurl %}
+    {% set gitrepolinkicon = "bitbucket" %}
+  {% else %}
+   {% set gitrepolinkicon = "git" %}
+  {% endif %}
+  {% if config.site.gitrepo.editlinkicon %}
+      {% set gitrepolinkicon = config.site.gitrepo.editlinkicon %}
+  {% endif %}
+  {% if page.header.gitrepoeditlinkurl %}
+    {% set gitrepoeditlinkurl = page.header.gitrepoeditlinkurl %}
+  {% else %}
+    {% set gitrepoeditlinkurl = config.site.gitrepo.edittreeurl ~  ('/'~page.filePathClean)|replace({'/user/':'/'}) %}
+  {% endif %}
+  <a class="newwindow external-link" href="{{ gitrepoeditlinkurl }}" title="{{ config.site.gitrepo.editlinktext }}">
+  {% if gitrepolinkicon %}
+    <i class="fa fa-{{ gitrepolinkicon }}" aria-hidden="true"></i>
+  {% endif %}
+  {{ config.site.gitrepo.editlinktext }}</a>
+{% else %}
+  {% if config.plugins['git-sync'].enabled and config.plugins['git-sync'].repository is empty %}
+    {% set admin_panel_gitsync_plugin = grav.base_url ~ '/admin/plugins/git-sync#' %}
+    <a href="{{ admin_panel_gitsync_plugin }}" title="Setup Git Sync Plugin">
+    <i class="fa fa-cog" aria-hidden="true"></i> Setup Git Sync Plugin</a>
+  {% else %}
+    {% set git_sync_repo_link = config.plugins['git-sync'].repository %}
+    {% if 'github' in git_sync_repo_link %}
+      {% set gitrepolinkicon = "github" %}
+      {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master' ~ (page.filePathClean)|replace({'user/':'/'}) %}
+    {% elseif 'gitlab' in git_sync_repo_link %}
+      {% set gitrepolinkicon = "gitlab" %}
+      {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master' ~ (page.filePathClean)|replace({'user/':'/'}) %}
+    {% elseif 'bitbucket' in git_sync_repo_link %}
+      {% set gitrepolinkicon = "bitbucket" %}
+      {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ '/pages/' %}
+    {% else %}
+	    {% set gitrepolinkicon = "git" %}
+      {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ '/pages/' %}
+	  {% endif %}
+    {% if config.site.gitrepo.editlinkicon %}
+    		{% set gitrepolinkicon = config.site.gitrepo.editlinkicon %}
+  	{% endif %}
+	<a class="newwindow external-link" href="{{ gitrepoeditlinkurl }}" title="{{ config.site.gitrepo.editlinktext }}">
+  	<i class="fa fa-{{ gitrepolinkicon }}" aria-hidden="true"></i>
+  	{{ config.site.gitrepo.editlinktext }}</a>
+  {% endif %}
+{% endif %}

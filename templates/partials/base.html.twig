@@ -68,8 +68,21 @@
                 {{ content }}
               {% endif %}
               {% if config.site.gitrepo.editthemelinklocation == 'footer' %}
-                {% set gitrepothemeeditlinkurl = config.site.gitrepo.edittreeurl ~ '/themes/mytheme/' %}
-                  <a class="newwindow" href="{{ gitrepothemeeditlinkurl }}" title="{{ config.site.gitrepo.editthemelinktext }}">
+                {% if config.site.gitrepo.edittreeurl %}
+                  {% set gitrepothemeeditlinkurl = config.site.gitrepo.edittreeurl ~ '/themes/mytheme/' %}
+                {% else %}
+                  {% set git_sync_repo_link = config.plugins['git-sync'].repository %}
+                  {% if 'github' in git_sync_repo_link %}
+                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
+                  {% elseif 'gitlab' in git_sync_repo_link %}
+                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
+                  {% elseif 'bitbucket' in git_sync_repo_link %}
+                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ '/themes/mytheme/' %}
+                  {% else %}
+                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ '/themes/mytheme/' %}
+                  {% endif %}
+                {% endif %}
+                  <a class="newwindow external-link" href="{{ gitrepothemeeditlinkurl }}" title="{{ config.site.gitrepo.editthemelinktext }}">
                   {% if config.site.gitrepo.editlinkicon %}
                     <i class="fa fa-{{ config.site.gitrepo.editlinkicon }}" aria-hidden="true"></i>
                   {% endif %}
