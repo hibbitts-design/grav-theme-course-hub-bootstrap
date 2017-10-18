@@ -1,3 +1,9 @@
+# v1.7.9
+## 10/18/2017
+
+1. [](#new)
+    * Further streamlined Git Sync setup step by automating 'Edit in Git' tree URL calculation
+
 # v1.7.8
 ## 10/11/2017
 
