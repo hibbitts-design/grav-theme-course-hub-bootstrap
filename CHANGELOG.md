@@ -1,3 +1,9 @@
+# v1.8.0
+## 10/19/2017
+
+1. [](#bugfix)
+    * Fixed automatic 'Edit in Git' tree URL calculation for BitBucket and generic Git repositories
+
 # v1.7.9
 ## 10/18/2017
 
