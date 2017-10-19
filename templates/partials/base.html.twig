@@ -77,9 +77,9 @@
                   {% elseif 'gitlab' in git_sync_repo_link %}
                     {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
                   {% elseif 'bitbucket' in git_sync_repo_link %}
-                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ '/themes/mytheme/' %}
+                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'src/master/themes/mytheme/' %}
                   {% else %}
-                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ '/themes/mytheme/' %}
+                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
                   {% endif %}
                 {% endif %}
                   <a class="newwindow external-link" href="{{ gitrepothemeeditlinkurl }}" title="{{ config.site.gitrepo.editthemelinktext }}">
