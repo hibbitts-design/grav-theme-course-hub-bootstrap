@@ -15,7 +15,11 @@
   {% if page.header.gitrepoeditlinkurl %}
     {% set gitrepoeditlinkurl = page.header.gitrepoeditlinkurl %}
   {% else %}
-    {% set gitrepoeditlinkurl = config.site.gitrepo.edittreeurl ~  ('/'~page.filePathClean)|replace({'/user/':'/'}) %}
+    {% if page.children.count %}
+      {% set gitrepoeditlinkurl = config.site.gitrepo.edittreeurl ~  (('/'~page.filePathClean)|replace({'/user/':'/'})|replace({('/'~page.template~'.md'):'/'})) %}
+    {% else %}
+      {% set gitrepoeditlinkurl = config.site.gitrepo.edittreeurl ~  ('/'~page.filePathClean)|replace({'/user/':'/'}) %}
+    {% endif %}
   {% endif %}
   <a class="newwindow external-link" href="{{ gitrepoeditlinkurl }}" title="{{ config.site.gitrepo.editlinktext }}">
   {% if gitrepolinkicon %}
@@ -40,10 +44,14 @@
       {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'src/master' ~ (page.filePathClean)|replace({'user/':'/'}) %}
     {% else %}
 	    {% set gitrepolinkicon = "git" %}
-      {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/' ~ (page.filePathClean)|replace({'user/':'/'}) %}
+      {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master' ~ (page.filePathClean)|replace({'user/':'/'}) %}
 	  {% endif %}
     {% if page.header.gitrepoeditlinkurl %}
       {% set gitrepoeditlinkurl = page.header.gitrepoeditlinkurl %}
+    {% else %}
+      {% if page.children.count %}
+        {% set gitrepoeditlinkurl = (gitrepoeditlinkurl|replace({('/'~page.template~'.md'):'/'})) %}
+      {% endif %}
     {% endif %}
     {% if config.site.gitrepo.editlinkicon %}
     	{% set gitrepolinkicon = config.site.gitrepo.editlinkicon %}
