@@ -1,3 +1,9 @@
+# v1.8.1
+## 10/20/2017
+
+1. [](#bugfix)
+    * Fixed automatic 'Site Theme Files' URL calculation
+
 # v1.8.0
 ## 10/19/2017
 
