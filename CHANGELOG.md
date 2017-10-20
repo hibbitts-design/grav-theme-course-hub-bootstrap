@@ -1,3 +1,11 @@
+# v1.8.2
+## 10/20/2017
+
+1. [](#improved)
+    * Updated course hub demo pages in theme '_demo' folder
+1. [](#bugfix)
+    * Support for custom 'Edit in Git' URL in page header restored
+
 # v1.8.1
 ## 10/20/2017
 

@@ -42,8 +42,11 @@
 	    {% set gitrepolinkicon = "git" %}
       {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/' ~ (page.filePathClean)|replace({'user/':'/'}) %}
 	  {% endif %}
+    {% if page.header.gitrepoeditlinkurl %}
+      {% set gitrepoeditlinkurl = page.header.gitrepoeditlinkurl %}
+    {% endif %}
     {% if config.site.gitrepo.editlinkicon %}
-    		{% set gitrepolinkicon = config.site.gitrepo.editlinkicon %}
+    	{% set gitrepolinkicon = config.site.gitrepo.editlinkicon %}
   	{% endif %}
 	<a class="newwindow external-link" href="{{ gitrepoeditlinkurl }}" title="{{ config.site.gitrepo.editlinktext }}">
   	<i class="fa fa-{{ gitrepolinkicon }}" aria-hidden="true"></i>
