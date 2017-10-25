@@ -11,14 +11,11 @@
           <h3 aria-label={{page.title}}></h3>
           {% endif %}
           {{ page.content }}
-          {# Git repository edit link -  hibbittsdesign.org #}
-          {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
+          {# Git repository edit link - hibbittsdesign.org #}
+          {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) %}
             <hr>
             <br>
-            <span style="color: #888888;">
-            <p>{{ config.site.gitrepo.editnotetext }}
-            {% include 'partials/gitrepo_link.html.twig' %}
-            </p>
+            {% include 'partials/gitrepo_link_note.html.twig' %}
             <br>
           {% endif %}
         </div>

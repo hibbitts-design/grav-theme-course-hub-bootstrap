@@ -63,47 +63,20 @@
             </a>
           </div>
               <div class="text-muted">
+                {% if config.site.gitrepo.editlinklocation == 'footer' and not (page.header.hidegitrepoeditlink) %}
+                  <p>{% include 'partials/gitrepo_link.html.twig' %}</p>
+                {% endif %}
+                {% if config.site.gitrepo.editthemelinklocation == 'footer' %}
+                  <p>{% include 'partials/gitrepo_theme_link.html.twig' %}</p>
+                {% endif %}
+                {% if config.site.cc_license.enabled %}
+                  <p>{% include 'partials/creative_commons_license.html.twig' %}</p>
+                {% endif %}
               {% set content = pages.find('/footer').content %}
               {% if content %}
                 {{ content }}
               {% endif %}
-              {% if config.site.gitrepo.editthemelinklocation == 'footer' %}
-                {% if config.site.gitrepo.edittreeurl %}
-                  {% set gitrepothemeeditlinkurl = config.site.gitrepo.edittreeurl ~ '/themes/mytheme/' %}
-                {% else %}
-                  {% set git_sync_repo_link = config.plugins['git-sync'].repository %}
-                  {% if 'github' in git_sync_repo_link %}
-                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
-                  {% elseif 'gitlab' in git_sync_repo_link %}
-                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
-                  {% elseif 'bitbucket' in git_sync_repo_link %}
-                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'src/master/themes/mytheme/' %}
-                  {% else %}
-                    {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
-                  {% endif %}
-                {% endif %}
-                  <a class="newwindow external-link" href="{{ gitrepothemeeditlinkurl }}" title="{{ config.site.gitrepo.editthemelinktext }}">
-                  {% if config.site.gitrepo.editlinkicon %}
-                    <i class="fa fa-{{ config.site.gitrepo.editlinkicon }}" aria-hidden="true"></i>
-                  {% endif %}
-                  {{ config.site.gitrepo.editthemelinktext }}</a><br>
-              {% endif %}
-              {% if config.site.cc_license.enabled %}
-                {% if config.site.cc_license.type == 'ccby' %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
-                {% elseif( config.site.cc_license.type == 'ccbysa') %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
-                {% elseif( config.site.cc_license.type == 'ccbynd') %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
-                {% elseif( config.site.cc_license.type == 'ccbync') %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
-                {% elseif( config.site.cc_license.type == 'ccbyncsa') %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
-                {% elseif( config.site.cc_license.type == 'ccbyncnd') %}
-                  <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br/><span style="font-size:small"> {{ config.site.cc_license.text }} </span>
-                {% endif %}
             </div>
-          {% endif %}
         </div>
       </div>
     {% else %}

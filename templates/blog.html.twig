@@ -69,7 +69,14 @@
             </div>
             {% endif %}
           </div>
+
+          {# Git repository edit link - hibbittsdesign.org #}
+          {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) %}
+            {% include 'partials/gitrepo_link_note.html.twig' %}
+          {% endif %}
+
         </div>
+
       {% endblock %}
 
       {% block pagination %}
