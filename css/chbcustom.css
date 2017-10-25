@@ -88,6 +88,10 @@ right: 0;
   color: #ccc;
 }
 
+.gitrepo-link-note {
+  color: #888888;
+}
+
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
     .myheader {
         height: 170px;
