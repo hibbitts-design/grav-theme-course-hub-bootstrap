@@ -7083,13 +7083,16 @@ input[type="checkbox"] {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 292px; /*Changed*/
+  display: table-row;
   background-color: #e5e5e5;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 292px; /*Changed*/
+  /* Margin bottom for footer height */
+  margin-bottom: 400px;
 }
 
 .navbar {
