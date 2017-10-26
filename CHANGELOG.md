@@ -1,3 +1,9 @@
+# v1.8.5
+## 10/26/2017
+
+1. [](#new)
+    * Option to display Creative Commons license with icon only
+
 # v1.8.4
 ## 10/25/2017
 
