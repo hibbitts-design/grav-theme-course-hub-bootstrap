@@ -2,7 +2,7 @@
 ## 10/26/2017
 
 1. [](#improved)
-    * Adjusted order of items in footer area
+    * Adjusted order of items in Footer area
 
 # v1.8.5
 ## 10/26/2017
