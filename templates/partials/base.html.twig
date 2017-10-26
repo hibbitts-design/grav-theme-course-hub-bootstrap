@@ -69,13 +69,14 @@
                 {% if config.site.gitrepo.editthemelinklocation == 'footer' %}
                   <p>{% include 'partials/gitrepo_theme_link.html.twig' %}</p>
                 {% endif %}
+                <br>
+                {% set content = pages.find('/footer').content %}
+                {% if content %}
+                  {{ content }}
+                {% endif %}
                 {% if config.site.cc_license.enabled %}
                   <p>{% include 'partials/creative_commons_license.html.twig' %}</p>
                 {% endif %}
-              {% set content = pages.find('/footer').content %}
-              {% if content %}
-                {{ content }}
-              {% endif %}
             </div>
         </div>
       </div>

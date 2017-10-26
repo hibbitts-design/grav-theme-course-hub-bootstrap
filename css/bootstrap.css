@@ -7092,7 +7092,7 @@ input[type="checkbox"] {
 
 body {
   /* Margin bottom for footer height */
-  margin-bottom: 400px;
+  margin-bottom: 400px; /*Changed*/
 }
 
 .navbar {
