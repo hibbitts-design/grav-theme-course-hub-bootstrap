@@ -1,3 +1,9 @@
+# v1.8.7
+## 10/27/2017
+
+1. [](#improved)
+    * Updated course hub demo pages in theme '_demo' folder
+
 # v1.8.6
 ## 10/26/2017
 
