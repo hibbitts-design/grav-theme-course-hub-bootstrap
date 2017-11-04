@@ -13,6 +13,16 @@ form:
 
           fields:
 
+            coursehub1:
+                type: section
+                title: Page Metadata
+                underline: true
+
+            header.metadata:
+               type: array
+               label: Metadata Items
+               required: true
+
             coursehub2:
                 type: section
                 title: Git Repository
