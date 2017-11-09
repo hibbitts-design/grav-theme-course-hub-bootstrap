@@ -1,4 +1,4 @@
-title: Twitter Widget
+title: Twitter Feed
 '@extends':
     type: default
     context: blueprints://pages
@@ -16,25 +16,25 @@ form:
                   size: long
                   label: Page Title
 
-                header.twitter_widget_text:
+                header.twitter_feed_text:
                     ordering@: 1
                     type: text
                     size: long
-                    label: Twitter Widget Text
+                    label: Twitter Feed Text
 
-                header.twitter_widget_url:
+                header.twitter_feed_url:
                     ordering@: 2
                     type: text
                     size: long
-                    label: Twitter Widget URL
+                    label: Twitter Feed URL
                     validate:
                       type: URL
 
-                header.twitter_widget_height:
+                header.twitter_feed_height:
                     ordering@: 3
                     type:                      text
                     size:                      small
-                    label:                     Twitter Widget Height (px)
+                    label:                     Twitter Feed Height (px)
                     default:                   600
                     validate:
                         type:                  int

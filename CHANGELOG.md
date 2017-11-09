@@ -1,3 +1,9 @@
+# v1.8.9
+## 11/09/2017
+
+1. [](#improved)
+    * Renamed 'Twitter widget' template to 'Twitter feed' (same as in the Open Publishing Space theme)
+
 # v1.8.8
 ## 11/04/2017
 
