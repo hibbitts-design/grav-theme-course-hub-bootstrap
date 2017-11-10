@@ -1,3 +1,9 @@
+# v1.9.0
+## 11/09/2017
+
+1. [](#bugfix)
+    * Restored 'Twitter feed' template and blueprint files to expected locations
+
 # v1.8.9
 ## 11/09/2017
 
