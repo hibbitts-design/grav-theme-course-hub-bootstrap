@@ -1,3 +1,12 @@
+# v1.9.1
+## 11/15/2017
+
+1. [](#improved)
+    * Aligned page header variable name to hide Git Sync link with Open Publishing Space (hide_git_sync_repo_link)
+    * Aligned other page header variables to be in the same style as Open Publishing Space (i.e. hide_from_post_list, git_sync_repo_link and hide_page_title)
+1. [](#bugfix)
+    * Fixed modular 'default' template
+
 # v1.9.0
 ## 11/09/2017
 
