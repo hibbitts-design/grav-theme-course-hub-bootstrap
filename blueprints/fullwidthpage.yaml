@@ -20,7 +20,7 @@ form:
                 title: Page Title
                 underline: true
 
-            header.hidepagetitle:
+            header.hide_page_title:
                 type: toggle
                 label: Display Title at top of Page
                 help: Determines if the page title is displayed at the top of a page
@@ -37,7 +37,7 @@ form:
                 title: Git Repository
                 underline: true
 
-            header.hidegitrepoeditlink:
+            header.hide_git_sync_repo_link:
                 type: toggle
                 label: Display Git Repository Edit Page Link
                 help: Determines if the Git Repository edit Page link is displayed for this page
@@ -49,7 +49,7 @@ form:
                 validate:
                     type: bool
 
-            header.gitrepoeditlinkurl:
+            header.git_sync_repo_link:
                 type: text
                 size: large
                 label: Custom Git Repository Page URL

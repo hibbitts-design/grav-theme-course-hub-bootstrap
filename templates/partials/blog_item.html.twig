@@ -86,7 +86,7 @@
       {% if not truncate %}
         <hr>
         {# added Git repository edit link -  hibbittsdesign.org #}
-        {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
+        {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hide_git_sync_repo_link) and not (page.slug == 'pages') %}
           <br><br>
           {% include 'partials/gitrepo_link_note.html.twig' %}
           <br>
@@ -120,7 +120,7 @@
       {# do not display summary on actual page - hibbittsdesign.org #}
       <p>{{ content }}</p>
         <hr>
-        {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
+        {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hide_git_sync_repo_link) and not (page.slug == 'pages') %}
           <br>
           {% include 'partials/gitrepo_link_note.html.twig' %}
           <br>

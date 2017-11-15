@@ -1,6 +1,6 @@
 {# new twig template file - hibbittsdesign.org #}
 {% if config.site.gitrepo.edittreeurl %}
-  {% if not page.header.hidegithublink %}
+  {% if not page.header.hide_git_sync_repo_link %}
     {% set git_repo_link_url = config.site.gitrepo.edittreeurl %}
     {% if config.site.gitrepo.editlinkicon is empty %}
       {% if 'github' in git_repo_link_url %}

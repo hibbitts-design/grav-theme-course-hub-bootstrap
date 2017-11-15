@@ -65,7 +65,7 @@ form:
                 size: medium
                 label: Image Alternative Text
                 default: null
-                
+
             header.header_image_credit:
                 type: text
                 size: medium
@@ -140,7 +140,7 @@ form:
                 title: Blog List Item Options
                 underline: true
 
-            header.hidefrompostlist:
+            header.hide_from_post_list:
                 type: toggle
                 label: Display this Item in Blog List
                 help: Determines if this page (i.e. post) will appear in the blog index
@@ -169,7 +169,7 @@ form:
                 title: Git Repository
                 underline: true
 
-            header.hidegitrepoeditlink:
+            header.hide_git_sync_repo_link:
                 type: toggle
                 label: Display Git Repository Edit Page Link
                 help: Determines if the Git Repository edit Page link is displayed for this page

@@ -50,7 +50,7 @@
             {% endfor %}
 
             {% for child in collection %}
-              {% if child.header.hidefrompostlist != true %}
+              {% if child.header.hide_from_post_list != true %}
                 {% if "featured" not in child.taxonomy['tag'] %}
                   {# multi-course hub compatibility - hibbittsdesign.org #}
                   {% if (not child.slug|contains('sidebar')) and (not child.slug|contains('headerimage')) %}
@@ -71,7 +71,7 @@
           </div>
 
           {# Git repository edit link - hibbittsdesign.org #}
-          {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) %}
+          {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hide_git_sync_repo_link) %}
             {% include 'partials/gitrepo_link_note.html.twig' %}
           {% endif %}
 

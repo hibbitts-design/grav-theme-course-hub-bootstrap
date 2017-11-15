@@ -89,7 +89,7 @@
                 {% endfor %}
               {% endif %}
               {# Added Git repository edit link -  hibbittsdesign.org #}
-              {% if config.site.gitrepo.editlinklocation == 'menu' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
+              {% if config.site.gitrepo.editlinklocation == 'menu' and not (page.header.hide_git_sync_repo_link) and not (page.slug == 'pages') %}
                 <li>
                   {% include 'partials/gitrepo_link.html.twig' %}
                 </li>

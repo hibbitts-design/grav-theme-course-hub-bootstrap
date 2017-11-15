@@ -63,7 +63,7 @@
             </a>
           </div>
               <div class="text-muted">
-                {% if config.site.gitrepo.editlinklocation == 'footer' and not (page.header.hidegitrepoeditlink) %}
+                {% if config.site.gitrepo.editlinklocation == 'footer' and not (page.header.hide_git_sync_repo_link) %}
                   <p>{% include 'partials/gitrepo_link.html.twig' %}</p>
                 {% endif %}
                 {% if config.site.gitrepo.editthemelinklocation == 'footer' %}
