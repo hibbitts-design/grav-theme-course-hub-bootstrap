@@ -1,0 +1,43 @@
+{% embed 'partials/base.html.twig' %}
+
+  {% set base_url = page.parent.url %}
+  {% set feed_url = base_url %}
+
+  {% if base_url == '/' %}
+    {% set base_url = '' %}
+  {% endif %}
+
+  {% if base_url == base_url_relative %}
+    {% set feed_url = base_url~'/'~page.parent.slug %}
+  {% endif  %}
+
+  {% block content %}
+    <div class="container">
+
+      <div class="row">
+
+        {# check content display flag - hibbittsdesign.org #}
+        {% if not (grav.uri.param('chromeless')) and not (config.site.hidesidebaronblogpages.enabled) %}
+          <div class="col-sm-8 blog-main">
+          {% else %}
+            <div class="col-sm-12 blog-main">
+            {% endif %}
+
+            {% if config.plugins.breadcrumbs.enabled %}
+              {% include 'partials/breadcrumbs.html.twig' %}
+            {% endif %}
+
+            {# removed default 'big_header': true param - hibbittsdesign.org #}
+            {% include 'partials/blog_item.html.twig' with {'blog':page.parent, 'truncate':false} %}
+          </div>
+          {# check content display flag - hibbittsdesign.org #}
+          {% if not (grav.uri.param('chromeless')) and not (config.site.hidesidebaronblogpages.enabled) %}
+          <div class="col-sm-4 blog-sidebar">
+            {% include 'partials/sidebar.html.twig' with {'blog':page} %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endblock %}
+
+  {% endembed %}
