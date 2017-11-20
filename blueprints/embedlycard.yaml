@@ -22,8 +22,19 @@ form:
                     size: long
                     label: Embedly Card Title
 
-                header.embedly_card_url:
+                header.embedly_card_alignment:
                     ordering@: 2
+                    type: select
+                    size: small
+                    label: Embedly Card Alignment
+                    default: center
+                    options:
+                        left: Left
+                        center: Center
+                        right: Right
+
+                header.embedly_card_url:
+                    ordering@: 3
                     type: text
                     size: long
                     label: Embedly Card URL
