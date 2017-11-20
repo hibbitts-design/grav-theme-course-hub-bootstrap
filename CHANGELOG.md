@@ -1,3 +1,11 @@
+# v1.9.4
+## 11/20/2017
+
+1. [](#new)
+    * Added experimental support for (optional) separate summary field for blog items
+1. [](#improved)
+    * Updated embed.ly card page template and blueprint with alignment option
+
 # v1.9.3
 ## 11/19/2017
 
