@@ -1,3 +1,7 @@
+---
+title: 'User-centered design (UCD)'
+---
+
 User-centered design (UCD)  
 _A methodology and philosophy where users and their goals are the focal point._
 

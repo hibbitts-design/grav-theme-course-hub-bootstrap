@@ -1,3 +1,7 @@
+---
+title: 'Design Thinking'
+---
+
 Design Thinking  
 _An iterative methodology for producing practical and creative resolutions to problems or issues._
 

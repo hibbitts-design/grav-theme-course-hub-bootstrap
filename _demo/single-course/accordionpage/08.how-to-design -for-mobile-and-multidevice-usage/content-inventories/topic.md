@@ -1,3 +1,7 @@
+---
+title: 'Content Inventories'
+---
+
 Content Inventories  
 _Identifying and classifying the content in an existing product or system._
 

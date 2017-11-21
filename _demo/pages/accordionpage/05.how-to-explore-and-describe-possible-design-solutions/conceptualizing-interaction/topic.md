@@ -1,3 +1,7 @@
+---
+title: 'Conceptualizing Interaction'
+---
+
 Conceptualizing Interaction  
 _Exploring what interaction model will be presented to the user through the use of structure, behavior, and visuals._
 

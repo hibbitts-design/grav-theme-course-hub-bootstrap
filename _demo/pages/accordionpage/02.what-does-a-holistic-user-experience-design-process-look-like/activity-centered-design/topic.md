@@ -1,3 +1,7 @@
+---
+title: 'Activity-Centered Design'
+---
+
 Activity-Centered Design  
 _A specific form of user-centered design where the focus is on user activities and tasks rather than user characteristics._
 

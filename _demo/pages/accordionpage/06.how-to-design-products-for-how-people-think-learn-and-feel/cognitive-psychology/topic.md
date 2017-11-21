@@ -1,3 +1,7 @@
+---
+title: 'Cognitive Psychology'
+---
+
 Cognitive Psychology  
 _The branch of psychology that studies mental processes including how people think, perceive, remember and learn._
 

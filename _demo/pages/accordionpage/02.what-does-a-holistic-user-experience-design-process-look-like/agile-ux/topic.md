@@ -1,3 +1,7 @@
+---
+title: 'Agile UX'
+---
+
 Agile UX  
 _A variation of the Agile methodology, which supports a more collaborative approach to various user experience design methods._
 

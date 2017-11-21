@@ -1,3 +1,7 @@
+---
+title: 'Personas'
+---
+
 Personas  
 _Fictional persons, based on research, where each one represents a specific type of user._
 

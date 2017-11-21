@@ -1,3 +1,7 @@
+---
+title: 'Scenarios'
+---
+
 Scenarios  
 _Descriptions of how a specific user accomplishes their goal, with regards to an existing or yet-to-be system._
 

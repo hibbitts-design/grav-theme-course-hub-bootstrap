@@ -1,3 +1,7 @@
+---
+title: 'Diary Studies'
+---
+
 Diary Studies  
 _A qualitative technique for collecting information about user behaviors, activities, and experiences over an extended period of time._
 

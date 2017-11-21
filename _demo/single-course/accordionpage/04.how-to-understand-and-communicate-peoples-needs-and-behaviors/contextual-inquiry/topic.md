@@ -1,3 +1,7 @@
+---
+title: 'Contextual Inquiry'
+---
+
 Contextual Inquiry  
 _Observing participants in their own environment performing their actual work._
 

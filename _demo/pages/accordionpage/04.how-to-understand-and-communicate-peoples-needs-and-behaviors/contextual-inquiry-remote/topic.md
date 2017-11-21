@@ -1,3 +1,7 @@
+---
+title: 'Remote Contextual Inquiry'
+---
+
 Remote Contextual Inquiry  
 _Remotely observing participants using their own to perform their actual work._
 

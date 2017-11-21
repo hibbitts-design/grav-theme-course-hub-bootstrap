@@ -1,4 +1,8 @@
- Brainstorming  
+---
+title: 'Brainstorming'
+---
+
+Brainstorming  
 _Brainstorming is a common group ideation technique._
 
 *   [7 Tips on Better Brainstorming](https://challenges.openideo.com/blog/seven-tips-on-better-brainstorming)

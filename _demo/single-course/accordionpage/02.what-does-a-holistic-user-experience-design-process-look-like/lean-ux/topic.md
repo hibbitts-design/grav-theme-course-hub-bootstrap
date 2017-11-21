@@ -1,3 +1,7 @@
+---
+title: 'Lean UX'
+---
+
 Lean UX  
 _Often associated with use in start-ups, this methodology is focused on the rapid evaluation of hypotheses (i.e. learning loops), while putting in the minimal amount of effort required to test these hypotheses._
 

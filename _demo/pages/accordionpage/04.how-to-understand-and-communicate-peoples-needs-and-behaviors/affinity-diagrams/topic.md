@@ -1,3 +1,7 @@
+---
+title: 'Affinity Diagrams'
+---
+
 Affinity Diagrams  
 _A tool to visually organize ideas and information_
 

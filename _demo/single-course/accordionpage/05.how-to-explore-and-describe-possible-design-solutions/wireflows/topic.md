@@ -1,3 +1,7 @@
+---
+title: 'Wireflows'
+---
+
 Wireflows  
 _A combination of process flows and wireframes._
 

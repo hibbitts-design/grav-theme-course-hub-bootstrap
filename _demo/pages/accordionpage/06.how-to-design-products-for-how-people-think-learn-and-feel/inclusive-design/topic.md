@@ -1,3 +1,7 @@
+---
+title: 'Inclusive Design'
+---
+
 Inclusive Design  
 _The design of products and services that consider the full range of peoples ability, age, culture and language._  
 

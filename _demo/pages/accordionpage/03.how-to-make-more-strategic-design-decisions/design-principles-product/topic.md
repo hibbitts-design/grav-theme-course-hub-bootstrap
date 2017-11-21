@@ -1,3 +1,7 @@
+---
+title: 'Product Design Principles'
+---
+
 Product Design Principles  
 _A set of design principles specific to the creation on a particular product._
 

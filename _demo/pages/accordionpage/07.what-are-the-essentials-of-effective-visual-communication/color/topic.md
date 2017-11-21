@@ -1,3 +1,7 @@
+---
+title: 'Color'
+---
+
 Color  
 _Aspects of an object described in terms of hue, lightness, and saturation._
 

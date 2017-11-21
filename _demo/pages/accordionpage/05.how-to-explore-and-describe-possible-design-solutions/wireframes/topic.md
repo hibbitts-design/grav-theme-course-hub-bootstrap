@@ -1,3 +1,7 @@
+---
+title: 'Wireframes'
+---
+
 Wireframes  
 _Drawings of individual screens that represent major content and navigation elements._
 

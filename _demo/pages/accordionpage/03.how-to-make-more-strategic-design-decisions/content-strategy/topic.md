@@ -1,3 +1,7 @@
+---
+title: 'Content Strategy'
+---
+
 Content Strategy  
 _Planning the creation, publication, and governance of useful, usable, and desirable content._
 

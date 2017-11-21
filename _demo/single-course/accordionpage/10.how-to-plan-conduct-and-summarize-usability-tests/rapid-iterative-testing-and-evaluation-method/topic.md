@@ -1,3 +1,7 @@
+---
+title: 'Rapid Iterative Testing and Evaluation (RITE) Method'
+---
+
 Rapid Iterative Testing and Evaluation (RITE) Method  
 _A highly iterative and rapid usability evaluation method._
 

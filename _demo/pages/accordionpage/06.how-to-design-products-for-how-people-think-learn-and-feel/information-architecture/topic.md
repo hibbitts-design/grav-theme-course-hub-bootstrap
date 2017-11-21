@@ -1,3 +1,7 @@
+---
+title: 'Information Architecture'
+---
+
 Information Architecture  
 _Information architecture primarily involves the organization of a system and how navigation is supported within that system._
 

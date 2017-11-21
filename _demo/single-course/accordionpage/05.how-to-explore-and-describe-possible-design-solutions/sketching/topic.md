@@ -1,3 +1,7 @@
+---
+title: 'Sketching'
+---
+
 Sketching  
 _A means to explore ideas and iterate on concepts quickly and easily._
 

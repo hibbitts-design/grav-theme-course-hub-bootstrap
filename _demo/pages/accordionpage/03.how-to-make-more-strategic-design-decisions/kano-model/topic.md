@@ -1,3 +1,7 @@
+---
+title: 'Kano Model'
+---
+
 Kano Model  
 _A model representing 5 types of customer requirements (or potential features)._
 

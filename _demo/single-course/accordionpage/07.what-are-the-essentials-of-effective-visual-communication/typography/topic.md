@@ -1,3 +1,7 @@
+---
+title: 'Typography'
+---
+
 Typography  
 _The design of typefaces, and the way type is selected and arranged._
 

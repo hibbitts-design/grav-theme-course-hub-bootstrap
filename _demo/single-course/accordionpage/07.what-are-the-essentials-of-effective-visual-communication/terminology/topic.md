@@ -1,3 +1,7 @@
+---
+title: 'Terminology'
+---
+
 Terminology  
 _The terms used to describe various concepts and objects._
 

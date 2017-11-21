@@ -1,3 +1,7 @@
+---
+title: 'Value Proposition'
+---
+
 Value Proposition  
 _A clear statement which communicates the benefits of a product or service._
 

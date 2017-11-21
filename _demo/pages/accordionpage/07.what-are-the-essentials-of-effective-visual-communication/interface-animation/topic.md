@@ -1,3 +1,7 @@
+---
+title: 'Interface Animation'
+---
+
 Interface Animation  
 _The use of animation to enhance the feedback and overall experience of a user interface._  
 

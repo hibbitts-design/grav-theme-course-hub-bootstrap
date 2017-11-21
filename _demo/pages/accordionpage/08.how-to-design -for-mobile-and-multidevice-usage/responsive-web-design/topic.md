@@ -1,3 +1,7 @@
+---
+title: 'Responsive Web Design'
+---
+
 Responsive Web Design  
 _A technique where individual web pages automatically adjust to various screen sizes._
 

@@ -1,3 +1,7 @@
+---
+title: 'Surveys'
+---
+
 Surveys  
 _A data collection tool to gather responses to a series of questions._
 

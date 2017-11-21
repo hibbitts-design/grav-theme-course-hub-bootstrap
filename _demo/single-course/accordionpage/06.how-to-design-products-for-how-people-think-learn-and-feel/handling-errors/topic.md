@@ -1,3 +1,7 @@
+---
+title: 'Handling Errors'
+---
+
 Handling Errors   
 _How a system prevents, or handles, users making mistakes._
 

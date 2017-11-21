@@ -1,3 +1,7 @@
+---
+title: 'User Research'
+---
+
 User Research  
 _The process of learning about the audience for your system or product._
 

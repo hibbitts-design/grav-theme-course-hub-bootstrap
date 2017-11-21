@@ -1,3 +1,7 @@
+---
+title: 'Story Maps'
+---
+
 Story Maps  
 _A visual representation of a user journey to help prioritize a product backlog._
 

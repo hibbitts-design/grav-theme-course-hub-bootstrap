@@ -1,3 +1,7 @@
+---
+title: 'Value of UX'
+---
+
 Value of UX  
 _Associating a value to the practice of user experience design._
 

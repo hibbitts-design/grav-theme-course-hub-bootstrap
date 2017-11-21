@@ -1,3 +1,7 @@
+---
+title: 'Empathy Maps'
+---
+
 Empathy Maps  
 _A simple tool to better understand people using a product or service._  
 

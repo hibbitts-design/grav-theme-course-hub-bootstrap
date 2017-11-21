@@ -1,3 +1,7 @@
+---
+title: 'Machine Learning'
+---
+
 Machine Learning  
 _Machine Learning is a type of artificial intelligence (AI) that allows software to learn without being explicitly programmed._
 *   [Applications Of Machine Learning For Designers](https://www.smashingmagazine.com/2017/04/applications-machine-learning-designers/)

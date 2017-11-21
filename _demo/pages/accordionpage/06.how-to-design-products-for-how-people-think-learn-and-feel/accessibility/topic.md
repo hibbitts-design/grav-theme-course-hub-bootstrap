@@ -1,3 +1,7 @@
+---
+title: 'Accessibility'
+---
+
 Accessibility  
 _Accessibility is the practice of removing barriers that prevent interaction or access to websites by people with disabilities._  
 

@@ -1,3 +1,7 @@
+---
+title: 'Informal (Guerilla) User Research'
+---
+
 Informal (Guerilla) User Research  
 _A rapid and less rigorous approach to conducting user research._
 

@@ -1,3 +1,7 @@
+---
+title: 'Platform Design Principles'
+---
+
 Platform Design Principles  
 _A high-level of advice for general platform design decisions._
 

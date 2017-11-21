@@ -1,3 +1,7 @@
+---
+title: 'Cognitive Walkthrough'
+---
+
 Cognitive Walkthrough  
 _A step-by-step evaluation of a system, from the viewpoint of a specific type of user._
 

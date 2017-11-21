@@ -1,3 +1,7 @@
+---
+title: 'Hierarchy'
+---
+
 Hierarchy  
 _Differences between items shown visually._
 

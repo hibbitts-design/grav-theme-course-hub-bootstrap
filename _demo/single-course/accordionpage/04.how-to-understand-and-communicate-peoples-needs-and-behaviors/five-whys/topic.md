@@ -1,3 +1,7 @@
+---
+title: 'Five Whys'
+---
+
 Five Whys  
 _A technique that utilizes a question-asking method to explore the causes/effects underlying a particular issue._
 

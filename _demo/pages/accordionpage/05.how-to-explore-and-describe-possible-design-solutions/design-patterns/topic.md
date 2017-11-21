@@ -1,3 +1,7 @@
+---
+title: 'Design Patterns'
+---
+
 Design Patterns  
 _General solutions for commonly occurring system design problems._
 

@@ -1,3 +1,7 @@
+---
+title: 'User Profiles'
+---
+
 User Profiles  
 _A summary of relevant user characteristics, which can include both demographic and behavioral information._
 

@@ -1,3 +1,7 @@
+---
+title: 'Proto-Personas'
+---
+
 Proto-Personas  
 _Hypothetical persons, where each one represents a specific type of user._
 

@@ -1,3 +1,7 @@
+---
+title: 'Grids'
+---
+
 Grids  
 _A visible or invisible structure of intersecting lines._
 

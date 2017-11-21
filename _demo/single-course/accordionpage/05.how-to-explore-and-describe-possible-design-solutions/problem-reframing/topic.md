@@ -1,3 +1,7 @@
+---
+title: 'Problem Reframing'
+---
+
 Problem Reframing  
 _Re-examining the underlying goals, assumptions and perspectives that are assumed to be part of the problem._
 

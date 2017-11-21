@@ -1,3 +1,7 @@
+---
+title: 'Card Sorts'
+---
+
 Card Sorts  
 _Having participants sort various items into groups of their own choosing._
 

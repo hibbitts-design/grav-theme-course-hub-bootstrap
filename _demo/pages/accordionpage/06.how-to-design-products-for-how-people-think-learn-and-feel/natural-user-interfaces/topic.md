@@ -1,3 +1,7 @@
+---
+title: 'Natural User Interfaces'
+---
+
 Natural User Interfaces    
 _A natural user interface, or NUI, is an effectively invisible interface that is used via natural and human movements._
 

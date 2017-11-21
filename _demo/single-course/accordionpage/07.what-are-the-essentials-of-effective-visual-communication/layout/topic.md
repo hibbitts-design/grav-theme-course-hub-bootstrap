@@ -1,3 +1,7 @@
+---
+title: 'Layout'
+---
+
 Layout  
 _The arrangement of individual visual objects within a composition._
 

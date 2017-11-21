@@ -1,3 +1,7 @@
+---
+title: 'Concept Maps'
+---
+
 Concept Maps  
 _A diagram showing how various concepts are related._
 

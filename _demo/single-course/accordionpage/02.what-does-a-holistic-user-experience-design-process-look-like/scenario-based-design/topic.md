@@ -1,3 +1,7 @@
+---
+title: 'Scenario-based Design (also known as Task-Centered Design)'
+---
+
 Scenario-based Design (also known as Task-Centered Design)  
 _Another form of user-centered design that relies on stories of user interaction as the source of guidance for design requirements._
 

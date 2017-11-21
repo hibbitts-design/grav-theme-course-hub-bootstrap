@@ -1,3 +1,7 @@
+---
+title: 'Heuristic Evaluations'
+---
+
 Heuristic Evaluations  
 _The evaluation of a user interface against a checklist of design rules or heuristics._
 

@@ -1,3 +1,7 @@
+---
+title: 'User Experience Strategy'
+---
+
 User Experience Strategy  
 _Defining a set of end-user goals in relation to design and development work._
 

@@ -1,3 +1,7 @@
+---
+title: 'Content Prioritization'
+---
+
 Content Prioritization  
 _Determining the relative value of content in relation to its audience._
 

@@ -1,3 +1,7 @@
+---
+title: 'Mobile and Multi-device Web Design'
+---
+
 Mobile and Multi-device Web Design  
 _How to more effectively design and build for mobile and multi-device usage._
 
