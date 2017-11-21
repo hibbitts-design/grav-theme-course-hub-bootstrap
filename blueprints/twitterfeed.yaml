@@ -52,7 +52,5 @@ form:
           fields:
             overrides:
               fields:
-                header.routable:
-                  default: 0
                 header.visible:
                   default: 0
