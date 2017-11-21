@@ -1,3 +1,13 @@
+# v1.9.5
+## 11/21/2017
+
+1. [](#new)
+    * Added experimental support for accordion page templates
+    * Added example 'Accordion' page in '_demo' pages folder
+    * Added example 'Home Highlights' page in '_demo' pages folder for embedding into another system (i.e. LMS)
+    * Added example 'Twitter Feed' page in '_demo' pages folder for use with included Page Inject plugin
+    * Added example 'Embed.ly Card' page in '_demo' pages folder for use with included Page Inject plugin
+
 # v1.9.4
 ## 11/20/2017
 
