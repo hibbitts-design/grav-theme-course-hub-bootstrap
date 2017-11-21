@@ -1,0 +1,94 @@
+{# new twig template file - hibbittsdesign.org #}
+{% embed 'partials/base.html.twig' %}
+
+  {% block content %}
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 blog-main">
+        {% if not page.header.hide_page_title %}
+          <h3>{{page.title}}</h3>
+        {% else %}
+          <h3 aria-label={{page.title}}></h3>
+        {% endif %}
+
+        <section id="accordion" style="text-align:right">
+        	<a style="width:116px;text-align:left;" href="#" class="expand-all btn btn-xs btn-info"><i class="fa fa-plus-square" aria-hidden="true"></i> Show All Topics</a>
+        	<hr>
+        	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="text-align:left">
+
+              {% set collection = page.collection() %}
+              {% set index = 1 %}
+              {% for page in page.collection() %}
+
+                {% if page.children %}
+
+                  <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading{{index}}" }>
+                    <h4 class="panel-title">
+                    <a class="accordion-link" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{index}}" aria-expanded="true" aria-controls="collapse{{index}}">
+                    {{ page.title }}
+                    </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapse{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{index}}">
+                    <div class="panel-body">
+
+                      {% for child in page.children %}
+                        {{ child.content }}
+                      {% endfor %}
+
+                    </div>
+                  </div>
+                </div>
+                {% endif %}
+
+                {% set index = index + 1 %}
+
+              {% endfor %}
+            </div>
+          </section>
+
+        {# Git repository edit link -  hibbittsdesign.org #}
+        {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hide_git_sync_repo_link) and not (page.slug == 'pages') %}
+          <hr>
+          <br>
+          {% include 'partials/gitrepo_link_note.html.twig' %}
+          <br>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+
+{% endembed %}
+
+<script>
+	$('.expand-all').click(function() {
+		var $this = $(this);
+		if ($this.hasClass('collapse-all')) {
+			$(this).empty();
+			$(this).append($("<i class='fa fa-plus-square'></i>"));
+			$this.append(' Show All Topics');
+			$('.panel-collapse.in')
+				.collapse('hide');
+			$this.removeClass('collapse-all');
+		} else {
+			$(this).empty();
+			$(this).append($("<i class='fa fa-minus-square'></i>"));
+			$this.append(' Hide All Topics');
+			$('.panel-collapse:not(".in")')
+				.collapse('show');
+			$this.addClass('collapse-all');
+		}
+	});
+
+	$(document).ready(function () {
+    if(location.hash != null && location.hash != ""){
+        $('.collapse').removeClass('in');
+        $(location.hash + '.collapse').collapse('show');
+    }
+	});
+
+</script>
