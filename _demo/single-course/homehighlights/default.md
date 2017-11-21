@@ -9,3 +9,7 @@ page-inject:
 [plugin:page-inject](/home/_class-preparations)
 
 [plugin:content-inject](/home/_important-reminders)
+
+<hr>
+
+[plugin:page-inject](/embedlycard)
