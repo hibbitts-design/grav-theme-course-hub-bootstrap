@@ -8,8 +8,8 @@ published: true
 [Jan 5th Class One-minute Summaries](https://canvas.sfu.ca/courses/25492/discussion_topics/440794)
 
 ##### Presented Slides  
-[Course Overview Slides](https://docs.google.com/presentation/d/e/2PACX-1vT3E39cjasLPZ2oT4nvJWAr5m52kIgEBFyyXg7KTuJqD8hP_H0Wd0rnvRNrWKi8Fbjg3JzaORMKN4S3/pub?start=false&loop=false&delayms=3000)  
-[Introduction to UX Design Slides](https://docs.google.com/presentation/d/e/2PACX-1vT3E39cjasLPZ2oT4nvJWAr5m52kIgEBFyyXg7KTuJqD8hP_H0Wd0rnvRNrWKi8Fbjg3JzaORMKN4S3/pub?start=false&loop=false&delayms=3000)
+[Course Overview Slides](http://slides.com/paulhibbitts/cpt-365-slides-in-progress#)  
+[Introduction to UX Design Slides](http://slides.com/paulhibbitts/cpt-365-slides-in-progress#)
 
 ===
 
@@ -17,11 +17,11 @@ published: true
 [Jan 5th Class One-minute Summaries](https://canvas.sfu.ca/courses/25492/discussion_topics/440794)
 
 ##### Presented Slides  
-Course Overview ([HTML Slides](https://docs.google.com/presentation/d/e/2PACX-1vT3E39cjasLPZ2oT4nvJWAr5m52kIgEBFyyXg7KTuJqD8hP_H0Wd0rnvRNrWKi8Fbjg3JzaORMKN4S3/pub?start=false&loop=false&delayms=3000) | [PDF Slides](https://drive.google.com/file/d/1-8KLe4pQAvZnj7TEf1132UB0XqlPE2gg/view?usp=sharing))  
-<div class="flex-video"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT3E39cjasLPZ2oT4nvJWAr5m52kIgEBFyyXg7KTuJqD8hP_H0Wd0rnvRNrWKi8Fbjg3JzaORMKN4S3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+Course Overview ([HTML Slides](http://slides.com/paulhibbitts/cpt-365-slides-in-progress#) | [PDF Slides](https://1drv.ms/b/s!Aoj9Cstt0NJ0kf5lDMUg1gRvHwaFyg))  
+<div class="flex-video"><iframe src="//slides.com/paulhibbitts/cpt-365-slides-in-progress/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-Introduction to UX ([HTML Slides](https://docs.google.com/presentation/d/e/2PACX-1vT3E39cjasLPZ2oT4nvJWAr5m52kIgEBFyyXg7KTuJqD8hP_H0Wd0rnvRNrWKi8Fbjg3JzaORMKN4S3/pub?start=false&loop=false&delayms=3000) | [PDF Slides](https://drive.google.com/file/d/1-8KLe4pQAvZnj7TEf1132UB0XqlPE2gg/view?usp=sharing))  
-<div class="flex-video"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT3E39cjasLPZ2oT4nvJWAr5m52kIgEBFyyXg7KTuJqD8hP_H0Wd0rnvRNrWKi8Fbjg3JzaORMKN4S3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+Introduction to UX ([HTML Slides](http://slides.com/paulhibbitts/cpt-365-slides-in-progress#) | [PDF Slides](https://1drv.ms/b/s!Aoj9Cstt0NJ0kf5lDMUg1gRvHwaFyg))  
+<div class="flex-video"><iframe src="//slides.com/paulhibbitts/cpt-365-slides-in-progress/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ##### Supplemental Slides  
 [Interaction Design History](http://www.slideshare.net/mrettig/interaction-design-history)  
