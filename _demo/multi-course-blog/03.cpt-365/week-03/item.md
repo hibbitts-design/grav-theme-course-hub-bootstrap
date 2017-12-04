@@ -8,7 +8,7 @@ published: true
 [Jan 19th Class One-minute Summaries](https://canvas.sfu.ca/courses/25492/discussion_topics/440792)
 
 ##### Presented Slides  
-[User Research Slides](http://slides.com/paulhibbitts/cpt-363-slides-placeholder#/)  
+[User Research Slides](https://docs.google.com/presentation/d/e/2PACX-1vT3E39cjasLPZ2oT4nvJWAr5m52kIgEBFyyXg7KTuJqD8hP_H0Wd0rnvRNrWKi8Fbjg3JzaORMKN4S3/pub?start=false&loop=false&delayms=3000)  
 
 ===
 
@@ -16,12 +16,12 @@ published: true
 [Jan 19th Class One-minute Summaries](https://canvas.sfu.ca/courses/25492/discussion_topics/440792)
 
 ##### Presented Slides  
-User Research Slides ([HTML Slides](http://slides.com/paulhibbitts/cpt-363-slides-placeholder/) | [PDF Slides](http://1drv.ms/1PKX6bG))
-<div class="embed-responsive embed-responsive-4by3"><iframe class="embed-responsive-item" src="//slides.com/paulhibbitts/cpt-363-slides-placeholder/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+User Research Slides ([HTML Slides](https://docs.google.com/presentation/d/e/2PACX-1vT3E39cjasLPZ2oT4nvJWAr5m52kIgEBFyyXg7KTuJqD8hP_H0Wd0rnvRNrWKi8Fbjg3JzaORMKN4S3/pub?start=false&loop=false&delayms=3000) | [PDF Slides](https://drive.google.com/file/d/1-8KLe4pQAvZnj7TEf1132UB0XqlPE2gg/view?usp=sharing))
+<div class="flex-video"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT3E39cjasLPZ2oT4nvJWAr5m52kIgEBFyyXg7KTuJqD8hP_H0Wd0rnvRNrWKi8Fbjg3JzaORMKN4S3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
 
 ##### Supplemental Video  
 [What People Are Really Doing Video](http://vimeo.com/album/169777/video/7099570)  
-<div class="embed-responsive embed-responsive-4by3"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/7099570?title=0&byline=0&portrait=0" width="500" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="flex-video"><iframe src="https://player.vimeo.com/video/7099570?title=0&byline=0&portrait=0" width="500" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ##### Required Reading  
 [A Five-Step Process For Conducting User Research](http://www.smashingmagazine.com/2013/09/23/5-step-process-conducting-user-research/)  
