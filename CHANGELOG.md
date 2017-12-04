@@ -1,3 +1,13 @@
+# v1.9.6
+## 12/04/2017
+
+1. [](#improved)
+    * Updated example accordion page in '_demo' pages folder
+    * Updated example embedded slides and associated HTML and PDF links
+1. [](#bugfix)
+    * Restored missing Category page template
+    * Restored missing Topic page template
+
 # v1.9.5
 ## 11/21/2017
 
