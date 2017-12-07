@@ -1,4 +1,9 @@
-# v1.9.6
+# v1.9.7
+## 12/07/2017
+
+1. [](#new)
+    * Added experimental CSS styling option to better match Canvas LMS when embedding content
+
 ## 12/04/2017
 
 1. [](#improved)

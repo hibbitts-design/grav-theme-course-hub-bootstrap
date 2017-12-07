@@ -1,5 +1,5 @@
 name: Course Hub Bootstrap
-version: 1.9.6
+version: 1.9.7
 description: "A customized version of the Bootstrap theme (built with Bootstrap 3) for use with the Grav Course Hub skeleton package."
 icon: university
 author:
@@ -48,3 +48,12 @@ form:
           0: Disabled
         validate:
           type: bool
+
+    bootstrapcss:
+        type: select
+        size: medium
+        label: Bootstrap CSS
+        default: default
+        options:
+            default: Course Hub Default
+            canvaslms: Course Hub for Canvas LMS
