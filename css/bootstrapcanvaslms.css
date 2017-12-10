@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato'); /* Changed for Canvas LMS */
+@import url('https://fonts.googleapis.com/css?family=Lato:light'); /* Changed for Canvas LMS */
 /*!
  * bootswatch v3.3.6
  * Homepage: http://bootswatch.com
@@ -1188,7 +1188,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; /* Default font changed */
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; /* Changed for Canvas LMS */
   font-weight: 300;
   line-height: 1.1;
   color: inherit;
