@@ -16,7 +16,7 @@ published: true
 [Jan 19th Class One-minute Summaries](https://canvas.sfu.ca/courses/25492/discussion_topics/440792)
 
 ##### Presented Slides  
-User Research Slides ([HTML Slides](http://slides.com/paulhibbitts/cpt-365-slides-in-progress#) | [PDF Slides](https://1drv.ms/b/s!Aoj9Cstt0NJ0kf5lDMUg1gRvHwaFyg))
+User Research Slides ([HTML Slides](http://slides.com/paulhibbitts/cpt-365-slides-in-progress#) | [PDF Slides](#))
 <div class="flex-video"><iframe src="//slides.com/paulhibbitts/cpt-365-slides-in-progress/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ##### Supplemental Video  
