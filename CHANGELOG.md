@@ -1,3 +1,12 @@
+# v1.9.8
+## 12/10/2017
+
+1. [](#improved)
+    * Adjusted CSS font for use within Canvas
+    * Revised dropdown menu label for experimental CSS styling option to better match Canvas LMS when embedding content
+1. [](#bugfix)
+    * Fixed example embedded slides and associated HTML and PDF links
+
 # v1.9.7
 ## 12/07/2017
 
