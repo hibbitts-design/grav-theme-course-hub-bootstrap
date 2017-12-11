@@ -1,9 +1,10 @@
-# v1.9.8
+# v1.9.71
 ## 12/10/2017
 
 1. [](#improved)
     * Adjusted CSS font for use within Canvas
     * Revised dropdown menu label for experimental CSS styling option to better match Canvas LMS when embedding content
+    * Updated course hub demo pages in theme '_demo' folder
 1. [](#bugfix)
     * Fixed example embedded slides and associated HTML and PDF links
 
