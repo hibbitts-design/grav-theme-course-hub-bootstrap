@@ -1,3 +1,9 @@
+# v1.9.72
+## 12/12/2017
+
+1. [](#new)
+    * Added embed.ly card link only page template
+
 # v1.9.71
 ## 12/10/2017
 
