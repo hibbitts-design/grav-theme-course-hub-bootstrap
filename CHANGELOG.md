@@ -1,5 +1,5 @@
 # v1.9.73
-## XX/XX/XXXX
+## 12/14/2017
 
 1. [](#new)
     * Added swipe deck page template
