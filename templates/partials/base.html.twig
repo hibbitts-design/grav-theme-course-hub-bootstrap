@@ -70,9 +70,6 @@
                 {% if config.site.gitrepo.editlinklocation == 'footer' and not (page.header.hide_git_sync_repo_link) %}
                   <p>{% include 'partials/gitrepo_link.html.twig' %}</p>
                 {% endif %}
-                {% if config.site.gitrepo.editthemelinklocation == 'footer' %}
-                  <p>{% include 'partials/gitrepo_theme_link.html.twig' %}</p>
-                {% endif %}
                 <br>
                 {% set content = pages.find('/footer').content %}
                 {% if content %}
