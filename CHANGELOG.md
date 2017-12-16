@@ -1,3 +1,9 @@
+# v1.9.75
+## 12/16/2017
+
+1. [](#bugfix)
+    * Removed large photo image files from '_demo' folder
+
 # v1.9.74
 ## 12/16/2017
 
