@@ -1,3 +1,12 @@
+# v1.9.74
+## 12/16/2017
+
+1. [](#new)
+    * Added 'advanced' single course example, which includes extensive use of custom content types and modular content, in '_demo' pages folder
+1. [](#improved)
+    * Updated single course site example (now called 'basic') in '_demo' pages folder
+    * Updated Bootstrap Bootstrap CSS to v3.3.7
+
 # v1.9.73
 ## 12/14/2017
 
