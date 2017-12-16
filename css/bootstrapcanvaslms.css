@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:light'); /* Changed for Canvas LMS */
 /*!
- * bootswatch v3.3.6
+ * bootswatch v3.3.7
  * Homepage: http://bootswatch.com
  * Copyright 2012-2016 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -1087,7 +1087,7 @@ html {
 }
 body {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; /* Changed for Canvas LMS */
-  font-size: 16px; /* Changed for Canvas LMS */
+  font-size: 16px; /*Changed */
   line-height: 1.4;
   color: #222222;
   background-color: #ffffff;
@@ -1101,16 +1101,15 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #008cba;
+  color: #008EE2; /*Changed*/
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #008cba;
+  color: #008EE2; /*Changed*/
   text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -2541,7 +2540,6 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3033,7 +3031,6 @@ select[multiple].input-lg {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -4508,14 +4505,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5A5A5A;  /* Changed */
+  color: #3c3c3c;  /* Changed */
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #5A5A5A /* Changed */
+  color: #3c3c3c /* Changed */
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4542,11 +4539,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #FFFFFF; /* Changed for Canvas LMS */
+  background-color: #3c3c3c; /* Changed */
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #771322; /* Changed for Canvas LMS */
+  border-color: #222222;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -4556,7 +4553,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #5A5A5A; /* Changed */
+    color: #3c3c3c; /* Changed */
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5074,8 +5071,8 @@ a.thumbnail.active {
   color: #e6e6e6;
 }
 .alert-info {
-  background-color: #70BEDB; /* Changed */
-  border-color: #5AB3D5; /* Changed */
+  background-color: #5bc0de;
+  border-color: #3db5d8;
   color: #ffffff;
 }
 .alert-info hr {
@@ -6760,11 +6757,11 @@ button.close {
 }
 .navbar {
   border: none;
-  font-size: 16px;
+  font-size: 14.5px; /*Changed */
   font-weight: 300;
 }
 .navbar .navbar-toggle:hover .icon-bar {
-  background-color: #61111c; /*Changed for Canvas LMS */
+  background-color: #b3b3b3;
 }
 .navbar-collapse {
   border-top-color: rgba(0, 0, 0, 0.2);
@@ -7086,7 +7083,7 @@ input[type="checkbox"] {
 
 body {
   /* Margin bottom for footer height */
-  margin-bottom: 400px;
+  margin-bottom: 400px; /*Changed*/
 }
 
 .navbar {
@@ -7096,42 +7093,5 @@ body {
 .alert a {
   color: #FFFFFF;
   text-decoration: underline;
-}
-
-/* Changed the Bootstrap NavBar Breakpoint */
-@media (max-width: 992px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
+  text-decoration-style: dotted;
 }
