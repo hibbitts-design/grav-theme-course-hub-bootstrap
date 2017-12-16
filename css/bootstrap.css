@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
-/* @import url('https://fonts.googleapis.com/css?family=Lato'); */
-
 /*!
- * bootswatch v3.3.6
+ * bootswatch v3.3.7
  * Homepage: http://bootswatch.com
  * Copyright 2012-2016 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
 /*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -1089,8 +1087,7 @@ html {
 }
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
-  font-size: 16px; /* Default font size increased */
+  font-size: 16px; /*Changed */
   line-height: 1.4;
   color: #222222;
   background-color: #ffffff;
@@ -1113,7 +1110,6 @@ a:focus {
   text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -1192,7 +1188,6 @@ h6,
 .h5,
 .h6 {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
   font-weight: 300;
   line-height: 1.1;
   color: inherit;
@@ -2545,7 +2540,6 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -3037,7 +3031,6 @@ select[multiple].input-lg {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -4512,14 +4505,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5A5A5A;  /* Changed */
+  color: #3c3c3c;  /* Changed */
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #5A5A5A /* Changed */
+  color: #3c3c3c /* Changed */
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4546,7 +4539,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #5A5A5A; /* Changed */
+  background-color: #3c3c3c; /* Changed */
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -4560,7 +4553,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #5A5A5A; /* Changed */
+    color: #3c3c3c; /* Changed */
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5078,8 +5071,8 @@ a.thumbnail.active {
   color: #e6e6e6;
 }
 .alert-info {
-  background-color: #70BEDB; /* Changed */
-  border-color: #5AB3D5; /* Changed */
+  background-color: #5bc0de;
+  border-color: #3db5d8;
   color: #ffffff;
 }
 .alert-info hr {
@@ -6002,7 +5995,6 @@ button.close {
   z-index: 1070;
   display: block;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6121,7 +6113,6 @@ button.close {
   max-width: 276px;
   padding: 1px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6766,7 +6757,7 @@ button.close {
 }
 .navbar {
   border: none;
-  font-size: 16px;
+  font-size: 14.5px; /*Changed */
   font-weight: 300;
 }
 .navbar .navbar-toggle:hover .icon-bar {
