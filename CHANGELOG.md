@@ -1,3 +1,9 @@
+# v1.9.76
+## 12/17/2017
+
+1. [](#improved)
+    * Multi-course site examples updated to align with new basic example in '_demo' pages folder
+
 # v1.9.75
 ## 12/16/2017
 
