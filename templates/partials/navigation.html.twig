@@ -63,7 +63,7 @@
                     </ul>
                   </li>
                 {% else %}
-                {% if config.site.hidehomemenulink and page.slug == 'home' %}
+                {% if config.site.hidehomemenulink and page.home() %}
                   {# Supress home menu link - hibbittsdesign.org #}
                 {% else %}
                     <li class="{{ current_page }}">
