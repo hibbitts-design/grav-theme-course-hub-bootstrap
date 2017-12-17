@@ -9,9 +9,13 @@ hide_git_sync_repo_link: false
 hide_from_post_list: false
 ---
 
-##### Presented Slides
-[Course Overview](https://swipe.to/9967fp)  
-[Introduction to UX Design](https://swipe.to/9967fp)  
+##### What is this course all about?
+[Course Overview](https://swipe.to/9967fp)
+
+##### What is usability and user experience design?
+[HCI, UI, IA, IxD, and UX](https://www.swipe.to/9967fp?p=2rXR1F3mH)  
+[Design Thinking](https://www.swipe.to/9967fp?p=bhT4QfB2J)  
+[Usability and UCD](https://www.swipe.to/9967fp?p=1Mb9rDTJS)  
 
 ===
 

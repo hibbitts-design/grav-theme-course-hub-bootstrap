@@ -6,8 +6,10 @@ header_image_credit: 'Emilio Küffer, Flickr.com'
 header_image_creditlink: 'https://www.flickr.com/photos/emiliokuffer/6384294717/'
 ---
 
-##### Presented Slides
-[Strategic UX Design](https://swipe.to/9967fp)
+##### How to make more strategic design decisions?  
+[User Experience Strategy](https://www.swipe.to/9967fp?p=2rXR1F3mH)  
+[Assessing Current State](https://www.swipe.to/9967fp?p=bhT4QfB2J)  
+[Imagining Future State](https://www.swipe.to/9967fp?p=1Mb9rDTJS)
 
 ===
 

@@ -6,8 +6,10 @@ header_image_credit: 'Rick Dolishny, Flickr.com'
 header_image_creditlink: 'https://www.flickr.com/photos/rdolishny/2760207306/'
 ---
 
-##### Presented Slides
-[User Interface Inspections](https://swipe.to/9967fp)
+##### How to conduct a usability inspection?   
+[Cognitive Walkthroughs](https://www.swipe.to/9967fp?p=2rXR1F3mH)  
+[Conducting Heuristic Evaluations](https://www.swipe.to/9967fp?p=bhT4QfB2J)  
+[Nielsen’s Heuristics](https://www.swipe.to/9967fp?p=1Mb9rDTJS)  
 
 ===
 
