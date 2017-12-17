@@ -1,6 +1,7 @@
 ---
 title: 'Class Preparations'
 published: true
+header_image_file: '/home/week-05/'
 ---
 
 ### Oct 4th Class Preparations
