@@ -5,9 +5,9 @@ date: '29-11-2017 00:00'
 hide_from_post_list: true
 ---
 
-<!--- Your weekly summary content goes below here -->
+<!--- Your module summary content goes below here -->
 
-<!--- Your weekly summary content goes above here -->
+<!--- Your module summary content goes above here -->
 
 ===
 
