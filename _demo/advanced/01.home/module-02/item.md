@@ -2,8 +2,6 @@
 title: 'Week 2 (Sep 13 - 19)'
 published: true
 date: '13-09-2017 00:00'
-header_image_credit: 'CannedTuna, Flickr.com'
-header_image_creditlink: 'https://www.flickr.com/photos/cannedtuna/4853380320/'
 ---
 
 ##### What does a holistic user experience design process look like?

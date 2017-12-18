@@ -3,28 +3,28 @@ title: Schedule
 published: true
 ---
 
-#### [:fa-calendar: Week 1 (Sep 6 - 12)](/home/week-01)
+#### [:fa-calendar: Week 1 (Sep 6 - 12)](/home/module-01)
 **What is usability and user experience design?**  
 :fa-pencil: Create [team project group](https://canvas.sfu.ca/courses/36662/users) by Sep 13th   
 :fa-desktop: [plugin:page-inject](/slide-decks/week-01-01?template=swipedecklinkonly)
 :fa-desktop: [plugin:page-inject](/slide-decks/week-01-02?template=swipedecklinkonly)
 :fa-book:[plugin:page-inject](/required-readings/week-01?template=embedlycardlinkonly)  
 
-#### [:fa-calendar: Week 2 (Sep 13 - 19)](/home/week-02)
+#### [:fa-calendar: Week 2 (Sep 13 - 19)](/home/module-02)
 **What does a holistic user experience design process look like?**  
 :fa-pencil: [Project Proposal](https://canvas.sfu.ca/courses/36662/assignments/267529) due Sep 19th  
 :fa-desktop: [plugin:page-inject](/slide-decks/week-02?template=swipedecklinkonly)
 :fa-book: [plugin:page-inject](/required-readings/week-02?template=embedlycardlinkonly)  
 :fa-users: In-class office hours (tentative)  
 
-#### [:fa-calendar: Week 3 (Sep 20 - 26)](/home/week-03)
+#### [:fa-calendar: Week 3 (Sep 20 - 26)](/home/module-03)
 **How to make more strategic design decisions?**   
 :fa-pencil: [Project Brief](https://canvas.sfu.ca/courses/36662/assignments/267543) and [Reflective Log](https://canvas.sfu.ca/courses/36662/assignments/267544) due Sep 26th  
 :fa-desktop: [plugin:page-inject](/slide-decks/week-03?template=swipedecklinkonly)
 :fa-book: [plugin:page-inject](/required-readings/week-03?template=embedlycardlinkonly)  
 :fa-users: In-class office hours (tentative)  
 
-#### [:fa-calendar: Week 4 (Sep 27 - Oct 3)](/home/week-04)
+#### [:fa-calendar: Week 4 (Sep 27 - Oct 3)](/home/module-04)
 **How to conduct a usability inspection?**   
 :fa-pencil: [Usability Inspection](https://canvas.sfu.ca/courses/36662/assignments/267545) assignment due Oct 10th  
 :fa-file: [Usability Inspection Report Template](https://canvas.sfu.ca/courses/36662/files/folder/Handouts/Usability%20Inspection%20Report%20Template)  
@@ -32,13 +32,13 @@ published: true
 :fa-book: [plugin:page-inject](/required-readings/week-04?template=embedlycardlinkonly)  
 :fa-users: In-class office hours (tentative)  
 
-#### [:fa-calendar: Week 5 (Oct 4 - 10)](/home/week-05)
+#### [:fa-calendar: Week 5 (Oct 4 - 10)](/home/module-05)
 **How to understand and communicate people's needs and behaviors?**   
 :fa-desktop: [plugin:page-inject](/slide-decks/week-05?template=swipedecklinkonly)
 :fa-book: [plugin:page-inject](/required-readings/week-05?template=embedlycardlinkonly)  
 :fa-users: In-class office hours (tentative)  <br>
 
-#### [:fa-calendar: Week 6 (Oct 11 - 17)](/home/week-06)
+#### [:fa-calendar: Week 6 (Oct 11 - 17)](/home/module-06)
 **How to plan, conduct, and summarize usability tests?**  
 :fa-pencil: [Usability Inspection](https://canvas.sfu.ca/courses/36662/assignments/267545) assignment peer reviews due Oct 17th  
 :fa-desktop: [plugin:page-inject](/slide-decks/week-06?template=swipedecklinkonly)

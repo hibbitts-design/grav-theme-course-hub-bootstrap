@@ -2,8 +2,6 @@
 title: 'Week 4 (Sep 27 - Oct 3)'
 published: true
 date: '27-09-2017 00:00'
-header_image_credit: 'Rick Dolishny, Flickr.com'
-header_image_creditlink: 'https://www.flickr.com/photos/rdolishny/2760207306/'
 ---
 
 ##### How to conduct a usability inspection?   
