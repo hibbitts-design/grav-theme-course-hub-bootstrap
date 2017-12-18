@@ -1,3 +1,13 @@
+# v1.9.77
+## 12/18/2017
+
+1. [](#new)
+    * Added embed.ly script example to example class preparations in '_demo' pages folder
+    * Added MediaPicker functionality for (blog) item header images
+1. [](#improved)
+    * Removed on-hover social sharing buttons from embedded embed.ly scripts
+    * Revised logic for hiding home page link in menubar to be name independent
+
 # v1.9.76
 ## 12/17/2017
 
