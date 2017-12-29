@@ -31,18 +31,31 @@
 
             {{ page.content }}
 
-            {% for index, item in feed_items|sort_by_key('sortDate')|reverse %}
-                <h4>
-                <a href="{{ item.url }}">{{ item.title }}</a>
-                </h4>
-                <time>{{ item.date.date|date("m/d/Y") }}</time>, {{ item.retrievedTitle }}
-                <p>{{ item.content|striptags|truncate(300) }}</p>
-            {% endfor %}
+            {% if page.header.rss_feed_display_order == 'source' %}
+              {% for name, feed in twig_feeds %}
+                  <h4><a href="{{ feed.source }}">{{ feed.title }}</a></h4>
+                  {% for item in feed.items %}
+                  <h5>
+                  <a href="{{ item.url }}">{{ item.title }}</a>
+                </h5>
+                  <time>{{ item.date.date|date("m/d/Y") }}</time>
+                  <p>{{ item.content|striptags|truncate(300) }}</p>
+                  {% endfor %}
+              {% endfor %}
+            {% else %}
+              {% for index, item in feed_items|sort_by_key('sortDate')|reverse %}
+                  <h4>
+                  <a href="{{ item.url }}">{{ item.title }}</a>
+                  </h4>
+                  <time>{{ item.date.date|date("m/d/Y") }}</time>, {{ item.retrievedTitle }}
+                  <p>{{ item.content|striptags|truncate(300) }}</p>
+              {% endfor %}
+            {% endif %}
 
           {% endif %}
 
             {# Git repository edit link -  hibbittsdesign.org #}
-            {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hide_git_sync_repo_link) and not (page.slug == 'pages') %}
+            {% if ( page.header.git_sync_repo_link_display is defined and page.header.git_sync_repo_link_display == 'page' ) or (( config.site.gitrepo.editlinklocation == 'page' and page.header.git_sync_repo_link_display is not defined ) and not (page.header.hide_git_sync_repo_link)) %}
               <hr>
               <br>
               {% include 'partials/gitrepo_link_note.html.twig' %}
