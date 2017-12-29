@@ -29,6 +29,13 @@ form:
                     source: By Source
                     date: By Date
 
+            additional_rss_feed_info:
+                type: display
+                size: large
+                label: ''
+                markdown: true
+                content: "Note: Use the **Twig Feeds** Plugin to add or change RSS Feeds."
+
             coursehub2:
                 type: section
                 title: Git Repository
