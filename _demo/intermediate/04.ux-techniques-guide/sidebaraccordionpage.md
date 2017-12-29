@@ -1,5 +1,5 @@
 ---
-title: 'UX Techniques Guide'
+title: 'UX Techniques'
 cache_enable: false
 content:
     items: '@self.children'

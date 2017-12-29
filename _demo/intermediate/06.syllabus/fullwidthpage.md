@@ -1,8 +1,6 @@
 ---
 title: Syllabus
-hide_page_title: false
-hide_git_sync_repo_link: false
-published: false
+published: true
 ---
 
 ##### Course Description
