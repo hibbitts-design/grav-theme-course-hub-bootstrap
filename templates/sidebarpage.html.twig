@@ -7,9 +7,9 @@
         {# check content display flag - hibbittsdesign.org #}
         {% if not (grav.uri.param('chromeless')) %}
           <div class="col-sm-8 blog-main">
-{% else %}
-<div class="col-sm-12 blog-main">
-{% endif %}
+        {% else %}
+          <div class="col-sm-12 blog-main">
+        {% endif %}
           {% if not page.header.hide_page_title %}
           <h3>{{page.title}}</h3>
           {% else %}
@@ -17,11 +17,11 @@
           {% endif %}
             {{ page.content }}
             {# Git repository edit link -  hibbittsdesign.org #}
-            {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hide_git_sync_repo_link) and not (page.slug == 'pages') %}
-              <hr>
-              <br>
-              {% include 'partials/gitrepo_link_note.html.twig' %}
-              <br>
+            {% if ( page.header.git_sync_repo_link_display is defined and page.header.git_sync_repo_link_display == 'page' ) or (( config.site.gitrepo.editlinklocation == 'page' and page.header.git_sync_repo_link_display is not defined ) and not (page.header.hide_git_sync_repo_link)) %}
+                <hr>
+                <br>
+                {% include 'partials/gitrepo_link_note.html.twig' %}
+                <br>
             {% endif %}
           </div>
           {# check content display flag - hibbittsdesign.org #}

@@ -89,10 +89,10 @@
                 {% endfor %}
               {% endif %}
               {# Added Git repository edit link -  hibbittsdesign.org #}
-              {% if config.site.gitrepo.editlinklocation == 'menu' and not (page.header.hide_git_sync_repo_link) and not (page.slug == 'pages') %}
-                <li>
-                  {% include 'partials/gitrepo_link.html.twig' %}
-                </li>
+              {% if ( page.header.git_sync_repo_link_display is defined and page.header.git_sync_repo_link_display == 'menu' ) or (( config.site.gitrepo.editlinklocation == 'menu' and page.header.git_sync_repo_link_display is not defined ) and not (page.header.hide_git_sync_repo_link)) %}
+                  <li>
+                    {% include 'partials/gitrepo_link.html.twig' %}
+                  </li>
               {% endif %}
 
               {% if config.plugins.login.enabled and grav.user.username %}
