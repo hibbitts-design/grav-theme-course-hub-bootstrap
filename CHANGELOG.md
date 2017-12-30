@@ -4,8 +4,10 @@
 1. [](#new)
     * Added display list options for RSS aggregation pages
     * Added page header variable to override Git Sync link display location
+    * Added example RSS aggregation page to 'basic' course example
 1. [](#improved)
     * Updated 'advanced' single course demo pages in theme '_demo' folder
+    * Revised accordion and RSS Feed template names and blueprints for better readability
 
 # v1.9.79
 ## 12/29/2017
