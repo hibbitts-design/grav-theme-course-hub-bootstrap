@@ -33,23 +33,49 @@
 
           {% if page.header.rss_feed_display_order == 'source' %}
             {% for name, feed in twig_feeds %}
-                <h4><a href="{{ feed.source }}">{{ feed.title }}</a></h4>
+                <h4><a class="newwindow external-link" href="{{ feed.source }}">{{ feed.title }}</a></h4>
                 {% for item in feed.items %}
                 <h5>
-                <a href="{{ item.url }}">{{ item.title }}</a>
+                <a class="newwindow external-link" href="{{ item.url }}">{{ item.title }}</a>
               </h5>
                 <time>{{ item.date.date|date("m/d/Y") }}</time>
-                <p>{{ item.content|striptags|truncate(300) }}</p>
+                {% if page.header.rss_feed_header_images %}
+                  <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
+                {% endif %}
+                {% set paragraphs = item.content | split('</p>') %}
+                {% set firstParagraph = paragraphs[0] ~ '</p>' %}
+                {% set secondParagraph = paragraphs[1] ~ '</p>' %}
+                {% if page.header.rss_feed_preview_paragraphs == 'one' or page.header.rss_feed_preview_paragraphs is empty %}
+                  <p>{{ firstParagraph | striptags }}</p>
+                  <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
+                {% elseif page.header.rss_feed_preview_paragraphs == 'two' %}
+                  <p>{{ firstParagraph | striptags }}</p>
+                  <p>{{ secondParagraph | striptags }}</p>
+                  <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
+                {% endif %}
                 {% endfor %}
             {% endfor %}
           {% else %}
             {% for index, item in feed_items|sort_by_key('sortDate')|reverse %}
                 <h4>
-                <a href="{{ item.url }}">{{ item.title }}</a>
+                <a class="newwindow external-link" href="{{ item.url }}">{{ item.title }}</a>
                 </h4>
                 <time>{{ item.date.date|date("m/d/Y") }}</time>, {{ item.retrievedTitle }}
-                <p>{{ item.content|striptags|truncate(300) }}</p>
-            {% endfor %}
+                {% if page.header.rss_feed_header_images %}
+                  <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
+                {% endif %}
+                {% set paragraphs = item.content | split('</p>') %}
+                {% set firstParagraph = paragraphs[0] ~ '</p>' %}
+                {% set secondParagraph = paragraphs[1] ~ '</p>' %}
+                {% if page.header.rss_feed_preview_paragraphs == 'one' or page.header.rss_feed_preview_paragraphs is empty %}
+                  <p>{{ firstParagraph | striptags }}</p>
+                  <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
+                {% elseif page.header.rss_feed_preview_paragraphs == 'two' %}
+                  <p>{{ firstParagraph | striptags }}</p>
+                  <p>{{ secondParagraph | striptags }}</p>
+                  <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
+                {% endif %}
+              {% endfor %}
           {% endif %}
 	      {% else %}
 		       <p>Install and configure the <strong>Twig Feeds</strong> Plugin to display RSS Feeds on this page.</p>
