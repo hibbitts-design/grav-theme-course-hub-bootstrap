@@ -1,7 +1,7 @@
 ---
 title: 'UX News'
 published: true
-git_sync_repo_link_display: 'none'
+hide_git_sync_repo_link: true
 rss_feed_display_order: date
 rss_feed_header_images: '1'
 rss_feed_preview_paragraphs: two
