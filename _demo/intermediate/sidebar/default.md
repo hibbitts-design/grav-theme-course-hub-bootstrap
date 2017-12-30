@@ -21,5 +21,4 @@ Another Name
 [Grades](https://canvas.sfu.ca/grades)  
 [Syllabus](https://canvas.sfu.ca/courses/36662/assignments/syllabus)
 
-[plugin:page-inject](/web-pick-of-the-week)
 [plugin:page-inject](/twitter-feed)
