@@ -1,3 +1,12 @@
+# v1.9.81
+## 12/30/2017
+
+1. [](#new)
+    * Added optional display of header image for RSS Feed items
+    * Added optional paragraphs (0-2) preview for RSS Feed items
+1. [](#improved)
+    * Updated 'basic' and 'advanced' course demo pages in theme '_demo' folder
+
 # v1.9.80
 ## 12/30/2017
 
