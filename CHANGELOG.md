@@ -3,6 +3,7 @@
 
 1. [](#improved)
     * Updated RSS Feed and Blog Item blueprints
+    * Streamlined RSS Feed template logic
 1. [](#bugfix)
     * Fixed the default visibility of the Git Sync link on 'UX News' demo page
     * Removed unused template files
