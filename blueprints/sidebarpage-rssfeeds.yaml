@@ -43,13 +43,13 @@ form:
 
         rssfeed:
           type: tab
-          title: RSS Feed Items
+          title: RSS Feeds Display
 
           fields:
 
             rssfeeditems:
                 type: section
-                title: RSS Feed Display
+                title: Display Options
                 underline: true
 
             header.rss_feed_display_order:
@@ -60,13 +60,6 @@ form:
                 options:
                     source: By Source
                     date: By Date
-
-            additional_rss_feed_info:
-                type: display
-                size: large
-                label: ''
-                markdown: true
-                content: "Note: Use the **Twig Feeds** Plugin to add or change RSS Feeds."
 
             header.rss_feed_header_images:
               type: toggle
@@ -86,3 +79,10 @@ form:
                   none: None
                   one: One
                   two: Two
+
+            additional_rss_feed_info:
+                type: display
+                size: large
+                label: ''
+                markdown: true
+                content: "Note: To add or change RSS Feeds use the **Twig Feeds** Plugin"

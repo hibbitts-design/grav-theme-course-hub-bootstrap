@@ -85,7 +85,6 @@ form:
               title: Summary
               underline: true
 
-
             header.summary.enabled:
               type: toggle
               toggleable: true
@@ -101,7 +100,7 @@ form:
               label: Format
               classes: fancy
               options:
-                'short': 'Use the first occurence of delimter or size'
+                'short': 'Use the first occurence of delimiter or size'
                 'long': 'Summary delimiter will be ignored'
 
             header.summary.size:
@@ -137,12 +136,12 @@ form:
 
             coursehub2:
                 type: section
-                title: Blog List Item Options
+                title: Blog List Options
                 underline: true
 
             header.hide_from_post_list:
                 type: toggle
-                label: Display this Item in Blog List
+                label: Include this Item in Blog List
                 help: Determines if this page (i.e. post) will appear in the blog index
                 default: 0
                 highlight: 0
@@ -154,7 +153,7 @@ form:
 
             header.continue_link:
                 type: toggle
-                label: Include 'View all of...' Blog Item Link
+                label: Include 'View all of...' Link with this Item
                 help: Determines if a 'View all of...' link is displayed for items listed in the blog index
                 default: 1
                 highlight: 1
