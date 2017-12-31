@@ -35,24 +35,23 @@
             {% for name, feed in twig_feeds %}
                 <h4><a class="newwindow external-link" href="{{ feed.source }}">{{ feed.title }}</a></h4>
                 {% for item in feed.items %}
-                <h5>
-                <a class="newwindow external-link" href="{{ item.url }}">{{ item.title }}</a>
-              </h5>
-                <time>{{ item.date.date|date("m/d/Y") }}</time>
-                {% if page.header.rss_feed_header_images %}
-                  <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
-                {% endif %}
-                {% set paragraphs = item.content | split('</p>') %}
-                {% set firstParagraph = paragraphs[0] ~ '</p>' %}
-                {% set secondParagraph = paragraphs[1] ~ '</p>' %}
-                {% if page.header.rss_feed_preview_paragraphs == 'one' or page.header.rss_feed_preview_paragraphs is empty %}
-                  <p>{{ firstParagraph | striptags }}</p>
-                  <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
-                {% elseif page.header.rss_feed_preview_paragraphs == 'two' %}
-                  <p>{{ firstParagraph | striptags }}</p>
-                  <p>{{ secondParagraph | striptags }}</p>
-                  <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
-                {% endif %}
+                  <h5>
+                  <a class="newwindow external-link" href="{{ item.url }}">{{ item.title }}</a>
+                  </h5>
+                  <time>{{ item.date.date|date("m/d/Y") }}</time>
+                  {% if page.header.rss_feed_header_images %}
+                    <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
+                  {% endif %}
+                  {% set paragraphs = item.content | split('</p>') %}
+                  {% set firstParagraph = paragraphs[0] ~ '</p>' %}
+                  {% set secondParagraph = paragraphs[1] ~ '</p>' %}
+                  {% if not (page.header.rss_feed_preview_paragraphs == 'none') %}
+                    <p>{{ firstParagraph | striptags }}</p>
+                    {% if page.header.rss_feed_preview_paragraphs == 'two' %}
+                      <p>{{ secondParagraph | striptags }}</p>
+                    {% endif %}
+                    <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
+                  {% endif %}
                 {% endfor %}
             {% endfor %}
           {% else %}
@@ -67,12 +66,11 @@
                 {% set paragraphs = item.content | split('</p>') %}
                 {% set firstParagraph = paragraphs[0] ~ '</p>' %}
                 {% set secondParagraph = paragraphs[1] ~ '</p>' %}
-                {% if page.header.rss_feed_preview_paragraphs == 'one' or page.header.rss_feed_preview_paragraphs is empty %}
+                {% if not (page.header.rss_feed_preview_paragraphs == 'none') %}
                   <p>{{ firstParagraph | striptags }}</p>
-                  <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
-                {% elseif page.header.rss_feed_preview_paragraphs == 'two' %}
-                  <p>{{ firstParagraph | striptags }}</p>
-                  <p>{{ secondParagraph | striptags }}</p>
+                  {% if page.header.rss_feed_preview_paragraphs == 'two' %}
+                    <p>{{ secondParagraph | striptags }}</p>
+                  {% endif %}
                   <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
                 {% endif %}
               {% endfor %}
