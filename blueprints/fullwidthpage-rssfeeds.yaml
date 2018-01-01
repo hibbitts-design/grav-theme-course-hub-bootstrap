@@ -70,6 +70,15 @@ form:
                 1: Enabled
                 0: Disabled
 
+            header.hide_rss_feed_header_images_when_chromeless:
+              type: toggle
+              label: "Display Header Images when 'Chromeless'"
+              highlight: 0
+              default: 0
+              options:
+                0: Yes
+                1: No
+
             header.rss_feed_preview_paragraphs:
               type: select
               size: small

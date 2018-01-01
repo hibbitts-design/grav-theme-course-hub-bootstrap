@@ -35,7 +35,13 @@
                   </h5>
                   <time>{{ item.date.date|date("m/d/Y") }}</time>
                   {% if page.header.rss_feed_header_images %}
-                    <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
+                    {% if grav.uri.param('chromeless') or (config.site.chromeless.enabled) %}
+                        {% if not header.hide_rss_feed_header_images_when_chromeless %}
+                          <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
+                        {% endif %}
+                    {% else %}
+                      <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
+                    {% endif %}
                   {% endif %}
                   {% set paragraphs = item.content | split('</p>') %}
                   {% set firstParagraph = paragraphs[0] ~ '</p>' %}
@@ -56,7 +62,13 @@
                   </h4>
                   <time>{{ item.date.date|date("m/d/Y") }}</time>, {{ item.retrievedTitle }}
                   {% if page.header.rss_feed_header_images %}
-                    <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
+                    {% if grav.uri.param('chromeless') or (config.site.chromeless.enabled) %}
+                        {% if not header.hide_rss_feed_header_images_when_chromeless %}
+                          <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
+                        {% endif %}
+                    {% else %}
+                      <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
+                    {% endif %}
                   {% endif %}
                   {% set paragraphs = item.content | split('</p>') %}
                   {% set firstParagraph = paragraphs[0] ~ '</p>' %}
