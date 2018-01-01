@@ -1,3 +1,9 @@
+# v1.9.83
+## 01/01/2018
+
+1. [](#new)
+    * Added option not to display RSS Feed Header Images when in 'chromeless' display mode
+
 # v1.9.82
 ## 12/31/2017
 
