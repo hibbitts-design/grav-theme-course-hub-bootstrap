@@ -39,7 +39,7 @@
                   <a class="newwindow external-link" href="{{ item.url }}">{{ item.title }}</a>
                   </h5>
                   <time>{{ item.date.date|date("m/d/Y") }}</time>
-                  {% if page.header.rss_feed_header_images %}
+                  {% if page.header.rss_feed_header_images and not (page.header.rss_feed_preview_paragraphs == 'all') %}
                     {% if grav.uri.param('chromeless') or (config.site.chromeless.enabled) %}
                         {% if not header.hide_rss_feed_header_images_when_chromeless %}
                           <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
@@ -52,11 +52,15 @@
                   {% set firstParagraph = paragraphs[0] ~ '</p>' %}
                   {% set secondParagraph = paragraphs[1] ~ '</p>' %}
                   {% if not (page.header.rss_feed_preview_paragraphs == 'none') %}
-                    <p>{{ firstParagraph | striptags }}</p>
-                    {% if page.header.rss_feed_preview_paragraphs == 'two' %}
-                      <p>{{ secondParagraph | striptags }}</p>
+                    {% if page.header.rss_feed_preview_paragraphs == 'all' %}
+                      {{ item.content }}
+                    {% else %}
+                      <p>{{ firstParagraph | striptags }}</p>
+                      {% if page.header.rss_feed_preview_paragraphs == 'two' %}
+                        <p>{{ secondParagraph | striptags }}</p>
+                      {% endif %}
+                      <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
                     {% endif %}
-                    <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
                   {% endif %}
                 {% endfor %}
             {% endfor %}
@@ -66,7 +70,7 @@
                 <a class="newwindow external-link" href="{{ item.url }}">{{ item.title }}</a>
                 </h4>
                 <time>{{ item.date.date|date("m/d/Y") }}</time>, {{ item.retrievedTitle }}
-                {% if page.header.rss_feed_header_images %}
+                {% if page.header.rss_feed_header_images and not (page.header.rss_feed_preview_paragraphs == 'all') %}
                   {% if grav.uri.param('chromeless') or (config.site.chromeless.enabled) %}
                       {% if not header.hide_rss_feed_header_images_when_chromeless %}
                         <p>{{ item.content|preg_get('/(<img(?:(\s*(class)\s*=\s*\x22([^\x22]+)\x22*)+|[^>]+?)*>)/') }}</p>
@@ -79,11 +83,15 @@
                 {% set firstParagraph = paragraphs[0] ~ '</p>' %}
                 {% set secondParagraph = paragraphs[1] ~ '</p>' %}
                 {% if not (page.header.rss_feed_preview_paragraphs == 'none') %}
-                  <p>{{ firstParagraph | striptags }}</p>
-                  {% if page.header.rss_feed_preview_paragraphs == 'two' %}
-                    <p>{{ secondParagraph | striptags }}</p>
+                  {% if page.header.rss_feed_preview_paragraphs == 'all' %}
+                    {{ item.content }}
+                  {% else %}
+                    <p>{{ firstParagraph | striptags }}</p>
+                    {% if page.header.rss_feed_preview_paragraphs == 'two' %}
+                      <p>{{ secondParagraph | striptags }}</p>
+                    {% endif %}
+                    <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
                   {% endif %}
-                  <p><a class="newwindow external-link" href="{{ item.url }}">Continue reading...</a></p><br>
                 {% endif %}
               {% endfor %}
           {% endif %}

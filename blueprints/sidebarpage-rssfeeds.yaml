@@ -81,6 +81,7 @@ form:
                   none: None
                   one: One
                   two: Two
+                  all: All
 
             additional_rss_feed_info:
                 type: display
