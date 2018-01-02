@@ -1,4 +1,4 @@
-title: Course Hub Options
+title: Course Hub Page Options
 '@extends':
     type: default
     context: blueprints://pages
@@ -69,6 +69,8 @@ form:
               options:
                 1: Enabled
                 0: Disabled
+              validate:
+                type: bool
 
             header.hide_rss_feed_header_images_when_chromeless:
               type: toggle
@@ -78,7 +80,9 @@ form:
               options:
                 0: Yes
                 1: No
-
+              validate:
+                type: bool
+                
             header.rss_feed_preview_paragraphs:
               type: select
               size: small

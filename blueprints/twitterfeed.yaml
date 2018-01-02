@@ -1,4 +1,4 @@
-title: Twitter Feed
+title: Twitter Feed Options
 '@extends':
     type: default
     context: blueprints://pages

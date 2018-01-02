@@ -1,4 +1,4 @@
-title: Course Hub Options
+title: Course Hub Page Options
 '@extends':
     type: default
     context: blueprints://pages

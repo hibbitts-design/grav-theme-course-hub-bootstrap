@@ -1,4 +1,4 @@
-title: Course Hub
+title: Course Hub Page Options
 '@extends':
     type: blog
     context: blueprints://pages

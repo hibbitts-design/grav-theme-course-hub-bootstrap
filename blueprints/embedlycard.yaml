@@ -1,4 +1,4 @@
-title: Embedly Card
+title: Embedly Card Options
 '@extends':
     type: default
     context: blueprints://pages
