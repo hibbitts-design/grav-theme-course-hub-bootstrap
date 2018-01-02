@@ -1,6 +1,8 @@
 ---
 title: Schedule
 published: true
+hide_page_title: false
+hide_git_sync_repo_link: false
 ---
 
 #### [:fa-calendar: Week 1 (Sep 6 - 12)](/home/module-01)
