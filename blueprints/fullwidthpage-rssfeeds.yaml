@@ -74,14 +74,14 @@ form:
 
             header.rss_feed_preview_paragraphs:
               type: select
-              size: small
+              size: medium
               label: RSS Feed Preview Paragraphs
               default: one
               options:
                   none: None
-                  one: One
-                  two: Two
-                  all: All
+                  one: One (with no formating)
+                  two: Two (with no formating)
+                  all: All (including formating and images)
 
             additional_rss_feed_info:
                 type: display
