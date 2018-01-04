@@ -1,3 +1,9 @@
+# v1.9.85
+## 01/04/2018
+
+1. [](#improved)
+    * Added option to show all paragraphs (i.e. entire post) in RSS Feed items
+
 # v1.9.84
 ## 01/02/2018
 
