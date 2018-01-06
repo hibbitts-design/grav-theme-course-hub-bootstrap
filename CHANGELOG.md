@@ -1,3 +1,9 @@
+# v1.9.87
+## 01/06/2018
+
+1. [](#new)
+    * Added Auto Date plugin as dependency
+
 # v1.9.86
 ## 01/05/2018
 
