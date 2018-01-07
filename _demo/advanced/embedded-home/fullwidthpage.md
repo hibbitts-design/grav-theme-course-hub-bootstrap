@@ -1,8 +1,8 @@
 ---
 title: 'Home to Embed in LMS (i.e. Canvas)'
 hide_page_title: true
-visible: false
 hide_git_sync_repo_link: true
+visible: false
 page-inject:
     processed_content: null
 ---
