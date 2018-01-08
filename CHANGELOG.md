@@ -1,3 +1,13 @@
+# v1.9.88
+## 01/08/2018
+
+1. [](#new)
+    * Added further simplified 'basic' course demo page in theme '_demo' folder
+1. [](#improved)
+    * Renamed previous 'basic' course example to 'intermediate' and 'intermediate' course example to 'advanced' in theme '_demo' folder
+1. [](#bugfix)
+    * Restored Sitemap plugin as a dependency
+
 # v1.9.87
 ## 01/06/2018
 
