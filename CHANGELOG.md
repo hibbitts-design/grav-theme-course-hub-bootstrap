@@ -1,3 +1,9 @@
+# v1.9.90
+## 01/09/2018
+
+1. [](#bugfix)
+    * Fixed extra bracket error in accordion page with sidebar Twig template
+
 # v1.9.89
 ## 01/09/2018
 
