@@ -11,7 +11,7 @@
           <div class="col-sm-12 blog-main">
         {% endif %}
 
-        {{% if not (page.header.hide_page_title) and not (grav.uri.param('hidepagetitle')) %}
+        {% if not (page.header.hide_page_title) and not (grav.uri.param('hidepagetitle')) %}
           <h3>{{page.title}}</h3>
         {% else %}
           <h3 aria-label={{page.title}}></h3>
