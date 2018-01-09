@@ -10,10 +10,10 @@
         {% else %}
           <div class="col-sm-12 blog-main">
         {% endif %}
-          {% if not page.header.hide_page_title %}
-          <h3>{{page.title}}</h3>
+          {% if not (page.header.hide_page_title) and not (grav.uri.param('hidepagetitle')) %}
+            <h3>{{page.title}}</h3>
           {% else %}
-          <h3 aria-label={{page.title}}></h3>
+            <h3 aria-label={{page.title}}></h3>
           {% endif %}
             {{ page.content }}
             {# Git repository edit link -  hibbittsdesign.org #}

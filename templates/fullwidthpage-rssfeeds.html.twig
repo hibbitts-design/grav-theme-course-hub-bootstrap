@@ -5,10 +5,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 blog-main">
-          {% if not page.header.hide_page_title %}
-          <h3>{{page.title}}</h3>
+          {% if not (page.header.hide_page_title) and not (grav.uri.param('hidepagetitle')) %}
+            <h3>{{page.title}}</h3>
           {% else %}
-          <h3 aria-label={{page.title}}></h3>
+            <h3 aria-label={{page.title}}></h3>
           {% endif %}
 
           {% if config.plugins.twigfeeds.enabled %}

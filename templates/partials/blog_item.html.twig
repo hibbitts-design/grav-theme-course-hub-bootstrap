@@ -26,10 +26,12 @@
               {% set titleicon = config.site.icon.post %}
             {% endif %}
       {% endif %}
-      {% if titleicon %}
-        <h3 class="p-name"><a href="{{ page.url }}" class="u-url"><i class="fa fa-{{ titleicon }}" aria-hidden="true"></i> {{ page.title }}</a></h3>
-      {% else %}
-        <h3 class="p-name"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h3>
+      {% if not (grav.uri.param('hidepagetitle')) %}
+        {% if titleicon %}
+          <h3 class="p-name"><a href="{{ page.url }}" class="u-url"><i class="fa fa-{{ titleicon }}" aria-hidden="true"></i> {{ page.title }}</a></h3>
+        {% else %}
+          <h3 class="p-name"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></h3>
+        {% endif %}
       {% endif %}
     {% endif %}
 
@@ -132,6 +134,7 @@
       {# added summary flag and Git repository edit link -  hibbittsdesign.org #}
       {% set content = page.content|slice(page.summary|length) %}
       {# do not display summary on actual page - hibbittsdesign.org #}
+      {% if not (grav.uri.param('summaryonly')) %}
       <p>{{ content }}</p>
         <hr>
         {% if ( page.header.git_sync_repo_link_display is defined and page.header.git_sync_repo_link_display == 'page' ) or (( config.site.gitrepo.editlinklocation == 'page' and page.header.git_sync_repo_link_display is not defined ) and not (page.header.hide_git_sync_repo_link)) %}
@@ -140,6 +143,15 @@
           <br>
         {% endif %}
       {% set show_prev_next = true %}
+      {% else %}
+        <p>{{ page.summary }}</p>
+        <p>
+          <a class="newwindow external-link" href="{{ page.url ~ '/chromeless:true' }}">View all of
+            {{ page.title }}
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </a>
+        </p>
+      {% endif %}
     {% endif %}
 
     {# added check for content display flag - hibbittsdesign.org #}
