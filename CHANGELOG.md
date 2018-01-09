@@ -1,3 +1,10 @@
+# v1.9.89
+## 01/09/2018
+
+1. [](#new)
+    * Added experimental support for new 'summaryonly' URL flag to only display summary on blog posts
+    * Added experimental support for new 'hidepagetitle' URL flag to hide page title
+
 # v1.9.88
 ## 01/08/2018
 
