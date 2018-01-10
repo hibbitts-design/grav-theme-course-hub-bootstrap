@@ -2,6 +2,8 @@ $(document).ready(function(){
 
    $("a.newwindow").attr("target","_blank");
 
+   $("a.topwindow").attr("target","_top");
+
     $('.container').on('click', 'a:not(.external-link):not([href^="#"])', function(e){
 
         e.preventDefault();
