@@ -1,3 +1,9 @@
+# v1.9.92
+## 01/10/2018
+
+1. [](#improved)
+    * Changed the display location of horizontal rule between modular and child blog items
+
 # v1.9.91
 ## 01/10/2018
 
