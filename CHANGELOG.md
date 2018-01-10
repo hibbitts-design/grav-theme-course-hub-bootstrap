@@ -1,3 +1,11 @@
+# v1.9.91
+## 01/10/2018
+
+1. [](#new)
+    * Added support for opening links in top window
+1. [](#improved)
+    * Changed default link behavior for 'summaryonly' "View all..." link
+
 # v1.9.90
 ## 01/09/2018
 
