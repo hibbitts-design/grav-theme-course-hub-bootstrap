@@ -38,4 +38,4 @@ Create [team project group](https://canvas.sfu.ca/courses/36662/users)
 [plugin:content-inject](/ux-techniques/what-is-usability-and-user-experience-design/usability)
 [plugin:content-inject](/ux-techniques/what-is-usability-and-user-experience-design/user-experience-design)  
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques-guide) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).

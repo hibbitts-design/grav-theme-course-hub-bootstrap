@@ -34,4 +34,4 @@ hide_git_sync_repo_link: false
 [plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/task-analysis)  
 [plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/user-research)  
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques-guide) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).

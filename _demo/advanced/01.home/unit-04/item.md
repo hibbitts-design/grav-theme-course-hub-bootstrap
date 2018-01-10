@@ -33,4 +33,4 @@ hide_git_sync_repo_link: false
 [plugin:content-inject](/ux-techniques/how-to-conduct-a-usability-inspection/cognitive-walkthroughs)  
 [plugin:content-inject](/ux-techniques/how-to-conduct-a-usability-inspection/heuristic-evaluations)  
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques-guide) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).
