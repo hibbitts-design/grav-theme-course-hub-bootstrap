@@ -1,5 +1,5 @@
 # v1.9.94
-## 01/11/2018
+## 01/12/2018
 
 1. [](#bugfix)
     * Restored missing example page image
