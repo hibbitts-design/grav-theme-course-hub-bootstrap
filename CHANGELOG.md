@@ -1,3 +1,9 @@
+# v1.9.94
+## 01/12/2018
+
+1. [](#improved)
+    * Revised default link behavior for 'summaryonly' "View all..." link
+
 # v1.9.93
 ## 01/11/2018
 
