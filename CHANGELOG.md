@@ -1,14 +1,9 @@
-# v1.9.94
-## 01/12/2018
-
-1. [](#bugfix)
-    * Restored missing example page image
-
 # v1.9.93
 ## 01/11/2018
 
 1. [](#bugfix)
     * Fixed incorrect URL within 'advanced' course example pages
+    * Restored missing example page image
 
 # v1.9.92
 ## 01/10/2018
