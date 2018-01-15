@@ -25,6 +25,23 @@ form:
 
             coursehub2:
                 type: section
+                title: "'View All of...' Links"
+                underline: true
+
+            header.continue_link_as_button:
+                type: toggle
+                label: Display 'View all of...' Links as Buttons
+                help: Determines if 'View all of...' links are displayed as buttons
+                default: 0
+                highlight: 1
+                options:
+                    1:  Yes
+                    0:  No
+                validate:
+                    type: bool
+
+            coursehub3:
+                type: section
                 title: Git Repository
                 underline: true
 

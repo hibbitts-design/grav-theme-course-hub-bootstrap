@@ -115,9 +115,13 @@
       {# added summary flag and title icon - hibbittsdesign.org #}
       <p>{{ page.summary }}</p>
       <p>
-        <a href="{{ page.url }}">View all of
-          {{ page.title }}
-          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        {% if page.parent.header.continue_links_as_buttons %}
+          <a class="btn btn-default" href="{{ page.url }}">View all of
+        {% else %}
+          <a href="{{ page.url }}">View all of
+        {% endif %}
+        {{ page.title }}
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
         </a>
       </p>
       <hr>
@@ -146,9 +150,13 @@
       {% else %}
         <p>{{ page.summary }}</p>
         <p>
-          <a class="topwindow external-link" href="{{ page.url ~ '/chromeless:true' }}">View all of
-            {{ page.title }}
-            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          {% if page.parent.header.continue_links_as_buttons %}
+            <a class="btn btn-default topwindow external-link" href="{{ page.url ~ '/chromeless:true' }}">View all of
+          {% else %}
+            <a class="topwindow external-link" href="{{ page.url ~ '/chromeless:true' }}">View all of
+          {% endif %}
+          {{ page.title }}
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
           </a>
         </p>
       {% endif %}
