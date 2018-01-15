@@ -1,8 +1,16 @@
+# v1.9.95
+## 01/15/2018
+
+1. [](#new)
+    * Added experimental support for Blog page list option to display 'View all of...' links as buttons in Blog page summaries
+1. [](#improved)
+    * Updated 'basic', 'intermediate' and 'advanced' course examples in theme '_demo' folder
+
 # v1.9.94
 ## 01/12/2018
 
 1. [](#improved)
-    * Revised default link behavior for 'summaryonly' "View all..." link
+    * Revised default link behavior for 'summaryonly' "View all of..." link
 
 # v1.9.93
 ## 01/11/2018
