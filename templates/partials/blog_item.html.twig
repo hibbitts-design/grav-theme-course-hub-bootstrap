@@ -20,11 +20,14 @@
     {% else %}
       {# added page title icon - hibbittsdesign.org #}
       {% if page.header.icon %}
-            {% set titleicon = page.header.icon %}
-          {% else %}
-            {% if config.site.icon.post %}
-              {% set titleicon = config.site.icon.post %}
-            {% endif %}
+        {% set titleicon = page.header.icon %}
+      {% else %}
+        {% if config.site.icon.post %}
+          {% set titleicon = config.site.icon.post %}
+        {% endif %}
+        {% if page.parent.header.post_icon %}
+          {% set titleicon = page.parent.header.post_icon %}
+        {% endif %}
       {% endif %}
       {% if not (grav.uri.param('hidepagetitle')) %}
         {% if titleicon %}
