@@ -1,3 +1,10 @@
+# v1.9.97
+## 01/18/2018
+
+1. [](#improved)
+    * Relocated Blog Post custom icon from Site options to Blog List options
+    * Updated 'intermediate', 'advanced' and default course demo pages in theme '_demo' folder
+
 # v1.9.96
 ## 01/17/2018
 
