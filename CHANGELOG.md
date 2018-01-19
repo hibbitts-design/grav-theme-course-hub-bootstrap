@@ -1,5 +1,5 @@
 # v1.9.99
-## 01/20/2018
+## 01/19/2018
 
 1. [](#improved)
     * Updated 'basic', 'intermediate' and 'advanced' course examples in theme '_demo' folder
