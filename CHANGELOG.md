@@ -1,3 +1,9 @@
+# v1.9.98
+## 01/19/2018
+
+1. [](#improved)
+    * Relocated Hide Blog Page Sidebar from Site options to Blog List options
+
 # v1.9.97
 ## 01/18/2018
 
