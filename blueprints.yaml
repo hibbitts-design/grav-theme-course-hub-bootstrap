@@ -1,5 +1,5 @@
 name: Course Hub Bootstrap
-version: 1.9.98
+version: 1.9.99
 description: "A customized version of the Bootstrap theme (built with Bootstrap 3) for use with the Grav Course Hub skeleton package."
 icon: university
 author:
@@ -8,6 +8,7 @@ author:
  url: http://hibbittsdesign.org
 homepage: https://github.com/hibbitts-design/grav-theme-course-hub-bootstrap
 demo: http://demo.hibbittsdesign.org/grav-course-hub-bootstrap
+docs: https://github.com/hibbitts-design/grav-theme-course-hub-bootstrap/blob/master/README.md
 keywords: bootstrap, theme, framework, course, lms
 bugs: https://github.com/hibbitts-design/grav-theme-course-hub-bootstrap/issues
 license: MIT

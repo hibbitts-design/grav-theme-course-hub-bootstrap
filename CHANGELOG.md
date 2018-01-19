@@ -1,3 +1,12 @@
+# v1.9.99
+## 01/20/2018
+
+1. [](#improved)
+    * Updated 'basic', 'intermediate' and 'advanced' course examples in theme '_demo' folder
+1. [](#bugfix)
+    * Restored missing link in Theme Blueprint for theme docs
+    * Corrected Blueprint option name for displaying 'View all of...' links as buttons
+
 # v1.9.98
 ## 01/19/2018
 
