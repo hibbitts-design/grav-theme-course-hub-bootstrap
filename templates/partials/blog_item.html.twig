@@ -118,7 +118,7 @@
       {# added summary flag and title icon - hibbittsdesign.org #}
       <p>{{ page.summary }}</p>
       <p>
-        {% if page.parent.header.continue_links_as_buttons %}
+        {% if page.parent.header.continue_link_as_button %}
           <a class="btn btn-default" href="{{ page.url }}">View all of
         {% else %}
           <a href="{{ page.url }}">View all of
@@ -135,7 +135,7 @@
         <p>{{ page.content }}</p>
       {% endif %}
       <p>
-        {% if page.parent.header.continue_links_as_buttons %}
+        {% if page.parent.header.continue_link_as_button %}
           <a class="btn btn-default" href="{{ page.url }}">View all of
         {% else %}
           <a href="{{ page.url }}">View all of
@@ -165,7 +165,7 @@
       {% else %}
         <p>{{ page.summary }}</p>
         <p>
-          {% if page.parent.header.continue_links_as_buttons %}
+          {% if page.parent.header.continue_link_as_button %}
             <a class="btn btn-default topwindow external-link" href="{{ page.url ~ '/chromeless:true' }}">View all of
           {% else %}
             <a class="topwindow external-link" href="{{ page.url ~ '/chromeless:true' }}">View all of
