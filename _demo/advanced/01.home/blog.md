@@ -2,6 +2,7 @@
 title: Home
 body_classes: 'header-image fullwidth'
 child_type: item
+post_icon: calendar-o
 content:
     items: '@self.children'
     limit: 10
