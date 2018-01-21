@@ -5,8 +5,10 @@ published: false
 hide_from_post_list: true
 ---
 
-#####  Instructor design review meetings, no regular class
+##### Your H5 Heading
+Your _awesome_ summary goes here.
 
 ===
 
-Instructor design review meetings, no regular class.
+##### Your H5 Heading
+Your even more *amazing* content goes here.

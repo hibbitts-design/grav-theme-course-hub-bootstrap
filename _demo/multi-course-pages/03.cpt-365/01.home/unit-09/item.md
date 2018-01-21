@@ -7,10 +7,10 @@ header_image_credit: Blake Patterson, Flickr.com
 header_image_creditlink: 'https://www.flickr.com/photos/blakespot/16230041026/'
 ---
 
-<!--- Your module summary content goes below here -->
-
-<!--- Your module summary content goes above here -->
+##### Your H5 Heading
+Your _awesome_ summary goes here.
 
 ===
 
-<!--- Your weekly materials content goes below here -->
+##### Your H5 Heading
+Your even more *amazing* content goes here.
