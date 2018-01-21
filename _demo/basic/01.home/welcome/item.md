@@ -1,7 +1,6 @@
 ---
 title: 'Course Welcome'
-date: '01-05-2017 00:00'
-header_image: '0'
+date: 09/05/2017
 icon: users
 continue_link: false
 ---

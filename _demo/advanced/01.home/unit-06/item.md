@@ -1,7 +1,7 @@
 ---
 title: 'Week 6 (Oct 11 - Oct 17)'
+date: 10/11/2017
 published: true
-date: '11-10-2017 00:00'
 hide_from_post_list: true
 hide_git_sync_repo_link: false
 ---

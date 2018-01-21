@@ -6,10 +6,8 @@ hide_from_post_list: false
 hide_git_sync_repo_link: false
 ---
 
-<!--- Your module summary content goes below here -->
-
-<!--- Your module summary content goes above here -->
+Your awesome summary goes here.
 
 ===
 
-<!--- Your weekly materials content goes below here -->
+Your even more amazing content goes here.

@@ -1,7 +1,7 @@
 ---
 title: 'Week 3 (Sep 20 - 26)'
+date: 09/20/2017
 published: true
-date: '20-09-2017 00:00'
 hide_from_post_list: false
 hide_git_sync_repo_link: false
 ---
