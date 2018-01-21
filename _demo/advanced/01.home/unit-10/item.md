@@ -12,4 +12,4 @@ Your _awesome_ summary goes here.
 ===
 
 ##### Your H5 Heading
-Your even more *amazing* content goes here.
+Your even **more amazing** content goes here.
