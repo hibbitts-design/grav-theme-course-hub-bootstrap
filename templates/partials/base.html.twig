@@ -14,6 +14,8 @@
       {% block stylesheets %}
         {% if config.theme.bootstrapcss == 'canvaslms' %}
           {% do assets.add('theme://css/bootstrapcanvaslms.css',96) %}
+        {% elseif config.theme.bootstrapcss == 'moodleboost' %}
+          {% do assets.add('theme://css/bootstrapmoodleboost.css',96) %}
         {% else %}
           {% do assets.add('theme://css/bootstrap.css',96) %}
         {% endif %}
