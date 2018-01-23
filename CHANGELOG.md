@@ -1,3 +1,9 @@
+# v2.0.1
+## XX/XX/XXXX
+
+1. [](#new)
+    * Added experimental CSS styling option to better match Moodle Boost theme when embedding content
+
 # v2.0.0
 ## 01/22/2018
 
@@ -174,7 +180,7 @@
     * Added MediaPicker functionality for (blog) item header images
 1. [](#improved)
     * Removed on-hover social sharing buttons from embedded embed.ly scripts
-    * Revised logic for hiding home page link in menubar to be name independent
+    * Revised logic for hiding home page link in menu to be name independent
 
 # v1.9.76
 ## 12/17/2017
