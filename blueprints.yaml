@@ -56,3 +56,4 @@ form:
         options:
             default: Course Hub Default
             canvaslms: Course Hub for Canvas LMS
+            moodleboost: Course Hub for Moodle Boost Theme
