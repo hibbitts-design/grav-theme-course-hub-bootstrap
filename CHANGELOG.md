@@ -1,8 +1,9 @@
 # v2.0.1
-## XX/XX/XXXX
+## 01/23/2018
 
 1. [](#new)
     * Added experimental CSS styling option to better match Moodle Boost theme when embedding content
+    * Added default content for pages created using Admin Panel button bar
 
 # v2.0.0
 ## 01/22/2018
