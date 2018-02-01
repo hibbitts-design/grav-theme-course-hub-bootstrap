@@ -1,3 +1,9 @@
+# v2.0.4
+## 02/02/2018
+
+1. [](#improved)
+    * Updated global handling of 'chromeless' and 'hidepagetitle' URL flags
+
 # v2.0.3
 ## 02/01/2018
 
