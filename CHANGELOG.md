@@ -1,3 +1,11 @@
+# v2.0.3
+## 02/01/2018
+
+1. [](#improved)
+    * Updated example RSS Feed page in 'advanced' course example
+1. [](#bugfix)
+    * Added handling for initial release of RSS Feed page configuration
+
 # v2.0.2
 ## 02/01/2018
 
