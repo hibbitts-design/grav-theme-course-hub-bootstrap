@@ -29,7 +29,11 @@
             {% else %}
             	{% set currentPage = 1 %}
             {% endif %}
-            {% set perPage = page.header.rss_feed_limit %}
+            {% if page.header.rss_feed_limit %}
+              {% set perPage = page.header.rss_feed_limit %}
+            {% else %}
+              {% set perPage = 10 %}
+            {% endif %}
             {% set totalPages = (feed_items|length / perPage)|round(0, 'ceil') %}
             {% set start = currentPage * perPage - perPage %}
             {% set paginationLimit = perPage - 1 %}
@@ -60,7 +64,12 @@
               {% endif %}
             {% endfor %}
 
-            {% if totalPages > 1 and page.header.rss_feed_pagination %}
+            {% if page.header.rss_feed_pagination %}
+              {% set rssfeedpagination = page.header.rss_feed_pagination %}
+            {% else %}
+              {% set rssfeedpagination = true %}
+            {% endif %}
+            {% if totalPages > 1 and rssfeedpagination %}
               <div class="text-center">
               <ul class="pagination">
                 <li class="page-item">
