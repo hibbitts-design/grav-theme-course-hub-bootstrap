@@ -1,3 +1,12 @@
+# v2.0.2
+## 02/01/2018
+
+1. [](#new)
+    * Added experimental pagination controls for RSS Feed page sorted by 'date' (thanks OleVik)
+1. [](#improved)
+    * Updated example RSS Feed page in 'advanced' course example
+    * Added visual indicator for active page on blog list pages
+
 # v2.0.1
 ## 01/23/2018
 
