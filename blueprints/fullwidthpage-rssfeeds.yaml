@@ -52,18 +52,30 @@ form:
                 title: Display Options
                 underline: true
 
-            header.rss_feed_display_order:
-                type: select
-                size: small
-                label: RSS Feed Order
-                default: date
-                options:
-                    source: By Source
-                    date: By Date
+            header.rss_feed_limit:
+              type: text
+              size: small
+              label: Max Item Count
+              default: 10
+              validate:
+                required: true
+                type: integer
+                min: 1
+
+            header.rss_feed_pagination:
+              type: toggle
+              label: Pagination
+              highlight: 1
+              default: 1
+              options:
+                1: Enabled
+                0: Disabled
+              validate:
+                type: bool
 
             header.rss_feed_header_images:
               type: toggle
-              label: RSS Feed Header Images
+              label: Item Header Images
               highlight: 1
               default: 1
               options:
@@ -75,7 +87,7 @@ form:
             header.rss_feed_preview_paragraphs:
               type: select
               size: medium
-              label: RSS Feed Preview Paragraphs
+              label: Item Preview Paragraphs
               default: one
               options:
                   none: None
