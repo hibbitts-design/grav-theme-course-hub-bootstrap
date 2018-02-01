@@ -2,7 +2,7 @@
 ## 02/02/2018
 
 1. [](#improved)
-    * Updated global handling of 'chromeless' and 'hidepagetitle' URL flags
+    * Updated global handling of 'chromeless' and 'hidepagetitle' URL flags (thanks Ricardo)
 
 # v2.0.3
 ## 02/01/2018
