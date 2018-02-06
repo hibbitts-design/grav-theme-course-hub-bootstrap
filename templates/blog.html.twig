@@ -84,9 +84,13 @@
         {% if config.plugins.pagination.enabled and collection.params.pagination %}
           <div class="container">
             <div class="row">
-              <div class="col-sm-8 text-center">
-                {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
-              </div>
+              {% if not (grav.uri.param('chromeless')) and not (config.site.hidesidebaronblogpages.enabled) and not (page.header.hide_blog_sidebar) %}
+                <div class="col-sm-8 text-center">
+              {% else %}
+                <div class="col-sm-12 text-center">
+              {% endif %}
+                  {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+                </div>
             </div>
           </div>
         {% endif %}
