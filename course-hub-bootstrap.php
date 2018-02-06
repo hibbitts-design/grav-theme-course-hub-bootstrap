@@ -9,6 +9,11 @@ use RocketTheme\Toolbox\Event\Event;
 
 class CourseHubBootstrap extends Theme
 {
+
+  static function getSiteEditLinkLocation() {
+    return Grav::instance()['config']->value('site.gitrepo.editlinklocation');
+  }
+
   public static function getSubscribedEvents()
   {
       return [
