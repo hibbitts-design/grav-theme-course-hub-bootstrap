@@ -1,3 +1,10 @@
+# v2.0.6
+## 02/07/2018
+
+1. [](#improved)
+    * Updated all course examples in theme '_demo' folder
+    * Updated choices for page Blueprint Git Sync link display option
+
 # v2.0.5
 ## 02/06/2018
 
