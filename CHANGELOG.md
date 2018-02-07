@@ -1,21 +1,24 @@
+# v2.0.8
+## 02/08/2018
+
+1. [](#improved)
+    * Updated course examples in theme '_demo' folder
+
 # v2.0.7
 ## 02/07/2018
 
 1. [](#bugfix)
-    * Experimental removal of bootstrapper dependency (should be automatically installed with bootstrap theme)
+    * Removal of bootstrapper dependency (should be automatically installed with bootstrap theme)
 
 # v2.0.6
 ## 02/07/2018
 
 1. [](#improved)
-    * Updated all course examples in theme '_demo' folder
     * Updated choices for page Blueprint Git Sync link display option
 
 # v2.0.5
 ## 02/06/2018
 
-1. [](#new)
-    * Added course example 'intermediate-embed-only' in theme '_demo' folder, for example of only embedding Course Hub content within an LMS
 1. [](#improved)
     * Added additional choices for page Blueprint Git Sync link display option
 1. [](#bugfix)
