@@ -1,3 +1,13 @@
+# v2.0.5
+## 06/02/2018
+
+1. [](#new)
+    * Added course example 'intermediate-embed-only' in theme '_demo' folder, for example of only embedding Course Hub content within an LMS 
+1. [](#improved)
+    * Added additional choices for page Blueprint Git Sync link display option
+1. [](#bugfix)
+    * Corrected alignment of pagination controls when no blog sidebar is displayed
+
 # v2.0.4
 ## 02/02/2018
 
