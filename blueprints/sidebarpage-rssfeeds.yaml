@@ -21,10 +21,11 @@ form:
                 underline: true
 
             header.git_sync_repo_link_display:
+                toggleable: true
                 type: select
                 size: medium
                 label: Display of Git Sync Link
-                '@data-default': '\Grav\Theme\CourseHubBootstrap::getSiteEditLinkLocation'
+                default: null
                 options:
                     menu: Menu
                     page: Page (visible when 'Chromeless')
