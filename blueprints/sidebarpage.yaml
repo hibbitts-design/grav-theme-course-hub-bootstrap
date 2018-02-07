@@ -46,17 +46,17 @@ form:
                 title: Git Repository
                 underline: true
 
-            header.git_sync_repo_link_display:
-                toggleable: true
-                type: select
-                size: medium
-                label: Display of Git Sync Link
-                default: null
+            header.hide_git_sync_repo_link:
+                type: toggle
+                label: Display Git Repository Edit Page Link
+                help: Determines if the Git Repository edit Page link is displayed for this page
+                default: 0
+                highlight: 0
                 options:
-                    menu: Menu
-                    page: Page (visible when 'Chromeless')
-                    footer: Footer
-                    none: None
+                    0:  Yes
+                    1:  No
+                validate:
+                    type: bool
 
             header.git_sync_repo_link:
                 type: text
