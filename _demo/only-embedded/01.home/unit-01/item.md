@@ -3,6 +3,8 @@ title: 'Week 1 (Sep 6 - 12)'
 date: 09/06/2017
 published: true
 git_sync_repo_link_display: 'page'
+header_image_credit: 'CannedTuna, Flickr.com'
+header_image_creditlink: 'https://www.flickr.com/photos/cannedtuna/4853380320/'
 ---
 
 ##### Presented Slides

@@ -3,6 +3,8 @@ title: 'Week 2 (Sep 13 - 19)'
 date: 09/13/2017
 published: true
 git_sync_repo_link_display: 'page'
+header_image_credit: 'CannedTuna, Flickr.com'
+header_image_creditlink: 'https://www.flickr.com/photos/cannedtuna/4853380320/'
 ---
 
 ##### Presented Slides

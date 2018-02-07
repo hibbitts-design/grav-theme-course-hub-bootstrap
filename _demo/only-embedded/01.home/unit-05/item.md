@@ -3,6 +3,8 @@ title: 'Week 5 (Oct 4 - 10)'
 date: 10/04/2017
 published: true
 git_sync_repo_link_display: 'page'
+header_image_credit: 'Nicholas Wang, Flickr.com'
+header_image_creditlink: 'https://www.flickr.com/photos/cloneofsnake/13966760787/'
 ---
 
 ##### Presented Slides

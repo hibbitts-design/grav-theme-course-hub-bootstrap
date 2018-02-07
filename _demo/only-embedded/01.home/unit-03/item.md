@@ -3,6 +3,8 @@ title: 'Week 3 (Sep 20 - 26)'
 date: 09/20/2017
 published: true
 git_sync_repo_link_display: 'page'
+header_image_credit: 'Emilio Küffer, Flickr.com'
+header_image_creditlink: 'https://www.flickr.com/photos/emiliokuffer/6384294717/'
 ---
 
 ##### Presented Slides

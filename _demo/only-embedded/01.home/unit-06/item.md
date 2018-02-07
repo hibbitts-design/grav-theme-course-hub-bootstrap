@@ -3,6 +3,8 @@ title: 'Week 6 (Oct 11 - Oct 17)'
 date: 10/11/2017
 published: true
 git_sync_repo_link_display: 'page'
+header_image_credit: 'K2_UX, Flickr.com'
+header_image_creditlink: 'https://www.flickr.com/photos/k2_ux/8447614292/'
 ---
 
 ##### Presented Slides
