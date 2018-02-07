@@ -3,7 +3,3 @@ git:
         url: https://github.com/getgrav/grav-theme-bootstrap
         path: user/themes/bootstrap
         branch: master
-    bootstrapper:
-        url: https://github.com/getgrav/grav-plugin-bootstrapper
-        path: user/plugins/bootstrapper
-        branch: master
