@@ -1,3 +1,9 @@
+# v2.0.7
+## 02/07/2018
+
+1. [](#bugfix)
+    * Experimental removal of bootstrapper dependency (should be automatically installed with bootstrap theme)
+
 # v2.0.6
 ## 02/07/2018
 
