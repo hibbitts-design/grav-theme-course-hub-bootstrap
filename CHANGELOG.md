@@ -1,3 +1,11 @@
+# v2.0.9
+## 02/10/2018
+
+1. [](#improved)
+    * Updated 'advanced' course example
+1. [](#bugfix)
+    * Restored optional direct link to site theme files
+
 # v2.0.8
 ## 02/08/2018
 
