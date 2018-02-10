@@ -1,3 +1,9 @@
+# v2.1.1
+## 02/10/2018
+
+1. [](#improved)
+    * Updated 'advanced' course example
+
 # v2.1.0
 ## 02/10/2018
 
