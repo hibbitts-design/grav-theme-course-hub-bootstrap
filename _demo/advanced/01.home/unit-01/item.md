@@ -21,8 +21,8 @@ hide_git_sync_repo_link: false
 
 ##### Presented Slides  
 
-[plugin:page-inject](/slide-decks/week-01-01)
-[plugin:page-inject](/slide-decks/week-01-02)
+[plugin:page-inject](/slide-decks/week-01-1)
+[plugin:page-inject](/slide-decks/week-01-2)
 
 ##### Assignments
 Create [team project group](https://canvas.sfu.ca/courses/36662/users)

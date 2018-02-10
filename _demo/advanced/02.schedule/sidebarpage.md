@@ -8,8 +8,8 @@ hide_git_sync_repo_link: false
 #### [:fa-calendar: Week 1 (Sep 6 - 12)](/home/unit-01)
 **What is usability and user experience design?**  
 :fa-pencil: Create [team project group](https://canvas.sfu.ca/courses/36662/users) by Sep 13th   
-:fa-desktop: [plugin:page-inject](/slide-decks/week-01-01?template=swipedecklinkonly)
-:fa-desktop: [plugin:page-inject](/slide-decks/week-01-02?template=swipedecklinkonly)
+:fa-desktop: [plugin:page-inject](/slide-decks/week-01-1?template=swipedecklinkonly)
+:fa-desktop: [plugin:page-inject](/slide-decks/week-01-2?template=swipedecklinkonly)
 :fa-book:[plugin:page-inject](/required-readings/week-01?template=embedlycardlinkonly)  
 
 #### [:fa-calendar: Week 2 (Sep 13 - 19)](/home/unit-02)
