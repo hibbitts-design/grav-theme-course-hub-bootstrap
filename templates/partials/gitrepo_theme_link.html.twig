@@ -1,0 +1,39 @@
+{# new twig template file - hibbittsdesign.org #}
+{% if config.site.gitrepo.edittreeurl %}
+  {% set gitrepothemeeditlinkurl = config.site.gitrepo.edittreeurl ~ '/themes/mytheme/' %}
+  {% set git_repo_link_url = config.site.gitrepo.edittreeurl %}
+  {% if config.site.gitrepo.editlinkicon is empty %}
+    {% if 'github' in git_repo_link_url %}
+      {% set git_repo_link_icon = "github" %}
+    {% elseif 'gitlab' in git_repo_link_url %}
+      {% set git_repo_link_icon = "gitlab" %}
+    {% elseif 'bitbucket' in git_repo_link_url %}
+      {% set git_repo_link_icon = "bitbucket" %}
+    {% else %}
+      {% set git_repo_link_icon = "git" %}
+    {% endif %}
+  {% else %}
+    {% set git_repo_link_icon = config.site.gitrepo.editlinkicon %}
+  {% endif %}
+{% else %}
+  {% set git_sync_repo_link = config.plugins['git-sync'].repository %}
+    {% if 'github' in git_sync_repo_link %}
+      {% set git_repo_link_icon = "github" %}
+      {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
+    {% elseif 'gitlab' in git_sync_repo_link %}
+      {% set git_repo_link_icon = "gitlab" %}
+      {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
+    {% elseif 'bitbucket' in git_sync_repo_link %}
+      {% set git_repo_link_icon = "bitbucket" %}
+      {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'src/master/themes/mytheme/' %}
+    {% else %}
+      {% set git_repo_link_icon = "git" %}
+      {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
+    {% endif %}
+    {% if config.site.gitrepo.editlinkicon %}
+      {% set git_repo_link_icon = config.site.gitrepo.editlinkicon %}
+    {% endif %}
+{% endif %}
+<a class="newwindow external-link" href="{{ gitrepothemeeditlinkurl }}" title="{{ config.site.gitrepo.editthemelinktext }}">
+<i class="fa fa-{{ git_repo_link_icon }}" aria-hidden="true"></i>
+{{ config.site.gitrepo.editthemelinktext }}</a><br>
