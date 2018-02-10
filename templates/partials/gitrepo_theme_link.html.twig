@@ -15,8 +15,17 @@
   {% else %}
     {% set git_repo_link_icon = config.site.gitrepo.editlinkicon %}
   {% endif %}
+  <a class="newwindow external-link" href="{{ gitrepothemeeditlinkurl }}" title="{{ config.site.gitrepo.editthemelinktext }}">
+  <i class="fa fa-{{ git_repo_link_icon }}" aria-hidden="true"></i>
+  {{ config.site.gitrepo.editthemelinktext }}</a><br>
 {% else %}
-  {% set git_sync_repo_link = config.plugins['git-sync'].repository %}
+  {% if config.plugins['git-sync'].enabled and config.plugins['git-sync'].repository is empty %}
+    {% set admin_panel_appearance_url = grav.base_url ~ '/admin/plugins/git-sync' %}
+    <a class="newwindow external-link" href="{{ admin_panel_appearance_url }}" title="Setup Git Sync">
+    <i class="fa fa-cog" aria-hidden="true"></i>
+    Setup Git Sync</a>
+  {% else %}
+    {% set git_sync_repo_link = config.plugins['git-sync'].repository %}
     {% if 'github' in git_sync_repo_link %}
       {% set git_repo_link_icon = "github" %}
       {% set gitrepothemeeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/themes/mytheme/' %}
@@ -33,7 +42,8 @@
     {% if config.site.gitrepo.editlinkicon %}
       {% set git_repo_link_icon = config.site.gitrepo.editlinkicon %}
     {% endif %}
+    <a class="newwindow external-link" href="{{ gitrepothemeeditlinkurl }}" title="{{ config.site.gitrepo.editthemelinktext }}">
+    <i class="fa fa-{{ git_repo_link_icon }}" aria-hidden="true"></i>
+    {{ config.site.gitrepo.editthemelinktext }}</a><br>
+  {% endif %}
 {% endif %}
-<a class="newwindow external-link" href="{{ gitrepothemeeditlinkurl }}" title="{{ config.site.gitrepo.editthemelinktext }}">
-<i class="fa fa-{{ git_repo_link_icon }}" aria-hidden="true"></i>
-{{ config.site.gitrepo.editthemelinktext }}</a><br>
