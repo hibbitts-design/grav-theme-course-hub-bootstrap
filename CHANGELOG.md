@@ -1,5 +1,11 @@
-# v2.0.9
+# v2.1.0
 ## 02/10/2018
+
+1. [](#improved)
+    * Updated optional direct link to site theme files to support Git Sync setup
+
+# v2.0.9
+## 02/08/2018
 
 1. [](#improved)
     * Updated 'advanced' course example
