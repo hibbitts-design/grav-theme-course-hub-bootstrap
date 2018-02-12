@@ -2,6 +2,11 @@
 
  {% block content %}
   {{ page.content }}
+  {% if displaypagetitle is defined %}
+    {% if displaypagetitle %}
+      <strong>{{page.title}}</strong><br>
+    {% endif %}
+  {% endif %}  
   {{ page.header.swipe_deck_title }}
   {% if page.header.swipe_deck_pdf_url %}
   (<a href="{{ page.header.swipe_deck_pdf_url }}">Download slides as PDF</a>)
