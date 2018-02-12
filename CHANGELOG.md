@@ -1,8 +1,18 @@
+# v2.1.2
+## 02/12/2018
+
+1. [](#new)
+    * Added custom content list page template
+    * Added example 'Required Readings' and 'Slides' custom content listing page in 'advanced' course examples in theme '_demo' folder
+    * Added support for display of page content on accordion and custom content list pages
+1. [](#improved)
+    * Updated 'intermediate' and 'advanced' course examples in theme '_demo' folder
+
 # v2.1.1
 ## 02/10/2018
 
 1. [](#improved)
-    * Updated 'advanced' course example
+    * Updated 'advanced' course example in theme '_demo' folder
 
 # v2.1.0
 ## 02/10/2018
@@ -14,7 +24,7 @@
 ## 02/08/2018
 
 1. [](#improved)
-    * Updated 'advanced' course example
+    * Updated 'advanced' course example in theme '_demo' folder
 1. [](#bugfix)
     * Restored optional direct link to site theme files
 
