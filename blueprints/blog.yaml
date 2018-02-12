@@ -18,9 +18,9 @@ form:
                 title: "Appearance"
                 underline: true
 
-            header.hide_blog_sidebar:
+            header.hide_sidebar:
                 type:                      toggle
-                label:                     Display Sidebar on all Blog Pages
+                label:                     Display Sidebar on Blog Pages
                 highlight:                 0
                 default:                   0
                 options:
