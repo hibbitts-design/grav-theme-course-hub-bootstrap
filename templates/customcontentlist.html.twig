@@ -1,0 +1,40 @@
+{# new twig template file - hibbittsdesign.org #}
+{% embed 'partials/base.html.twig' %}
+
+  {% block content %}
+    <div class="container">
+      <div class="row">
+        {# check content display flag - hibbittsdesign.org #}
+        {% if not (grav.uri.param('chromeless')) and (not config.site.chromeless.enabled) and (page.header.sidebar) %}
+          <div class="col-sm-8 blog-main">
+        {% else %}
+          <div class="col-sm-12 blog-main">
+        {% endif %}
+
+        {% if not (page.header.hide_page_title) and not (grav.uri.param('hidepagetitle')) %}
+          <h3>{{page.title}}</h3>
+        {% endif %}
+        {{ page.content }}
+        {% set collection = page.collection() %}
+        {% if page.header.display_template %}
+          {% set templatename = page.header.display_template ~ '.html.twig' %}
+        {% endif %}
+        {% for child in collection %}
+          {% if not templatename %}
+            {% set templatename = child.template ~ '.html.twig' %}
+          {% endif %}
+          <p>{% include templatename with {'page':child, 'displaypagetitle':page.header.display_child_page_titles} %}</p>
+        {% endfor %}
+      </div>
+
+      {# check content display flag - hibbittsdesign.org #}
+      {% if not (grav.uri.param('chromeless')) and (not config.site.chromeless.enabled) and (page.header.sidebar) %}
+        <div class="col-sm-4 blog-sidebar">
+          {% include 'partials/sidebar.html.twig' with {'blog':page} %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endblock %}
+
+{% endembed %}
