@@ -178,7 +178,7 @@
     {% endif %}
 
     {# added check for content display flag - hibbittsdesign.org #}
-    {% if show_prev_next and not (grav.uri.param('chromeless')) %}
+    {% if show_prev_next and not (grav.uri.param('chromeless')) and (not config.site.chromeless.enabled) %}
 
       <p class="text-left">
         {% if not page.isLast %}
