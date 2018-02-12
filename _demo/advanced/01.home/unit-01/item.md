@@ -21,8 +21,8 @@ hide_git_sync_repo_link: false
 
 ##### Presented Slides  
 
-[plugin:page-inject](/slide-decks/week-01-1)
-[plugin:page-inject](/slide-decks/week-01-2)
+[plugin:page-inject](/slides/unit-01-1)
+[plugin:page-inject](/slides/unit-01-2)
 
 ##### Assignments
 Create [team project group](https://canvas.sfu.ca/courses/36662/users)
@@ -31,7 +31,7 @@ Create [team project group](https://canvas.sfu.ca/courses/36662/users)
 [Course Overview](https://canvas.sfu.ca/courses/36662/files/folder/Handouts/Course%20Overview)  
 
 ##### Recommended Reading  
-[plugin:page-inject](/required-readings/week-01)
+[plugin:page-inject](/required-readings/unit-01)
 
 ##### Supplemental Readings  
 [plugin:content-inject](/ux-techniques/what-is-usability-and-user-experience-design/problem-statements)
