@@ -1,3 +1,11 @@
+# v2.1.3
+## 02/13/2018
+
+1. [](#improved)
+    * Updated 'advanced' course example in theme '_demo' folder
+1. [](#bugfix)
+    * Revision of bootstrap theme dependency syntax to include version check
+
 # v2.1.2
 ## 02/12/2018
 
