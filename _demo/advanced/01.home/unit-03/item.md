@@ -17,14 +17,14 @@ hide_git_sync_repo_link: false
 [Sep 20th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267536)
 
 ##### Presented Slides  
-[plugin:page-inject](/slides/unit-03)
+[plugin:page-inject](/all-slides/unit-03)
 
 ##### Assignments
 [Project Proposal - Group Component](https://canvas.sfu.ca/courses/36662/assignments/240534)  
 [Project Proposal - Individual Component](https://canvas.sfu.ca/courses/36662/assignments/240533)  
 
 ##### Required Reading  
-[plugin:page-inject](/required-readings/unit-03)
+[plugin:page-inject](/all-readings/unit-03)
 
 ##### Supplemental Readings  
 [plugin:content-inject](/ux-techniques/how-to-make-more-strategic-design-decisions/journey-mapping)

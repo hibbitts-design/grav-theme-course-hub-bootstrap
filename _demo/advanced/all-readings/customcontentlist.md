@@ -1,7 +1,7 @@
 ---
-title: 'Slides'
+title: 'All Readings'
 published: true
-child_type: swipedeck
+child_type: embedlycard
 visible: false
 content:
     order:
@@ -10,7 +10,7 @@ content:
     items: '@self.children'
     limit: 0
 hide_sidebar: false
-display_child_page_titles: false
+display_child_page_titles: true
 hide_git_sync_repo_link: true
 sidebar: true
 ---

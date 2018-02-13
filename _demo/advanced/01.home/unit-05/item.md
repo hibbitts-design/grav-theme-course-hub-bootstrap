@@ -15,14 +15,14 @@ hide_git_sync_repo_link: false
 [Oct 4th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267534)
 
 ##### Presented Slides  
-[plugin:page-inject](/slides/unit-05)
+[plugin:page-inject](/all-slides/unit-05)
 
 ##### Supplemental Materials  
 [What People Are Really Doing Video](http://vimeo.com/album/169777/video/7099570)  
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/7099570" width="500" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ##### Required Reading  
-[plugin:page-inject](/required-readings/unit-05)
+[plugin:page-inject](/all-readings/unit-05)
 
 ##### Supplemental Readings  
 [plugin:content-inject](/ux-techniques/how-to-understand-and-communicate-peoples-needs-and-behaviors/contextual-inquiry)
