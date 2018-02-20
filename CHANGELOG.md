@@ -1,3 +1,9 @@
+# v2.1.4
+## 02/20/2018
+
+1. [](#bugfix)
+    * Fixed handling of (optional) separate summary field for blog items with only a single line of text
+
 # v2.1.3
 ## 02/13/2018
 
