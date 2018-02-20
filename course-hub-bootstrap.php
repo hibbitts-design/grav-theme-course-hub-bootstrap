@@ -97,7 +97,7 @@ class CourseHubBootstrap extends Theme
 
           // if custom summary exists, use that instead of the default page summary
           if (!empty($page->header()->item_summary)) {
-              $page->setRawContent(htmlspecialchars($page->header()->item_summary, ENT_QUOTES, 'UTF-8') . "\n{$delimiter}\n" . $page->getRawContent());
+              $page->setRawContent(htmlspecialchars($page->header()->item_summary, ENT_QUOTES, 'UTF-8') . "\n{$delimiter}\n\r" . $page->getRawContent());
           }
       }
 }
