@@ -1,3 +1,11 @@
+# v2.1.5
+## 02/27/2018
+
+1. [](#improved)
+    * Updated 'basic', 'intermediate' and 'advanced' course examples in theme '_demo' folder
+1. [](#bugfix)
+    * Corrected display of default modular template
+
 # v2.1.4
 ## 02/20/2018
 
