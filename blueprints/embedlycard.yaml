@@ -37,7 +37,7 @@ form:
                     ordering@: 3
                     type: text
                     size: long
-                    label: Embedly Card URL
+                    label: Embedly Card Web Page URL
                     validate:
                       type: URL
 
