@@ -27,10 +27,10 @@ hide_git_sync_repo_link: false
 [plugin:page-inject](/all-readings/unit-03)
 
 ##### Supplemental Readings  
-[plugin:content-inject](/ux-techniques/how-to-make-more-strategic-design-decisions/journey-mapping)
-[plugin:content-inject](/ux-techniques/what-is-usability-and-user-experience-design/problem-statements)  
-[plugin:content-inject](/ux-techniques/how-to-make-more-strategic-design-decisions/design-principles-product)  
-[plugin:content-inject](/ux-techniques/how-to-make-more-strategic-design-decisions/value-proposition)  
-[plugin:content-inject](/ux-techniques/how-to-make-more-strategic-design-decisions/user-experience-strategy)  
+[plugin:content-inject](/topics-guide/how-to-make-more-strategic-design-decisions/journey-mapping)
+[plugin:content-inject](/topics-guide/what-is-usability-and-user-experience-design/problem-statements)  
+[plugin:content-inject](/topics-guide/how-to-make-more-strategic-design-decisions/design-principles-product)  
+[plugin:content-inject](/topics-guide/how-to-make-more-strategic-design-decisions/value-proposition)  
+[plugin:content-inject](/topics-guide/how-to-make-more-strategic-design-decisions/user-experience-strategy)  
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).

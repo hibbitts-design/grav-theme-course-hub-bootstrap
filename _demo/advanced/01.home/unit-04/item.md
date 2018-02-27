@@ -30,7 +30,7 @@ hide_git_sync_repo_link: false
 [plugin:page-inject](/all-readings/unit-04)
 
 ##### Supplemental Readings  
-[plugin:content-inject](/ux-techniques/how-to-conduct-a-usability-inspection/cognitive-walkthroughs)  
-[plugin:content-inject](/ux-techniques/how-to-conduct-a-usability-inspection/heuristic-evaluations)  
+[plugin:content-inject](/topics-guide/how-to-conduct-a-usability-inspection/cognitive-walkthroughs)  
+[plugin:content-inject](/topics-guide/how-to-conduct-a-usability-inspection/heuristic-evaluations)  
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).

@@ -27,9 +27,9 @@ hide_git_sync_repo_link: false
 [plugin:page-inject](/all-readings/unit-06)
 
 ##### Supplemental Readings  
-[plugin:content-inject](/ux-techniques/how-to-plan-conduct-and-summarize-usability-tests/usability-testing-formal)
-[plugin:content-inject](/ux-techniques/how-to-plan-conduct-and-summarize-usability-tests/usability-test-surveys)  
-[plugin:content-inject](/ux-techniques/how-to-plan-conduct-and-summarize-usability-tests/usability-test-tasks)
-[plugin:content-inject](/ux-techniques/how-to-plan-conduct-and-summarize-usability-tests/usability-testing-informal)  
+[plugin:content-inject](/topics-guide/how-to-plan-conduct-and-summarize-usability-tests/usability-testing-formal)
+[plugin:content-inject](/topics-guide/how-to-plan-conduct-and-summarize-usability-tests/usability-test-surveys)  
+[plugin:content-inject](/topics-guide/how-to-plan-conduct-and-summarize-usability-tests/usability-test-tasks)
+[plugin:content-inject](/topics-guide/how-to-plan-conduct-and-summarize-usability-tests/usability-testing-informal)  
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).

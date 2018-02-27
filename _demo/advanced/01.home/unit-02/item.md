@@ -32,6 +32,6 @@ hide_git_sync_repo_link: false
 [plugin:page-inject](/all-readings/unit-02)
 
 ##### Supplemental Readings  
-[plugin:content-inject](/ux-techniques/what-does-a-holistic-user-experience-design-process-look-like/user-centered-design)   
+[plugin:content-inject](/topics-guide/what-does-a-holistic-user-experience-design-process-look-like/user-centered-design)   
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).

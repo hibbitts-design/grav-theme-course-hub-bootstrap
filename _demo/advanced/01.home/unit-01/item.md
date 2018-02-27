@@ -34,8 +34,8 @@ Create [team project group](https://canvas.sfu.ca/courses/36662/users)
 [plugin:page-inject](/all-readings/unit-01)
 
 ##### Supplemental Readings  
-[plugin:content-inject](/ux-techniques/what-is-usability-and-user-experience-design/problem-statements)
-[plugin:content-inject](/ux-techniques/what-is-usability-and-user-experience-design/usability)
-[plugin:content-inject](/ux-techniques/what-is-usability-and-user-experience-design/user-experience-design)  
+[plugin:content-inject](/topics-guide/what-is-usability-and-user-experience-design/problem-statements)
+[plugin:content-inject](/topics-guide/what-is-usability-and-user-experience-design/usability)
+[plugin:content-inject](/topics-guide/what-is-usability-and-user-experience-design/user-experience-design)  
 
-Still wanting more? Explore the [UX Techniques Guide](../../ux-techniques) or the course [Resources](../../resources).
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).
