@@ -1,3 +1,10 @@
+# v2.1.7
+## 03/11/2018
+
+1. [](#improved)
+    * Added experimental CSS styling files for light and dark grey site navbar
+    * Updated ReadMe file
+
 # v2.1.6
 ## 03/01/2018
 
@@ -713,7 +720,7 @@
 ## 09/15/2016
 
 1. [](#bugfix)
-    * Fixed display issue with 'Featured' posts
+    * Fixed display issue with 'featured' posts
 
 # v1.4.3
 ## 08/28/2016
