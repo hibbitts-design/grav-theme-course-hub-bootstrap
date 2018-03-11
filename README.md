@@ -63,7 +63,7 @@ icon: users           # optional font awesome icon for page title
 header_image: false   # display of header image located within page folder
 continue_link: false  # display entire post on blog listing page
 taxonomy:
-  tag: Featured       # setting to make post 'sticky' (i.e. remain at top)
+  tag: featured       # setting to make post 'sticky' (i.e. remain at top)
 ```
 
 # Installation
