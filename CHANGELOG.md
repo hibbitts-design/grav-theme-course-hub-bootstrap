@@ -1,3 +1,9 @@
+# v2.1.8
+## 03/15/2018
+
+1. [](#improved)
+    * Changed theme author information to Hibbitts Design
+
 # v2.1.7
 ## 03/11/2018
 
