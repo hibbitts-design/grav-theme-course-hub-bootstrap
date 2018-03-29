@@ -16,7 +16,7 @@ form:
                   size: long
                   label: Page Title
 
-                header.hp5_content_node:
+                header.hp5_content_id:
                     ordering@: 1
                     type: integer
                     size: short
