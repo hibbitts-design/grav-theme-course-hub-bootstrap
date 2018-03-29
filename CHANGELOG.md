@@ -1,3 +1,9 @@
+# v2.2.0
+## 03/28/2018
+
+1. [](#bugfix)
+    * Corrected H5P content page blueprint
+
 # v2.1.9
 ## 03/28/2018
 
