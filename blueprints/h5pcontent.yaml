@@ -20,7 +20,7 @@ form:
                     ordering@: 1
                     type: integer
                     size: short
-                    label: H5P Content URL or ID #
+                    label: H5P Content URL or Node (ID)
 
         options:
           fields:
