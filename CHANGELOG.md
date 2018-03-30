@@ -1,3 +1,9 @@
+# v2.2.1
+## 03/31/2018
+
+1. [](#improved)
+    * Updated example H5P content pages in 'advanced' course examples in theme '_demo' folder
+
 # v2.2.0
 ## 03/28/2018
 
