@@ -26,6 +26,8 @@ hide_git_sync_repo_link: false
 ##### Required Reading  
 [plugin:page-inject](/all-readings/unit-03)
 
+[plugin:page-inject](/h5p-content/journey-map)
+
 ##### Supplemental Readings  
 [plugin:content-inject](/topics-guide/how-to-make-more-strategic-design-decisions/journey-mapping)
 [plugin:content-inject](/topics-guide/what-is-usability-and-user-experience-design/problem-statements)  

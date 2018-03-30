@@ -33,6 +33,8 @@ Create [team project group](https://canvas.sfu.ca/courses/36662/users)
 ##### Recommended Reading  
 [plugin:page-inject](/all-readings/unit-01)
 
+[plugin:page-inject](/h5p-content/usability)
+
 ##### Supplemental Readings  
 [plugin:content-inject](/topics-guide/what-is-usability-and-user-experience-design/problem-statements)
 [plugin:content-inject](/topics-guide/what-is-usability-and-user-experience-design/usability)

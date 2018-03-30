@@ -29,8 +29,9 @@ hide_git_sync_repo_link: false
 ##### Required Reading  
 [plugin:page-inject](/all-readings/unit-04)
 
+[plugin:page-inject](/h5p-content/heuristic-evaluation)
+
 ##### Supplemental Readings  
 [plugin:content-inject](/topics-guide/how-to-conduct-a-usability-inspection/cognitive-walkthroughs)  
 [plugin:content-inject](/topics-guide/how-to-conduct-a-usability-inspection/heuristic-evaluations)  
-
 Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).
