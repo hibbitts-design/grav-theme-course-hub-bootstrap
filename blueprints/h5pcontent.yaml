@@ -20,7 +20,8 @@ form:
                     ordering@: 1
                     type: integer
                     size: short
-                    label: H5P Content URL or Node (ID)
+                    label: H5P Content ID (Node)
+                    description: 'For example, for the URL https://h5p.org/node/712 the ID would be 712.'
 
         options:
           fields:
