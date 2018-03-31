@@ -1,5 +1,5 @@
 name: Course Hub Bootstrap
-version: 2.2.2
+version: 2.2.3
 description: "A customized version of the Bootstrap theme (built with Bootstrap 3) for use with the Grav Course Hub skeleton package."
 icon: university
 author:
@@ -30,6 +30,7 @@ dependencies:
   - problems
   - twigfeeds
   - twigpcre
+  - shortcode-core
   - sitemap
   - youtube
 
