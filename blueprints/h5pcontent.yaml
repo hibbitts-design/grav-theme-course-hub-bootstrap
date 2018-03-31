@@ -23,6 +23,14 @@ form:
                     label: H5P Content ID (Node)
                     description: 'For example, for the URL https://h5p.org/node/712 the ID would be 712.'
 
+                info:
+                    ordering@: 3
+                    type: display
+                    size: large
+                    label: 'How-to Tip'
+                    markdown: false
+                    content: "To display this H5P content item within a page, enter '[plugin:page-inject](/hp5-content/PAGE)' in your Markdown content area."
+
         options:
           fields:
             publishing:
