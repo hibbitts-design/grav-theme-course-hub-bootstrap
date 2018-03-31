@@ -15,7 +15,7 @@ hide_git_sync_repo_link: false
 [Oct 11th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267533)
 
 ##### Presented Slides  
-[plugin:page-inject](/all-slides/unit-06)
+[plugin:page-inject](/slides/unit-06)
 
 ##### Supplemental Materials  
 [plugin:youtube](https://www.youtube.com/watch?v=QckIzHC99Xc)
@@ -24,7 +24,7 @@ hide_git_sync_repo_link: false
 [Usability Inspection Peer Reviews](https://canvas.sfu.ca/courses/36662/)
 
 ##### Required Reading  
-[plugin:page-inject](/all-readings/unit-06)
+[plugin:page-inject](/readings/unit-06)
 
 ##### Supplemental Readings  
 [plugin:content-inject](/topics-guide/how-to-plan-conduct-and-summarize-usability-tests/usability-testing-formal)

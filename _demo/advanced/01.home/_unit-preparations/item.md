@@ -7,7 +7,7 @@ header_image_file: /home/unit-05/13966760787_2d0975e6bc_k.jpg
 ### Oct 4th Class Preparations
 
 ##### Required Reading
-[plugin:page-inject](/all-readings/unit-05)
+[plugin:page-inject](/readings/unit-05)
 
 [Required Reading Quiz](https://canvas.sfu.ca/courses/36662/quizzes/65506?classes=btn,btn-primary)
 
