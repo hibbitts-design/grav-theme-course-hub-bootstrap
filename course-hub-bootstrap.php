@@ -13,7 +13,8 @@ class CourseHubBootstrap extends Theme
   public static function getSubscribedEvents()
   {
       return [
-          'onThemeInitialized' => ['onThemeInitialized', 0]
+          'onThemeInitialized' => ['onThemeInitialized', 0],
+          'onTwigSiteVariables' => ['onTwigSiteVariables', 0]
       ];
   }
 
@@ -100,5 +101,12 @@ class CourseHubBootstrap extends Theme
               $page->setRawContent(htmlspecialchars($page->header()->item_summary, ENT_QUOTES, 'UTF-8') . "\n{$delimiter}\n\r" . $page->getRawContent());
           }
       }
+
+      public function onTwigSiteVariables()
+      {
+          if ($this->isAdmin()) {
+                $this->grav['assets']->add('theme://editor-buttons/admin/js/shortcode-h5p.js');
+        }
+   }
 }
 ?>
