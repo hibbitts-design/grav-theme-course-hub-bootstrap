@@ -27,7 +27,7 @@ form:
                     type: select
                     size: small
                     label: Embedly Card Alignment
-                    default: center
+                    default: left
                     options:
                         left: Left
                         center: Center
