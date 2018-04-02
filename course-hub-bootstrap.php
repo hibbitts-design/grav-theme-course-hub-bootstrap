@@ -104,8 +104,8 @@ class CourseHubBootstrap extends Theme
 
       public function onTwigSiteVariables()
       {
-          if ($this->isAdmin()) {
-                $this->grav['assets']->add('theme://editor-buttons/admin/js/shortcode-h5p.js');
+          if ($this->isAdmin() && ($this->grav['config']->get('plugins.shortcode-core.enabled'))) {
+              $this->grav['assets']->add('theme://editor-buttons/admin/js/shortcode-h5p.js');
         }
    }
 }
