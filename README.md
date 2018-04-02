@@ -131,8 +131,10 @@ If you want to set Course Hub as the default theme, you can do so by following t
 
 Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the **course-hub-bootstrap** folder.
 
+To use the provided H5P Shortcode, the **ShortCode Core Plugin** must be installed and have the `Custom Shortcodes` field set to `/user/themes/course-hub-bootstrap/shortcodes` (this comes pre-configured in the **Open Course Hub Skeleton**).
+
 #Demo Content
 
 Within the `_demo\` folder included with this theme is an example `pages` folder to copy over to your `users` folder. Be sure to keep a backup of your existing `pages` folder if you are working with an existing site.
 
-These example pages assume that '/blog' is set in the `\config\system.yaml\` file as the 'home:alias:' value and that the 'Breadcrumbs' plugin is not enabled.
+These example pages assume that '/home' is set in the `\config\system.yaml\` file as the 'home:alias:' value and that the 'Breadcrumbs' plugin is not enabled.
