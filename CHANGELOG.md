@@ -1,3 +1,13 @@
+# v2.2.4
+## 04/02/2018
+
+1. [](#new)
+    * Added H5P Shortcode button in Admin Panel page content editor
+1. [](#improved)
+    * Change default alignment for Embedly Card pages
+    * Updated support for hiding sidebar on Custom Content List pages
+    * Updated 'advanced' course examples in theme '_demo' folder
+
 # v2.2.3
 ## 03/31/2018
 
