@@ -13,9 +13,15 @@ class CourseHubBootstrap extends Theme
   public static function getSubscribedEvents()
   {
       return [
+          'onShortcodeHandlers' => ['onShortcodeHandlers', 0],
           'onThemeInitialized' => ['onThemeInitialized', 0],
           'onTwigSiteVariables' => ['onTwigSiteVariables', 0]
       ];
+  }
+
+  public function onShortcodeHandlers()
+  {
+      $this->grav['shortcode']->registerAllShortcodes('theme://shortcodes');
   }
 
   public function onThemeInitialized() {
