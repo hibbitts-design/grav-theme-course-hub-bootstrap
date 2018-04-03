@@ -1,3 +1,9 @@
+# v2.2.3
+## 04/03/2018
+
+1. [](#improved)
+    * Theme shortcodes are now automatically loaded (`Custom Shortcodes` field in ShortCode Plugin no longer to be manually updated)
+
 # v2.2.4
 ## 04/02/2018
 
