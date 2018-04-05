@@ -1,6 +1,7 @@
 <?php
 namespace Grav\Plugin\Shortcodes;
 
+use Grav\Common\Grav;
 use Grav\Common\Utils;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
@@ -16,7 +17,10 @@ class H5PShortcode extends Shortcode
             $h5pid = $sc->getParameter('id', $sc->getBbCode());
 
             if ($h5pid) {
-                $output = '<iframe src="https://h5p.org/h5p/embed/'.$h5pid.'" width="400" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script><br><br>';
+                $grav = Grav::instance();
+                $h5proot = $grav['config']->get('site.h5pembedrootpath', 'https://h5p.org/h5p/embed/');
+
+                $output = '<iframe src="'.$h5proot.''.$h5pid.'" width="400" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script><br><br>';
 
                 return $output;
             }
