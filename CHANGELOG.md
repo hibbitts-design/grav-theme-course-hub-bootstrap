@@ -1,3 +1,9 @@
+# v2.2.6
+## 04/05/2018
+
+1. [](#improved)
+    * Added support for H5P Content Root Path URL setting in site config (site.h5pembedrootpath)
+
 # v2.2.5
 ## 04/03/2018
 
