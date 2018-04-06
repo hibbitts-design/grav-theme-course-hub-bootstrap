@@ -1,8 +1,14 @@
+# v2.2.7
+## 04/06/2018
+
+1. [](#improved)
+    * Added support for H5P Content Root Path URL setting in site config (site.h5pembedrootpath) for H5P custom content pages
+
 # v2.2.6
 ## 04/05/2018
 
 1. [](#improved)
-    * Added support for H5P Content Root Path URL setting in site config (site.h5pembedrootpath)
+    * Added support for H5P Content Root Path URL setting in site config (site.h5pembedrootpath) for H5P ShortCode
 
 # v2.2.5
 ## 04/03/2018
