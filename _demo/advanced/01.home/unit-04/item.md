@@ -29,7 +29,7 @@ hide_git_sync_repo_link: false
 ##### Required Reading  
 [plugin:page-inject](/readings/unit-04)
 
-[plugin:page-inject](/h5p-content/heuristic-evaluation)
+[plugin:page-inject](/h5p/heuristic-evaluation)
 
 ##### Supplemental Readings  
 [plugin:content-inject](/topics-guide/how-to-conduct-a-usability-inspection/cognitive-walkthroughs)  

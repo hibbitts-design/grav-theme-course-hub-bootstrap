@@ -26,7 +26,7 @@ hide_git_sync_repo_link: false
 ##### Required Reading  
 [plugin:page-inject](/readings/unit-03)
 
-[plugin:page-inject](/h5p-content/journey-map)
+[plugin:page-inject](/h5p/journey-map)
 
 ##### Supplemental Readings  
 [plugin:content-inject](/topics-guide/how-to-make-more-strategic-design-decisions/journey-mapping)
