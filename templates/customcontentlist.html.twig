@@ -23,8 +23,17 @@
           {% if not templatename %}
             {% set templatename = child.template ~ '.html.twig' %}
           {% endif %}
-          <p>{% include templatename with {'page':child, 'displaypagetitle':page.header.display_child_page_titles} %}</p>
+          <p>{% include templatename with {'page':child, 'displaypagetitle':page.header.display_child_page_titles, 'displaycontenttitle':page.header.display_content_titles} %}</p>
         {% endfor %}
+
+        {# Git repository edit link - hibbittsdesign.org #}
+        {% if ( page.header.git_sync_repo_link_display is defined and page.header.git_sync_repo_link_display == 'page' ) or (( config.site.gitrepo.editlinklocation == 'page' and page.header.git_sync_repo_link_display is not defined ) and not (page.header.hide_git_sync_repo_link)) %}
+          <hr>
+          <br>
+          {% include 'partials/gitrepo_link_note.html.twig' %}
+          <br>
+        {% endif %}
+
       </div>
 
       {# check content display flag - hibbittsdesign.org #}
