@@ -1,3 +1,9 @@
+# v2.2.9
+## 04/24/2018
+
+1. [](#improved)
+    * Added Blueprint option to display custom content item titles
+
 # v2.2.8
 ## 04/23/2018
 
