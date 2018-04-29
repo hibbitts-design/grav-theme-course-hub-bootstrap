@@ -1,3 +1,9 @@
+# v2.3.0
+## 04/29/2018
+
+1. [](#new)
+    * Added 'Read Me' page to default demo pages
+
 # v2.2.9
 ## 04/24/2018
 
