@@ -1,0 +1,16 @@
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      fields:
+        advanced:
+          fields:
+            overrides:
+              unset@: true
+            routes_only:
+              unset@: true
+            admin_only:
+              unset@: true
