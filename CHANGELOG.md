@@ -1,5 +1,5 @@
 # v2.3.1
-## XX/XX/XXXX
+## 05/14/2018
 
 1. [](#improved)
   * Removed Sitemap Plugin dependency
