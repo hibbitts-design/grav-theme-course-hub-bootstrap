@@ -2,8 +2,8 @@
 ## 05/14/2018
 
 1. [](#improved)
-  * Removed Sitemap Plugin dependency
-  * Removed seldom needed "Advanced" Tab options within the Admin Panel (via custom default.yaml blueprint)
+    * Removed Sitemap Plugin dependency
+    * Removed seldom needed "Advanced" Tab options within the Admin Panel (via custom default.yaml blueprint)
 
 # v2.3.0
 ## 04/29/2018
