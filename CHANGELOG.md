@@ -1,5 +1,5 @@
 # v2.3.2
-## XX/XX/2018
+## 05/18/2018
 
 1. [](#improved)
     * Added check for missing Git Sync plugin
