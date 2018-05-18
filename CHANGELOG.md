@@ -1,3 +1,9 @@
+# v2.3.2
+## XX/XX/2018
+
+1. [](#improved)
+    * Added check for missing Git Sync plugin
+
 # v2.3.1
 ## 05/14/2018
 
