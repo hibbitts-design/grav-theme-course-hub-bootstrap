@@ -1,3 +1,9 @@
+# v2.3.3
+## 06/15/2018
+
+1. [](#new)
+    * Added templates and blueprints for PDFs and SpeakerDeck files
+
 # v2.3.2
 ## 05/18/2018
 
