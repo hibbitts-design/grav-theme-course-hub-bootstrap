@@ -1,3 +1,9 @@
+# v2.3.4
+## 06/18/2018
+
+1. [](#improved)
+    * Reorganized template files for better compatibility with future Open Course Hub themes
+
 # v2.3.3
 ## 06/15/2018
 
