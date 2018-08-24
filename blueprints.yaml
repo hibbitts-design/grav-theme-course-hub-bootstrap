@@ -1,6 +1,6 @@
 name: Course Hub Bootstrap
 version: 2.3.6
-description: "A customized version of the Bootstrap theme (built with Bootstrap 3) for use with the Grav Course Hub skeleton package."
+description: "This theme is no longer in active development - it's successor is the Bootstrap 4 Open Matter theme."
 icon: university
 author:
  name: Hibbitts Design
